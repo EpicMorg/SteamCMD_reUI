@@ -9,7 +9,13 @@ namespace SteamCMD_reGUI_Core.Configs {
         private static readonly Lazy<XmlSerializer> FormatterLazy = new Lazy<XmlSerializer>( () => new XmlSerializer( typeof( Config ) ) );
 
         public Config() {
+            Paths = new Paths();
             Misc = new Misc();
+        } 
+        public Paths Paths
+        {
+            get;
+            set;
         }
 
         public Misc Misc {
@@ -42,7 +48,7 @@ namespace SteamCMD_reGUI_Core.Configs {
             return new Config();
         }
 
-        public bool Validate() { return Misc.Validate(); }
+        public bool Validate() { return Paths.Validate() && Misc.Validate(); }
     }
 
 }

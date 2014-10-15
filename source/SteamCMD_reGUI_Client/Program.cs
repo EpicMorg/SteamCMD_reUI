@@ -13,8 +13,8 @@ namespace SteamCMD_reGUI_Client
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false); 
-            
+            Application.SetCompatibleTextRenderingDefault(false);
+            CheckIt();
         } 
         public static void CheckIt()
         {
