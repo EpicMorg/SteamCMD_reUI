@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mBtnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mBtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 349</value>
+  </data>
+  <data name="mBtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mBtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mBtnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Name" xml:space="preserve">
+    <value>mBtnSave</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabsSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
+    <value>mToogleShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
+    <value>mLblShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
+    <value>mLblAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Name" xml:space="preserve">
+    <value>mComboAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Name" xml:space="preserve">
+    <value>mLblAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Name" xml:space="preserve">
+    <value>mComboAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Name" xml:space="preserve">
+    <value>mLblLang</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Name" xml:space="preserve">
+    <value>mComboLang</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mTabInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mTabInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 238</value>
+  </data>
+  <data name="mTabInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mTabInterface.Text" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Name" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 34</value>
+  </data>
+  <data name="mBtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mBtnBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
+    <value>mBtnBrowse</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 23</value>
+  </data>
+  <data name="mTxtSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
+    <value>mTxtSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 19</value>
+  </data>
+  <data name="mLblSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
+    <value>STEAM CMD Path:</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
+    <value>mLblSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mTabPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 238</value>
+  </data>
+  <data name="mTabPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabsSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="mTabsSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 280</value>
+  </data>
+  <data name="mTabsSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Name" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mLblAppStyle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblAppStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="mLblAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="mLblAppStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblAppStyle.Text" xml:space="preserve">
+    <value>Application Style:</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
+    <value>mLblAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mComboAppStyle.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboAppStyle.Items" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="mComboAppStyle.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mComboAppStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 142</value>
+  </data>
+  <data name="mComboAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboAppStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Name" xml:space="preserve">
+    <value>mComboAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mLblAppTheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblAppTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="mLblAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="mLblAppTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblAppTheme.Text" xml:space="preserve">
+    <value>Application Theme:</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Name" xml:space="preserve">
+    <value>mLblAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mComboAppTheme.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboAppTheme.Items" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="mComboAppTheme.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mComboAppTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="mComboAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboAppTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Name" xml:space="preserve">
+    <value>mComboAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mLblLang.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="mLblLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="mLblLang.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mLblLang.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Name" xml:space="preserve">
+    <value>mLblLang</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mComboLang.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboLang.Items" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="mComboLang.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mComboLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mComboLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboLang.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Name" xml:space="preserve">
+    <value>mComboLang</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mLblShowSplash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <data name="mLblShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mLblShowSplash.Text" xml:space="preserve">
+    <value>Show splash screen on load:</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
+    <value>mLblShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mToogleShowSplash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mToogleShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 177</value>
+  </data>
+  <data name="mToogleShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="mToogleShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mToogleShowSplash.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
+    <value>mToogleShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>507, 395</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAD///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEaGholGhoahxoaGn8aGhpj////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BGhoaqxoaGscaGhr1GhoalRoa
+        GjX///8B////Af///wH///8B////Af///wH///8B////Af///wEaGhoDGhoacxoaGvsaGhr/Ghoa/xoa
+        GqMaGhrPGhoaLf///wH///8B////Af///wH///8BGhoaBRoaGm8aGhqXGhoayxoaGv8aGhr/Ghoa/xoa
+        GsUaGhq9Ghoa/xoaGv8aGhrpGhoaef///wH///8B////ARoaGnEaGhqNGhoa+RoaGv8aGhr/Ghoa3xoa
+        GmEaGhrfGhoa/xoaGqsaGhqJGhoahxoaGs0aGhpl////Af///wEaGhqBGhoayxoaGv8aGhr/GhoauRoa
+        Gg////8BGhoaTxoaGv0aGhqLGhoa/xoaGv8aGhqRGhoav////wH///8BGhoaXxoaGosaGhqrGhoanxoa
+        GkH///8B////ARoaGgkaGhr3GhoaiRoaGv8aGhr/GhoakRoaGrn///8B////Af///wEaGhpRGhoafRoa
+        GkH///8B////Af///wH///8BGhoamRoaGr8aGhqRGhoajRoaGt8aGhpR////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////ARoaGgcaGhqFGhoa1RoaGskaGhpZ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
