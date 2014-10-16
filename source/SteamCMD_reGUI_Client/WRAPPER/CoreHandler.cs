@@ -1,6 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Reflection;
+using System.IO; 
 using SteamCMD_reGUI_Core.Configs;
 
 namespace SteamCMD_reGUI_Client.WRAPPER
@@ -19,12 +18,11 @@ namespace SteamCMD_reGUI_Client.WRAPPER
         }
         #endregion
 
-        private static readonly string ConfigName = "config.xml";
+        private const string ConfigName = "config.xml";
         private readonly string _configPath;
 
-        private CoreHandler()
-        {
-            var exePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        private CoreHandler() {
+            var exePath = Locator.GetExeDir; 
             _configPath = Path.Combine(exePath, ConfigName);
             Config = Config.Load(_configPath);
             SaveConfig();

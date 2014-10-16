@@ -37,7 +37,7 @@ namespace SteamCMD_reGUI_Core.Configs
                 CultureInfo.GetCultureInfo(InterfaceLang);
                 return true;
             }
-            catch (CultureNotFoundException ex)
+            catch
             {
                 return false;
             }

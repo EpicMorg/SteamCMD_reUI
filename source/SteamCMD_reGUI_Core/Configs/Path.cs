@@ -5,18 +5,15 @@ namespace SteamCMD_reGUI_Core.Configs
 {
     public class Paths : IValidatable
     {
-        public Paths()
-        { 
-            SteamCmdPath = ""; 
+        public Paths() { 
+            SteamCmdPath = Path.Combine(Locator.GetExeDir, "steamcmd.exe");
         }
 
-        public string SteamCmdPath
+        private string SteamCmdPath
         {
             get;
             set;
         }
-
-
 
         public bool Validate() {
             return ValidatePath( SteamCmdPath );
@@ -27,6 +24,7 @@ namespace SteamCMD_reGUI_Core.Configs
         {
             try
             {
+                // ReSharper disable once ReturnValueOfPureMethodIsNotUsed
                 Path.GetFullPath(a);
                 return true;
             }
@@ -34,7 +32,6 @@ namespace SteamCMD_reGUI_Core.Configs
             {
                 return false;
             }
-            //return ( Uri.IsWellFormedUriString( a, UriKind.RelativeOrAbsolute ));
         }
     }
 }

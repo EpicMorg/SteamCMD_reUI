@@ -3,20 +3,21 @@ using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 using SteamCMD_reGUI_Client.UI;
-using SteamCMD_reGUI_Client.WRAPPER; 
+using SteamCMD_reGUI_Client.WRAPPER;
+using SteamCMD_reGUI_Core.Configs;
 
 namespace SteamCMD_reGUI_Client
 {
     static class Program
     { 
         [STAThread]
-        static void Main()
-        {
+        static void Main() { 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             CheckIt();
         } 
-        public static void CheckIt()
+
+        private static void CheckIt()
         {
              if ( !CoreHandler.Instance.Config.Misc.LicensesAccepted ) {
                 Application.Run(new FrmLicAccept());
