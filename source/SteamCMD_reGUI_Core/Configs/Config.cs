@@ -12,6 +12,8 @@ namespace SteamCMD_reGUI_Core.Configs {
             Paths = new Paths();
             Misc = new Misc();
             Interface = new Interface();
+            Style = new Style();
+            Theme = new Theme();
         }
         public Interface Interface
         {
@@ -25,7 +27,21 @@ namespace SteamCMD_reGUI_Core.Configs {
             get;
             set;
         }
- 
+
+        // ReSharper disable once MemberCanBePrivate.Global
+        public Theme Theme
+        {
+            get;
+            set;
+        }
+
+        // ReSharper disable once MemberCanBePrivate.Global
+        public Style Style
+        {
+            get;
+            set;
+        }
+
         public Misc Misc {
             get;
             // ReSharper disable once MemberCanBePrivate.Global

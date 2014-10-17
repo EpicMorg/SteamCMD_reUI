@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
             this.mBtnSave = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings = new MetroFramework.Controls.MetroTabControl();
@@ -46,9 +47,11 @@
             this.mLblSTEAMCMD = new MetroFramework.Controls.MetroLabel();
             this.mBtnReset = new MetroFramework.Controls.MetroButton();
             this.fileBrowser = new System.Windows.Forms.OpenFileDialog();
+            this.metroStyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
             this.mTabsSettings.SuspendLayout();
             this.mTabInterface.SuspendLayout();
             this.mTabPaths.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
             this.SuspendLayout();
             // 
             // mBtnSave
@@ -74,7 +77,6 @@
             // 
             // mTabInterface
             // 
-            resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Controls.Add(this.mToogleShowSplash);
             this.mTabInterface.Controls.Add(this.mLblShowSplash);
             this.mTabInterface.Controls.Add(this.mLblAppStyle);
@@ -86,6 +88,7 @@
             this.mTabInterface.HorizontalScrollbarBarColor = true;
             this.mTabInterface.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabInterface.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Name = "mTabInterface";
             this.mTabInterface.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabInterface.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -119,8 +122,8 @@
             // 
             // mComboAppStyle
             // 
-            resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.FormattingEnabled = true;
+            resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.Items.AddRange(new object[] {
             resources.GetString("mComboAppStyle.Items"),
             resources.GetString("mComboAppStyle.Items1")});
@@ -157,8 +160,8 @@
             // 
             // mComboLang
             // 
-            resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.FormattingEnabled = true;
+            resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.Name = "mComboLang";
             this.mComboLang.Style = MetroFramework.MetroColorStyle.Silver;
             this.mComboLang.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -166,13 +169,13 @@
             // 
             // mTabPaths
             // 
-            resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Controls.Add(this.mBtnBrowse);
             this.mTabPaths.Controls.Add(this.mTxtSTEAMCMD);
             this.mTabPaths.Controls.Add(this.mLblSTEAMCMD);
             this.mTabPaths.HorizontalScrollbarBarColor = true;
             this.mTabPaths.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabPaths.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Name = "mTabPaths";
             this.mTabPaths.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabPaths.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -191,8 +194,8 @@
             // 
             // mTxtSTEAMCMD
             // 
-            resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.Lines = new string[0];
+            resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.MaxLength = 32767;
             this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD";
             this.mTxtSTEAMCMD.PasswordChar = '\0';
@@ -222,6 +225,12 @@
             // 
             resources.ApplyResources(this.fileBrowser, "fileBrowser");
             // 
+            // metroStyleManager
+            // 
+            this.metroStyleManager.Owner = this;
+            this.metroStyleManager.Style = MetroFramework.MetroColorStyle.Silver;
+            this.metroStyleManager.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
             // FrmSettings
             // 
             resources.ApplyResources(this, "$this");
@@ -242,6 +251,7 @@
             this.mTabInterface.PerformLayout();
             this.mTabPaths.ResumeLayout(false);
             this.mTabPaths.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -265,5 +275,6 @@
         private MetroFramework.Controls.MetroButton mBtnBrowse;
         private MetroFramework.Controls.MetroButton mBtnReset;
         private System.Windows.Forms.OpenFileDialog fileBrowser;
+        public MetroFramework.Components.MetroStyleManager metroStyleManager;
     }
 }

@@ -117,43 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;mBtnReset.ZOrder" xml:space="preserve">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mBtnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mBtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 316</value>
+  </data>
+  <data name="mBtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mBtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mBtnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Name" xml:space="preserve">
+    <value>mBtnSave</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mBtnSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabsSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Name" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="mTabsSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="mTabsSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 247</value>
+  </data>
+  <data name="mTabsSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Name" xml:space="preserve">
+    <value>mTabsSettings</value>
   </data>
   <data name="&gt;&gt;mTabsSettings.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mComboAppStyle.ItemHeight" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mToogleShowSplash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
-  </data>
-  <data name="&gt;&gt;mLblLang.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="mLblSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 12</value>
-  </data>
-  <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
-    <value>mLblAppStyle</value>
-  </data>
-  <data name="&gt;&gt;mComboAppTheme.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mLblAppStyle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mLblAppStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;mLblLang.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="mLblAppTheme.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;mTabsSettings.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;mTabsSettings.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -161,74 +198,521 @@
   <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
     <value>mToogleShowSplash</value>
   </data>
-  <data name="mComboAppTheme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>447, 29</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
-    <value>mLblSTEAMCMD</value>
-  </data>
-  <data name="&gt;&gt;mBtnSave.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mComboLang.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mBtnReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 316</value>
-  </data>
   <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mComboLang.Name" xml:space="preserve">
-    <value>mComboLang</value>
-  </data>
-  <data name="&gt;&gt;mComboAppStyle.Parent" xml:space="preserve">
+  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
     <value>mTabInterface</value>
   </data>
-  <data name="mComboAppTheme.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
+    <value>mLblShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
+    <value>mLblAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;mComboAppStyle.Name" xml:space="preserve">
     <value>mComboAppStyle</value>
   </data>
-  <data name="mComboAppStyle.Items" xml:space="preserve">
-    <value>Russian</value>
+  <data name="&gt;&gt;mComboAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;mComboAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
   </data>
-  <data name="mLblAppTheme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 19</value>
+  <data name="&gt;&gt;mComboAppStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Settings</value>
+  <data name="&gt;&gt;mLblAppTheme.Name" xml:space="preserve">
+    <value>mLblAppTheme</value>
   </data>
-  <data name="&gt;&gt;mTabInterface.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;mLblAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
-    <value>mTabPaths</value>
+  <data name="&gt;&gt;mLblAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
   </data>
-  <data name="&gt;&gt;fileBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Name" xml:space="preserve">
+    <value>mComboAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Name" xml:space="preserve">
+    <value>mLblLang</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Name" xml:space="preserve">
+    <value>mComboLang</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mTabInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mTabInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 205</value>
+  </data>
+  <data name="mTabInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="mTabInterface.Text" xml:space="preserve">
     <value>Interface</value>
   </data>
+  <data name="&gt;&gt;mTabInterface.Name" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mToogleShowSplash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mToogleShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 177</value>
+  </data>
+  <data name="mToogleShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="mToogleShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mToogleShowSplash.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
+    <value>mToogleShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mLblShowSplash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <data name="mLblShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mLblShowSplash.Text" xml:space="preserve">
+    <value>Show splash screen on load:</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
+    <value>mLblShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mLblAppStyle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblAppStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="mLblAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 19</value>
+  </data>
+  <data name="mLblAppStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblAppStyle.Text" xml:space="preserve">
+    <value>Application Style:</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
+    <value>mLblAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mComboAppStyle.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboAppStyle.Items" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="mComboAppStyle.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mComboAppStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 142</value>
+  </data>
+  <data name="mComboAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboAppStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Name" xml:space="preserve">
+    <value>mComboAppStyle</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mLblAppTheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblAppTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="mLblAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="mLblAppTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblAppTheme.Text" xml:space="preserve">
+    <value>Application Theme:</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Name" xml:space="preserve">
+    <value>mLblAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mComboAppTheme.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mComboAppTheme.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboAppTheme.Items" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="mComboAppTheme.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="mComboAppTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="mComboAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboAppTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Name" xml:space="preserve">
+    <value>mComboAppTheme</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboAppTheme.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mLblLang.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="mLblLang.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 12</value>
   </data>
-  <data name="&gt;&gt;mBtnReset.Type" xml:space="preserve">
+  <data name="mLblLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="mLblLang.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mLblLang.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Name" xml:space="preserve">
+    <value>mLblLang</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mLblLang.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mComboLang.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="mComboLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mComboLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 29</value>
+  </data>
+  <data name="mComboLang.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Name" xml:space="preserve">
+    <value>mComboLang</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
+    <value>mBtnBrowse</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
+    <value>mTxtSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
+    <value>mLblSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
   </data>
   <data name="mTabPaths.Size" type="System.Drawing.Size, System.Drawing">
     <value>453, 205</value>
   </data>
+  <data name="mTabPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 34</value>
+  </data>
+  <data name="mBtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mBtnBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
+    <value>mBtnBrowse</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 23</value>
+  </data>
+  <data name="mTxtSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
+    <value>mTxtSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 19</value>
+  </data>
+  <data name="mLblSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
+    <value>Steam CMD Path:</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
+    <value>mLblSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mBtnReset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="mBtnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 316</value>
+  </data>
+  <data name="mBtnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mBtnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Name" xml:space="preserve">
+    <value>mBtnReset</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="fileBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="fileBrowser.Filter" xml:space="preserve">
+    <value>Steam CMD|steamcmd.exe</value>
+  </data>
+  <metadata name="metroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>507, 362</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -254,353 +738,25 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="&gt;&gt;mBtnReset.Name" xml:space="preserve">
-    <value>mBtnReset</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.Name" xml:space="preserve">
-    <value>mTabsSettings</value>
-  </data>
-  <data name="&gt;&gt;mBtnSave.Name" xml:space="preserve">
-    <value>mBtnSave</value>
-  </data>
-  <data name="mComboLang.ItemHeight" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 19</value>
-  </data>
-  <data name="mTabInterface.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 205</value>
-  </data>
-  <data name="mLblLang.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="mComboAppTheme.ItemHeight" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="mTabsSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 247</value>
-  </data>
-  <data name="&gt;&gt;mLblAppTheme.Name" xml:space="preserve">
-    <value>mLblAppTheme</value>
-  </data>
-  <data name="mComboLang.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="mLblAppTheme.Text" xml:space="preserve">
-    <value>Application Theme:</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="mComboAppTheme.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 88</value>
-  </data>
-  <data name="mComboAppStyle.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mBtnBrowse.Text" xml:space="preserve">
-    <value>Browse</value>
-  </data>
-  <data name="mLblAppTheme.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mTxtSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 23</value>
-  </data>
-  <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="mLblAppTheme.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="mBtnReset.Text" xml:space="preserve">
-    <value>Reset</value>
-  </data>
-  <data name="mComboLang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>447, 29</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmSettings</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
-    <value>mTxtSTEAMCMD</value>
-  </data>
-  <data name="mBtnSave.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="mTabsSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mComboAppTheme.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="mTabInterface.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mLblAppTheme.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mComboAppStyle.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
-    <value>Steam CMD Path:</value>
-  </data>
-  <data name="mLblAppStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 19</value>
-  </data>
-  <data name="mLblShowSplash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 174</value>
-  </data>
-  <data name="mToogleShowSplash.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="mBtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnReset.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mTabPaths.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mBtnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="mTabsSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 63</value>
-  </data>
-  <data name="&gt;&gt;mComboAppStyle.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mLblLang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
-  </data>
-  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="mTabsSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mTabInterface.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="&gt;&gt;mBtnReset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="mTabPaths.Text" xml:space="preserve">
-    <value>Paths</value>
-  </data>
-  <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 34</value>
-  </data>
-  <data name="&gt;&gt;mTabInterface.Name" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="mLblSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="mBtnBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="mBtnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 316</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mComboAppTheme.Items" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="mLblShowSplash.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mLblShowSplash.Text" xml:space="preserve">
-    <value>Show splash screen on load:</value>
-  </data>
-  <data name="mComboAppStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblLang.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 19</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="&gt;&gt;fileBrowser.Name" xml:space="preserve">
     <value>fileBrowser</value>
   </data>
-  <data name="mLblLang.Text" xml:space="preserve">
-    <value>Language:</value>
+  <data name="&gt;&gt;fileBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="mLblAppTheme.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 66</value>
+  <data name="&gt;&gt;metroStyleManager.Name" xml:space="preserve">
+    <value>metroStyleManager</value>
   </data>
-  <data name="&gt;&gt;mComboAppTheme.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
+  <data name="&gt;&gt;metroStyleManager.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mComboAppTheme.Name" xml:space="preserve">
-    <value>mComboAppTheme</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmSettings</value>
   </data>
-  <data name="&gt;&gt;mBtnSave.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="mLblAppStyle.Text" xml:space="preserve">
-    <value>Application Style:</value>
-  </data>
-  <data name="&gt;&gt;mLblLang.Name" xml:space="preserve">
-    <value>mLblLang</value>
-  </data>
-  <data name="&gt;&gt;mComboAppTheme.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="mToogleShowSplash.Text" xml:space="preserve">
-    <value>On</value>
-  </data>
-  <data name="mComboLang.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 34</value>
-  </data>
-  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mComboAppStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 142</value>
-  </data>
-  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 34</value>
-  </data>
-  <data name="mComboAppStyle.Items1" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="&gt;&gt;mTabInterface.Parent" xml:space="preserve">
-    <value>mTabsSettings</value>
-  </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblAppStyle.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
-    <value>mLblShowSplash</value>
-  </data>
-  <data name="mBtnReset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;mLblAppStyle.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="&gt;&gt;mComboLang.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>507, 362</value>
-  </data>
-  <data name="mLblLang.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
-    <value>mBtnBrowse</value>
-  </data>
-  <data name="mComboAppStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>447, 29</value>
-  </data>
-  <data name="mToogleShowSplash.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mBtnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;mBtnSave.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mBtnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mLblAppStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 120</value>
-  </data>
-  <data name="mLblAppStyle.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;mLblAppTheme.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
-  </data>
-  <data name="mToogleShowSplash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 177</value>
-  </data>
-  <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mBtnReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mComboAppTheme.Items1" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="mLblShowSplash.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
-    <value>mTabsSettings</value>
-  </data>
-  <data name="fileBrowser.Filter" xml:space="preserve">
-    <value>Steam CMD|steamcmd.exe</value>
-  </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="mTxtSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="fileBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

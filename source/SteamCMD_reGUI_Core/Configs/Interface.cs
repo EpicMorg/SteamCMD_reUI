@@ -5,13 +5,10 @@ namespace SteamCMD_reGUI_Core.Configs
     public class Interface : IValidatable
     {
         public  Interface() {
-            InterfaceLang = "en-US";
-            //  InterfaceTheme = "";
-            //  InterfaceStyle = ""; 
+            InterfaceLang = "en-US"; 
             SplashScreen = true;
 
-        }
-
+        } 
         public string InterfaceLang
         {
             get;
@@ -34,5 +31,6 @@ namespace SteamCMD_reGUI_Core.Configs
                 return false;
             }
         }
+
     }
 }
