@@ -32,6 +32,8 @@
             this.mBtnSave = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings = new MetroFramework.Controls.MetroTabControl();
             this.mTabInterface = new MetroFramework.Controls.MetroTabPage();
+            this.mToogleShowSplash = new MetroFramework.Controls.MetroToggle();
+            this.mLblShowSplash = new MetroFramework.Controls.MetroLabel();
             this.mLblAppStyle = new MetroFramework.Controls.MetroLabel();
             this.mComboAppStyle = new MetroFramework.Controls.MetroComboBox();
             this.mLblAppTheme = new MetroFramework.Controls.MetroLabel();
@@ -39,11 +41,10 @@
             this.mLblLang = new MetroFramework.Controls.MetroLabel();
             this.mComboLang = new MetroFramework.Controls.MetroComboBox();
             this.mTabPaths = new MetroFramework.Controls.MetroTabPage();
-            this.mLblSTEAMCMD = new MetroFramework.Controls.MetroLabel();
-            this.mLblShowSplash = new MetroFramework.Controls.MetroLabel();
-            this.mToogleShowSplash = new MetroFramework.Controls.MetroToggle();
-            this.mTxtSTEAMCMD = new MetroFramework.Controls.MetroTextBox();
             this.mBtnBrowse = new MetroFramework.Controls.MetroButton();
+            this.mTxtSTEAMCMD = new MetroFramework.Controls.MetroTextBox();
+            this.mLblSTEAMCMD = new MetroFramework.Controls.MetroLabel();
+            this.mBtnReset = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings.SuspendLayout();
             this.mTabInterface.SuspendLayout();
             this.mTabPaths.SuspendLayout();
@@ -53,7 +54,10 @@
             // 
             resources.ApplyResources(this.mBtnSave, "mBtnSave");
             this.mBtnSave.Name = "mBtnSave";
+            this.mBtnSave.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnSave.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnSave.UseSelectable = true;
+            this.mBtnSave.Click += new System.EventHandler(this.mBtnSave_Click);
             // 
             // mTabsSettings
             // 
@@ -63,6 +67,8 @@
             this.mTabsSettings.Multiline = true;
             this.mTabsSettings.Name = "mTabsSettings";
             this.mTabsSettings.SelectedIndex = 1;
+            this.mTabsSettings.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mTabsSettings.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTabsSettings.UseSelectable = true;
             // 
             // mTabInterface
@@ -80,53 +86,81 @@
             this.mTabInterface.HorizontalScrollbarSize = 10;
             resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Name = "mTabInterface";
+            this.mTabInterface.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mTabInterface.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTabInterface.VerticalScrollbarBarColor = true;
             this.mTabInterface.VerticalScrollbarHighlightOnWheel = false;
             this.mTabInterface.VerticalScrollbarSize = 10;
+            // 
+            // mToogleShowSplash
+            // 
+            resources.ApplyResources(this.mToogleShowSplash, "mToogleShowSplash");
+            this.mToogleShowSplash.Checked = true;
+            this.mToogleShowSplash.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.mToogleShowSplash.Name = "mToogleShowSplash";
+            this.mToogleShowSplash.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mToogleShowSplash.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mToogleShowSplash.UseSelectable = true;
+            // 
+            // mLblShowSplash
+            // 
+            resources.ApplyResources(this.mLblShowSplash, "mLblShowSplash");
+            this.mLblShowSplash.Name = "mLblShowSplash";
+            this.mLblShowSplash.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mLblShowSplash.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // mLblAppStyle
             // 
             resources.ApplyResources(this.mLblAppStyle, "mLblAppStyle");
             this.mLblAppStyle.Name = "mLblAppStyle";
+            this.mLblAppStyle.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mLblAppStyle.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // mComboAppStyle
             // 
-            this.mComboAppStyle.FormattingEnabled = true;
             resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
+            this.mComboAppStyle.FormattingEnabled = true;
             this.mComboAppStyle.Items.AddRange(new object[] {
             resources.GetString("mComboAppStyle.Items"),
             resources.GetString("mComboAppStyle.Items1")});
             this.mComboAppStyle.Name = "mComboAppStyle";
+            this.mComboAppStyle.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mComboAppStyle.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboAppStyle.UseSelectable = true;
             // 
             // mLblAppTheme
             // 
             resources.ApplyResources(this.mLblAppTheme, "mLblAppTheme");
             this.mLblAppTheme.Name = "mLblAppTheme";
+            this.mLblAppTheme.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mLblAppTheme.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // mComboAppTheme
             // 
-            this.mComboAppTheme.FormattingEnabled = true;
             resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
+            this.mComboAppTheme.FormattingEnabled = true;
             this.mComboAppTheme.Items.AddRange(new object[] {
             resources.GetString("mComboAppTheme.Items"),
             resources.GetString("mComboAppTheme.Items1")});
             this.mComboAppTheme.Name = "mComboAppTheme";
+            this.mComboAppTheme.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mComboAppTheme.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboAppTheme.UseSelectable = true;
             // 
             // mLblLang
             // 
             resources.ApplyResources(this.mLblLang, "mLblLang");
             this.mLblLang.Name = "mLblLang";
+            this.mLblLang.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mLblLang.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // mComboLang
             // 
             this.mComboLang.FormattingEnabled = true;
             resources.ApplyResources(this.mComboLang, "mComboLang");
-            this.mComboLang.Items.AddRange(new object[] {
-            resources.GetString("mComboLang.Items"),
-            resources.GetString("mComboLang.Items1")});
             this.mComboLang.Name = "mComboLang";
+            this.mComboLang.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mComboLang.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboLang.UseSelectable = true;
             // 
             // mTabPaths
@@ -139,27 +173,19 @@
             this.mTabPaths.HorizontalScrollbarSize = 10;
             resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Name = "mTabPaths";
+            this.mTabPaths.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mTabPaths.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTabPaths.VerticalScrollbarBarColor = true;
             this.mTabPaths.VerticalScrollbarHighlightOnWheel = false;
             this.mTabPaths.VerticalScrollbarSize = 10;
             // 
-            // mLblSTEAMCMD
+            // mBtnBrowse
             // 
-            resources.ApplyResources(this.mLblSTEAMCMD, "mLblSTEAMCMD");
-            this.mLblSTEAMCMD.Name = "mLblSTEAMCMD";
-            // 
-            // mLblShowSplash
-            // 
-            resources.ApplyResources(this.mLblShowSplash, "mLblShowSplash");
-            this.mLblShowSplash.Name = "mLblShowSplash";
-            // 
-            // mToogleShowSplash
-            // 
-            resources.ApplyResources(this.mToogleShowSplash, "mToogleShowSplash");
-            this.mToogleShowSplash.Checked = true;
-            this.mToogleShowSplash.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.mToogleShowSplash.Name = "mToogleShowSplash";
-            this.mToogleShowSplash.UseSelectable = true;
+            resources.ApplyResources(this.mBtnBrowse, "mBtnBrowse");
+            this.mBtnBrowse.Name = "mBtnBrowse";
+            this.mBtnBrowse.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnBrowse.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mBtnBrowse.UseSelectable = true;
             // 
             // mTxtSTEAMCMD
             // 
@@ -170,24 +196,40 @@
             this.mTxtSTEAMCMD.PasswordChar = '\0';
             this.mTxtSTEAMCMD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSTEAMCMD.SelectedText = "";
+            this.mTxtSTEAMCMD.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mTxtSTEAMCMD.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTxtSTEAMCMD.UseSelectable = true;
             // 
-            // mBtnBrowse
+            // mLblSTEAMCMD
             // 
-            resources.ApplyResources(this.mBtnBrowse, "mBtnBrowse");
-            this.mBtnBrowse.Name = "mBtnBrowse";
-            this.mBtnBrowse.UseSelectable = true;
+            resources.ApplyResources(this.mLblSTEAMCMD, "mLblSTEAMCMD");
+            this.mLblSTEAMCMD.Name = "mLblSTEAMCMD";
+            this.mLblSTEAMCMD.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mLblSTEAMCMD.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // mBtnReset
+            // 
+            resources.ApplyResources(this.mBtnReset, "mBtnReset");
+            this.mBtnReset.Name = "mBtnReset";
+            this.mBtnReset.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnReset.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mBtnReset.UseSelectable = true;
+            this.mBtnReset.Click += new System.EventHandler(this.mBtnReset_Click);
             // 
             // FrmSettings
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mTabsSettings);
+            this.Controls.Add(this.mBtnReset);
             this.Controls.Add(this.mBtnSave);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmSettings";
             this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
+            this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSettings_FormClosing);
             this.Load += new System.EventHandler(this.FrmSettings_Load);
             this.mTabsSettings.ResumeLayout(false);
             this.mTabInterface.ResumeLayout(false);
@@ -215,5 +257,6 @@
         private MetroFramework.Controls.MetroToggle mToogleShowSplash;
         private MetroFramework.Controls.MetroTextBox mTxtSTEAMCMD;
         private MetroFramework.Controls.MetroButton mBtnBrowse;
+        private MetroFramework.Controls.MetroButton mBtnReset;
     }
 }

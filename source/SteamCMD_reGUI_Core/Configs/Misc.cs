@@ -7,8 +7,7 @@ namespace SteamCMD_reGUI_Core.Configs
         public Misc()
         {
             FirstRun = true;
-            LicensesAccepted = false;
-            InterfaceLang = "en-US";
+            LicensesAccepted = false; 
         }
 
         public bool FirstRun
@@ -23,24 +22,6 @@ namespace SteamCMD_reGUI_Core.Configs
             set;
         }
 
-
-        public string InterfaceLang
-        {
-            get;
-            set;
-        }
-
-        public bool Validate()
-        {
-            try
-            {
-                CultureInfo.GetCultureInfo(InterfaceLang);
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
+        public bool Validate() { return true; }
     }
 }

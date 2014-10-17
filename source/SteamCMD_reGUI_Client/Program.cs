@@ -3,8 +3,7 @@ using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 using SteamCMD_reGUI_Client.UI;
-using SteamCMD_reGUI_Client.WRAPPER;
-using SteamCMD_reGUI_Core.Configs;
+using SteamCMD_reGUI_Client.WRAPPER; 
 
 namespace SteamCMD_reGUI_Client
 {
@@ -14,10 +13,16 @@ namespace SteamCMD_reGUI_Client
         static void Main() { 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            CheckIt();
+            if ( !CoreHandler.Instance.Config.Interface.SplashScreen ) {
+                CheckIt();
+            }
+            else {
+                Application.Run(new FrmSplashScreen());
+            }
+            LoadLocale();
         } 
 
-        private static void CheckIt()
+        public static void CheckIt()
         {
              if ( !CoreHandler.Instance.Config.Misc.LicensesAccepted ) {
                 Application.Run(new FrmLicAccept());
@@ -34,7 +39,7 @@ namespace SteamCMD_reGUI_Client
        
         private static void LoadLocale()
         {
-            var loc = CoreHandler.Instance.Config.Misc.InterfaceLang;
+            var loc = CoreHandler.Instance.Config.Interface.InterfaceLang;
             if (String.IsNullOrEmpty(loc))
                 return;
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(loc);

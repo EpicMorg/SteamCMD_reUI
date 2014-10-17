@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="Configs\Config.cs" />
     <Compile Include="Configs\Formatter.cs" />
+    <Compile Include="Configs\Interface.cs" />
     <Compile Include="Configs\IValidatable.cs" />
+    <Compile Include="Configs\Langs.cs" />
     <Compile Include="Configs\Locator.cs" />
     <Compile Include="Configs\Misc.cs" />
     <Compile Include="Configs\Path.cs" />

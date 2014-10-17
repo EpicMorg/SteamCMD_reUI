@@ -16,7 +16,7 @@ namespace SteamCMD_reGUI_Client.UI
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-         
+            
         }
 
         private void button1_Click( object sender, EventArgs e ) {
@@ -30,9 +30,6 @@ namespace SteamCMD_reGUI_Client.UI
             frmbet.ShowDialog();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MetroMessageBox.Show(this, Strings.msgTest, Strings.msgTest, MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+       
     }
 }

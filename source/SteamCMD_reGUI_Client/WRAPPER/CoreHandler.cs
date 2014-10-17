@@ -22,10 +22,10 @@ namespace SteamCMD_reGUI_Client.WRAPPER
         private readonly string _configPath;
 
         private CoreHandler() {
-            var exePath = Locator.GetExeDir; 
-            _configPath = Path.Combine(exePath, ConfigName);
-            Config = Config.Load(_configPath);
-            SaveConfig();
+                var exePath = Locator.GetExeDir;
+                _configPath = Path.Combine(exePath, ConfigName);
+                Config = Config.Load(_configPath);
+                SaveConfig();
         }
 
         public Config Config
@@ -34,6 +34,8 @@ namespace SteamCMD_reGUI_Client.WRAPPER
             set;
         }
 
-        public void SaveConfig() { Config.Save(_configPath); }
+        public void SaveConfig() {
+            Config.Save(_configPath);
+        }
     }
 }

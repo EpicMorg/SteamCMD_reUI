@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="mBtnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 349</value>
+    <value>409, 316</value>
   </data>
   <data name="mBtnSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -145,10 +145,55 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mBtnSave.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="mTabsSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Name" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabsSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="mTabsSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 247</value>
+  </data>
+  <data name="mTabsSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Name" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabsSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
     <value>mToogleShowSplash</value>
@@ -160,7 +205,7 @@
     <value>mTabInterface</value>
   </data>
   <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
     <value>mLblShowSplash</value>
@@ -172,7 +217,7 @@
     <value>mTabInterface</value>
   </data>
   <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;mLblAppStyle.Name" xml:space="preserve">
     <value>mLblAppStyle</value>
@@ -250,7 +295,7 @@
     <value>4, 38</value>
   </data>
   <data name="mTabInterface.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 238</value>
+    <value>453, 205</value>
   </data>
   <data name="mTabInterface.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -270,125 +315,65 @@
   <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 34</value>
-  </data>
-  <data name="mBtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="mBtnBrowse.Text" xml:space="preserve">
-    <value>Browse</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
-    <value>mBtnBrowse</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 34</value>
-  </data>
-  <data name="mTxtSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 23</value>
-  </data>
-  <data name="mTxtSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
-    <value>mTxtSTEAMCMD</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
+  <data name="mToogleShowSplash.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="mLblSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 12</value>
+  <data name="mToogleShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 177</value>
   </data>
-  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 19</value>
+  <data name="mToogleShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
   </data>
-  <data name="mLblSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="mToogleShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
-    <value>STEAM CMD Path:</value>
+  <data name="mToogleShowSplash.Text" xml:space="preserve">
+    <value>On</value>
   </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
-    <value>mLblSTEAMCMD</value>
+  <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
+    <value>mToogleShowSplash</value>
   </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
+  <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
+  </data>
+  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mLblShowSplash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblShowSplash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 174</value>
+  </data>
+  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <data name="mLblShowSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mLblShowSplash.Text" xml:space="preserve">
+    <value>Show splash screen on load:</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
+    <value>mLblShowSplash</value>
+  </data>
+  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
-    <value>mTabPaths</value>
+  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
+    <value>mTabInterface</value>
   </data>
-  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="mTabPaths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 238</value>
-  </data>
-  <data name="mTabPaths.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="mTabPaths.Text" xml:space="preserve">
-    <value>Paths</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
-    <value>mTabPaths</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
-    <value>mTabsSettings</value>
-  </data>
-  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mTabsSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 63</value>
-  </data>
-  <data name="mTabsSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 280</value>
-  </data>
-  <data name="mTabsSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.Name" xml:space="preserve">
-    <value>mTabsSettings</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mTabsSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="mLblAppStyle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="mLblAppStyle.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mLblAppStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 120</value>
@@ -413,6 +398,9 @@
   </data>
   <data name="&gt;&gt;mLblAppStyle.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="mComboAppStyle.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mComboAppStyle.ItemHeight" type="System.Int32, mscorlib">
     <value>23</value>
@@ -447,6 +435,9 @@
   <data name="mLblAppTheme.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="mLblAppTheme.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="mLblAppTheme.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 66</value>
   </data>
@@ -470,6 +461,9 @@
   </data>
   <data name="&gt;&gt;mLblAppTheme.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="mComboAppTheme.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mComboAppTheme.ItemHeight" type="System.Int32, mscorlib">
     <value>23</value>
@@ -531,12 +525,6 @@
   <data name="mComboLang.ItemHeight" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="mComboLang.Items" xml:space="preserve">
-    <value>Russian</value>
-  </data>
-  <data name="mComboLang.Items1" xml:space="preserve">
-    <value>English</value>
-  </data>
   <data name="mComboLang.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 34</value>
   </data>
@@ -558,59 +546,164 @@
   <data name="&gt;&gt;mComboLang.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="mLblShowSplash.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
+    <value>mBtnBrowse</value>
   </data>
-  <data name="mLblShowSplash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 174</value>
+  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 19</value>
+  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
   </data>
-  <data name="mLblShowSplash.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="mLblShowSplash.Text" xml:space="preserve">
-    <value>Show splash screen on load:</value>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
+    <value>mTxtSTEAMCMD</value>
   </data>
-  <data name="&gt;&gt;mLblShowSplash.Name" xml:space="preserve">
-    <value>mLblShowSplash</value>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mLblShowSplash.Type" xml:space="preserve">
+  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
+    <value>mLblSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mLblShowSplash.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
+  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
   </data>
-  <data name="&gt;&gt;mLblShowSplash.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mTabPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 205</value>
+  </data>
+  <data name="mTabPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Name" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.Parent" xml:space="preserve">
+    <value>mTabsSettings</value>
+  </data>
+  <data name="&gt;&gt;mTabPaths.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="mToogleShowSplash.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 34</value>
   </data>
-  <data name="mToogleShowSplash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 177</value>
+  <data name="mBtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="mToogleShowSplash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
-  </data>
-  <data name="mToogleShowSplash.TabIndex" type="System.Int32, mscorlib">
+  <data name="mBtnBrowse.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="mToogleShowSplash.Text" xml:space="preserve">
-    <value>On</value>
+  <data name="mBtnBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
   </data>
-  <data name="&gt;&gt;mToogleShowSplash.Name" xml:space="preserve">
-    <value>mToogleShowSplash</value>
+  <data name="&gt;&gt;mBtnBrowse.Name" xml:space="preserve">
+    <value>mBtnBrowse</value>
   </data>
-  <data name="&gt;&gt;mToogleShowSplash.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;mBtnBrowse.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mToogleShowSplash.Parent" xml:space="preserve">
-    <value>mTabInterface</value>
+  <data name="&gt;&gt;mBtnBrowse.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
   </data>
-  <data name="&gt;&gt;mToogleShowSplash.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mTxtSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 23</value>
+  </data>
+  <data name="mTxtSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Name" xml:space="preserve">
+    <value>mTxtSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 19</value>
+  </data>
+  <data name="mLblSTEAMCMD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
+    <value>STEAM CMD Path:</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Name" xml:space="preserve">
+    <value>mLblSTEAMCMD</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mBtnReset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="mBtnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 316</value>
+  </data>
+  <data name="mBtnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnReset.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="mBtnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Name" xml:space="preserve">
+    <value>mBtnReset</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mBtnReset.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -619,7 +712,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>507, 395</value>
+    <value>507, 362</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

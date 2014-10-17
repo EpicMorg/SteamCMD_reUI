@@ -6,22 +6,26 @@ using System.Xml.Serialization;
 
 namespace SteamCMD_reGUI_Core.Configs {
 
-    public class Config : IValidatable {
-       
+    public class Config : IValidatable { 
         // ReSharper disable once MemberCanBePrivate.Global
         public Config() {
             Paths = new Paths();
-            Misc = new Misc(); 
+            Misc = new Misc();
+            Interface = new Interface();
+        }
+        public Interface Interface
+        {
+            get;
+            set;
         }
 
-         
         // ReSharper disable once MemberCanBePrivate.Global
         public Paths Paths
         {
             get;
             set;
         }
-
+ 
         public Misc Misc {
             get;
             // ReSharper disable once MemberCanBePrivate.Global
@@ -33,10 +37,10 @@ namespace SteamCMD_reGUI_Core.Configs {
         }
 
         public static Config Load( string path ) {
-            return Formatter<Config>.Deserialize(path);
+            return Formatter<Config>.Deserialize(path)??new Config();
         }
 
-        public bool Validate() { return Paths.Validate() && Misc.Validate(); }
+        public bool Validate() { return Paths.Validate() && Misc.Validate() && Interface.Validate(); }
     }
 
 }
