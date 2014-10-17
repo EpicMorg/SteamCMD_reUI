@@ -61,11 +61,119 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Test.
+        ///   Ищет локализованную строку, похожую на Config is invalid! Fix it!.
         /// </summary>
-        internal static string msgTest {
+        internal static string sCfgInvalid {
             get {
-                return ResourceManager.GetString("msgTest", resourceCulture);
+                return ResourceManager.GetString("sCfgInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Succesfully saved! Application will restart..
+        /// </summary>
+        internal static string sCfgSaved {
+            get {
+                return ResourceManager.GetString("sCfgSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Please check path to steamcmd.exe!.
+        /// </summary>
+        internal static string sCheckPath {
+            get {
+                return ResourceManager.GetString("sCheckPath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Done!.
+        /// </summary>
+        internal static string sDone {
+            get {
+                return ResourceManager.GetString("sDone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на English.
+        /// </summary>
+        internal static string sEnglish {
+            get {
+                return ResourceManager.GetString("sEnglish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Error!.
+        /// </summary>
+        internal static string sError {
+            get {
+                return ResourceManager.GetString("sError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на It is a first run of this program. Please enter default settings!.
+        /// </summary>
+        internal static string sFirstRun {
+            get {
+                return ResourceManager.GetString("sFirstRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Hello!.
+        /// </summary>
+        internal static string sGreeting {
+            get {
+                return ResourceManager.GetString("sGreeting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Information.
+        /// </summary>
+        internal static string sInformation {
+            get {
+                return ResourceManager.GetString("sInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Program language has been changed. .
+        /// </summary>
+        internal static string sLangChanged {
+            get {
+                return ResourceManager.GetString("sLangChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Loading.. Please wait.
+        /// </summary>
+        internal static string sLoading {
+            get {
+                return ResourceManager.GetString("sLoading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Succesfully reset! Application will restart..
+        /// </summary>
+        internal static string sReset {
+            get {
+                return ResourceManager.GetString("sReset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Russian.
+        /// </summary>
+        internal static string sRussian {
+            get {
+                return ResourceManager.GetString("sRussian", resourceCulture);
             }
         }
     }

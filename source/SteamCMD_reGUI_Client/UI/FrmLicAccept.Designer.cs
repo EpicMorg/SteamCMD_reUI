@@ -58,8 +58,8 @@
             // 
             // mPanelMain
             // 
-            this.mPanelMain.Controls.Add(this.mTabsControl);
             resources.ApplyResources(this.mPanelMain, "mPanelMain");
+            this.mPanelMain.Controls.Add(this.mTabsControl);
             this.mPanelMain.HorizontalScrollbarBarColor = true;
             this.mPanelMain.HorizontalScrollbarHighlightOnWheel = false;
             this.mPanelMain.HorizontalScrollbarSize = 10;
@@ -72,9 +72,9 @@
             // 
             // mTabsControl
             // 
+            resources.ApplyResources(this.mTabsControl, "mTabsControl");
             this.mTabsControl.Controls.Add(this.mTabpLic1);
             this.mTabsControl.Controls.Add(this.mTabpLic2);
-            resources.ApplyResources(this.mTabsControl, "mTabsControl");
             this.mTabsControl.Name = "mTabsControl";
             this.mTabsControl.SelectedIndex = 1;
             this.mTabsControl.Style = MetroFramework.MetroColorStyle.Silver;
@@ -83,6 +83,7 @@
             // 
             // mTabpLic1
             // 
+            resources.ApplyResources(this.mTabpLic1, "mTabpLic1");
             this.mTabpLic1.Controls.Add(this.mBtnPrevNull);
             this.mTabpLic1.Controls.Add(this.mBtnAccept);
             this.mTabpLic1.Controls.Add(this.mBtnDecline);
@@ -90,7 +91,6 @@
             this.mTabpLic1.HorizontalScrollbarBarColor = true;
             this.mTabpLic1.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabpLic1.HorizontalScrollbarSize = 10;
-            resources.ApplyResources(this.mTabpLic1, "mTabpLic1");
             this.mTabpLic1.Name = "mTabpLic1";
             this.mTabpLic1.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabpLic1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -136,6 +136,7 @@
             // 
             // mTabpLic2
             // 
+            resources.ApplyResources(this.mTabpLic2, "mTabpLic2");
             this.mTabpLic2.Controls.Add(this.mBtnPrev);
             this.mTabpLic2.Controls.Add(this.mBtnAcceptFinal);
             this.mTabpLic2.Controls.Add(this.mBtnDecline2);
@@ -143,7 +144,6 @@
             this.mTabpLic2.HorizontalScrollbarBarColor = true;
             this.mTabpLic2.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabpLic2.HorizontalScrollbarSize = 10;
-            resources.ApplyResources(this.mTabpLic2, "mTabpLic2");
             this.mTabpLic2.Name = "mTabpLic2";
             this.mTabpLic2.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabpLic2.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -155,7 +155,7 @@
             // 
             resources.ApplyResources(this.mBtnPrev, "mBtnPrev");
             this.mBtnPrev.Name = "mBtnPrev";
-            this.mBtnPrev.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnPrev.Style = MetroFramework.MetroColorStyle.Green;
             this.mBtnPrev.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnPrev.UseSelectable = true;
             this.mBtnPrev.Click += new System.EventHandler(this.mBtnPrev_Click);
@@ -164,7 +164,7 @@
             // 
             resources.ApplyResources(this.mBtnAcceptFinal, "mBtnAcceptFinal");
             this.mBtnAcceptFinal.Name = "mBtnAcceptFinal";
-            this.mBtnAcceptFinal.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnAcceptFinal.Style = MetroFramework.MetroColorStyle.Green;
             this.mBtnAcceptFinal.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnAcceptFinal.UseSelectable = true;
             this.mBtnAcceptFinal.Click += new System.EventHandler(this.mBtnAcceptFinal_Click);
@@ -173,7 +173,7 @@
             // 
             resources.ApplyResources(this.mBtnDecline2, "mBtnDecline2");
             this.mBtnDecline2.Name = "mBtnDecline2";
-            this.mBtnDecline2.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mBtnDecline2.Style = MetroFramework.MetroColorStyle.Green;
             this.mBtnDecline2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnDecline2.UseSelectable = true;
             this.mBtnDecline2.Click += new System.EventHandler(this.mBtnDecline2_Click);

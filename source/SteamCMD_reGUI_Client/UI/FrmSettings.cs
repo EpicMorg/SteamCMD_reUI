@@ -19,10 +19,10 @@ namespace SteamCMD_reGUI_Client.UI
             mComboLang.Items.Clear();
             var langs = new Langs[] {
                 new Langs {
-                    LangName = "English", LangCode = "en-US"
+                    LangName = Strings.sEnglish, LangCode = "en-US"
                 },
                 new Langs {
-                    LangName = "Russian", LangCode = "ru-RU"
+                    LangName = Strings.sRussian, LangCode = "ru-RU"
                 }
             };
             mComboLang.Items.AddRange(langs);
@@ -91,11 +91,6 @@ namespace SteamCMD_reGUI_Client.UI
 
         private void mBtnReset_Click(object sender, EventArgs e)
         {
-            //var lc = ((Langs)mComboLang.SelectedItem).LangCode;
-            //var i = CoreHandler.Instance;
-            //i.Config = new Config();
-            //var l = c.Interface;
-            //var m = i.Config.Misc;
             var lc = ((Langs)mComboLang.SelectedItem).LangCode;
             var i = CoreHandler.Instance;
             var c = i.Config;
@@ -108,6 +103,12 @@ namespace SteamCMD_reGUI_Client.UI
             LoadConfig();
             MetroMessageBox.Show(this, Strings.sReset, Strings.sDone, MessageBoxButtons.OK, MessageBoxIcon.Information);
             Application.Restart();
+        }
+
+        private void mBtnBrowse_Click(object sender, EventArgs e) { 
+            if (fileBrowser.ShowDialog() != DialogResult.OK)
+                return;
+            mTxtSTEAMCMD.Text = fileBrowser.FileName;
         }
  
     }

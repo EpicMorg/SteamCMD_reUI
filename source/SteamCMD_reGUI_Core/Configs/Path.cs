@@ -9,7 +9,7 @@ namespace SteamCMD_reGUI_Core.Configs
             SteamCmdPath = Path.Combine(Locator.GetExeDir, "steamcmd.exe");
         }
 
-        private string SteamCmdPath
+        public string SteamCmdPath
         {
             get;
             set;

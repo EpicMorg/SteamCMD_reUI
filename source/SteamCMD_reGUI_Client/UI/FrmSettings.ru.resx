@@ -117,43 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="sCfgInvalid" xml:space="preserve">
-    <value>Config is invalid! Fix it!</value>
+  <data name="mBtnSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
   </data>
-  <data name="sCfgSaved" xml:space="preserve">
-    <value>Succesfully saved! Application will restart.</value>
+  <data name="mTabInterface.Text" xml:space="preserve">
+    <value>Интерфейс</value>
   </data>
-  <data name="sCheckPath" xml:space="preserve">
-    <value>Please check path to steamcmd.exe!</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 19</value>
   </data>
-  <data name="sDone" xml:space="preserve">
-    <value>Done!</value>
+  <data name="mLblShowSplash.Text" xml:space="preserve">
+    <value>Показывать окно SplashScreen:</value>
   </data>
-  <data name="sEnglish" xml:space="preserve">
-    <value>English</value>
+  <data name="mLblAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 19</value>
   </data>
-  <data name="sError" xml:space="preserve">
-    <value>Error!</value>
+  <data name="mLblAppStyle.Text" xml:space="preserve">
+    <value>Стиль оформления:</value>
   </data>
-  <data name="sFirstRun" xml:space="preserve">
-    <value>It is a first run of this program. Please enter default settings!</value>
+  <data name="mLblAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 19</value>
   </data>
-  <data name="sGreeting" xml:space="preserve">
-    <value>Hello!</value>
+  <data name="mLblAppTheme.Text" xml:space="preserve">
+    <value>Тема оформления:</value>
   </data>
-  <data name="sInformation" xml:space="preserve">
-    <value>Information</value>
+  <data name="mLblLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 19</value>
   </data>
-  <data name="sLangChanged" xml:space="preserve">
-    <value>Program language has been changed. </value>
+  <data name="mLblLang.Text" xml:space="preserve">
+    <value>Язык:</value>
   </data>
-  <data name="sLoading" xml:space="preserve">
-    <value>Loading.. Please wait</value>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Пути</value>
   </data>
-  <data name="sReset" xml:space="preserve">
-    <value>Succesfully reset! Application will restart.</value>
+  <data name="mBtnBrowse.Text" xml:space="preserve">
+    <value>Обзор</value>
   </data>
-  <data name="sRussian" xml:space="preserve">
-    <value>Russian</value>
+  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
+    <value>Путь к Steam CMD:</value>
+  </data>
+  <data name="mBtnReset.Text" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAD///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEaGholGhoahxoaGn8aGhpj////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BGhoaqxoaGscaGhr1GhoalRoa
+        GjX///8B////Af///wH///8B////Af///wH///8B////Af///wEaGhoDGhoacxoaGvsaGhr/Ghoa/xoa
+        GqMaGhrPGhoaLf///wH///8B////Af///wH///8BGhoaBRoaGm8aGhqXGhoayxoaGv8aGhr/Ghoa/xoa
+        GsUaGhq9Ghoa/xoaGv8aGhrpGhoaef///wH///8B////ARoaGnEaGhqNGhoa+RoaGv8aGhr/Ghoa3xoa
+        GmEaGhrfGhoa/xoaGqsaGhqJGhoahxoaGs0aGhpl////Af///wEaGhqBGhoayxoaGv8aGhr/GhoauRoa
+        Gg////8BGhoaTxoaGv0aGhqLGhoa/xoaGv8aGhqRGhoav////wH///8BGhoaXxoaGosaGhqrGhoanxoa
+        GkH///8B////ARoaGgkaGhr3GhoaiRoaGv8aGhr/GhoakRoaGrn///8B////Af///wEaGhpRGhoafRoa
+        GkH///8B////Af///wH///8BGhoamRoaGr8aGhqRGhoajRoaGt8aGhpR////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////ARoaGgcaGhqFGhoa1RoaGskaGhpZ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройки</value>
   </data>
 </root>

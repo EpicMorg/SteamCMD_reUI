@@ -117,7 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="msgTest" xml:space="preserve">
-    <value>Тест</value>
+  <data name="sCfgInvalid" xml:space="preserve">
+    <value>Неправильный конфиг! Нужно исправить.</value>
+  </data>
+  <data name="sCfgSaved" xml:space="preserve">
+    <value>Успешно сохранено. Программа будет перезапущена.</value>
+  </data>
+  <data name="sCheckPath" xml:space="preserve">
+    <value>Пожалуйста, проверьте путь до steamcmd.exe!</value>
+  </data>
+  <data name="sDone" xml:space="preserve">
+    <value>Выполнено!</value>
+  </data>
+  <data name="sEnglish" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="sError" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="sFirstRun" xml:space="preserve">
+    <value>Это первый запуск программы. Выполните настройку!</value>
+  </data>
+  <data name="sGreeting" xml:space="preserve">
+    <value>Приветик!</value>
+  </data>
+  <data name="sInformation" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="sLangChanged" xml:space="preserve">
+    <value>Язык программы был изменен.</value>
+  </data>
+  <data name="sLoading" xml:space="preserve">
+    <value>Загрузка.. Пожалуйста, подождите...</value>
+  </data>
+  <data name="sReset" xml:space="preserve">
+    <value>Конфигузация успешно сброшена.</value>
+  </data>
+  <data name="sRussian" xml:space="preserve">
+    <value>Русский</value>
   </data>
 </root>

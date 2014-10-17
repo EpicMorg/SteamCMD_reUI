@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("SteamCMD reGUI Client")]
-[assembly: AssemblyDescription("SteamCMD reGUI Client")]
+[assembly: AssemblyTitle("SteamCMD reGUI")]
+[assembly: AssemblyDescription("SteamCMD reGUI")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EpicMorg")]
-[assembly: AssemblyProduct("SteamCMD reGUI Client")]
+[assembly: AssemblyProduct("SteamCMD reGUI")]
 [assembly: AssemblyCopyright("Copyright © EpicMorg 2014")]
 [assembly: AssemblyTrademark("EpicMorg, Steam")]
 [assembly: AssemblyCulture("")]

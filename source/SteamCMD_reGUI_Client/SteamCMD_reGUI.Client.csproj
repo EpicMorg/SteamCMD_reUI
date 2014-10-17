@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -72,10 +72,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LOCALE\Strings.Designer.cs">
+    <Compile Include="LOCALE\Strings.ru.Designer.cs">
+      <DependentUpon>Strings.ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CustomLabel.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="UI\FrmBrowser.cs">
       <SubType>Form</SubType>
@@ -103,16 +111,29 @@
     <Compile Include="UI\FrmSettings.Designer.cs">
       <DependentUpon>FrmSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOCALE\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
     <Compile Include="WRAPPER\CoreHandler.cs" />
-    <EmbeddedResource Include="LOCALE\Strings.resx">
+    <EmbeddedResource Include="LOCALE\Strings.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LOCALE\Strings.ru.resx" />
     <EmbeddedResource Include="UI\FrmBrowser.resx">
       <DependentUpon>FrmBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmLicAccept.resx">
+      <DependentUpon>FrmLicAccept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmLicAccept.ru.resx">
       <DependentUpon>FrmLicAccept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmMain.resx">
@@ -120,16 +141,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="UI\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSettings.ru.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOCALE\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -148,10 +174,7 @@
   <ItemGroup>
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.user.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CORE\" />
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="LICENSES\SteamCMDreGUI.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -159,6 +182,7 @@
     <Content Include="LICENSES\ModernMetroUIFramework.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\splash.png" />
     <Content Include="steam_dark_all.ico" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />
   </ItemGroup>

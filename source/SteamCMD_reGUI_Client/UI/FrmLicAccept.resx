@@ -117,467 +117,242 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="StyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="&gt;&gt;mTabsControl.Name" xml:space="preserve">
-    <value>mTabsControl</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.Parent" xml:space="preserve">
-    <value>mPanelMain</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mPanelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mPanelMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 60</value>
-  </data>
-  <data name="mPanelMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 435</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mPanelMain.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;mBtnDecline2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;mPanelMain.Name" xml:space="preserve">
-    <value>mPanelMain</value>
+  <data name="&gt;&gt;mBtnDecline2.Name" xml:space="preserve">
+    <value>mBtnDecline2</value>
   </data>
-  <data name="&gt;&gt;mPanelMain.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rTxtLic2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;mPanelMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mPanelMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.Name" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.Parent" xml:space="preserve">
-    <value>mTabsControl</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Name" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Parent" xml:space="preserve">
-    <value>mTabsControl</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mTabsControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="mTabsControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="mTabsControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 432</value>
-  </data>
-  <data name="mTabsControl.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.Name" xml:space="preserve">
-    <value>mTabsControl</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.Parent" xml:space="preserve">
-    <value>mPanelMain</value>
-  </data>
-  <data name="&gt;&gt;mTabsControl.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Name" xml:space="preserve">
-    <value>mBtnPrevNull</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mBtnAccept.Name" xml:space="preserve">
-    <value>mBtnAccept</value>
-  </data>
-  <data name="&gt;&gt;mBtnAccept.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnAccept.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mBtnAccept.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.Name" xml:space="preserve">
-    <value>mBtnDecline</value>
+  <data name="&gt;&gt;StyleManager.Name" xml:space="preserve">
+    <value>StyleManager</value>
   </data>
   <data name="&gt;&gt;mBtnDecline.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mBtnDecline.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic1.Name" xml:space="preserve">
-    <value>rTxtLic1</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic1.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="mTabpLic1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="mTabpLic1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 390</value>
-  </data>
-  <data name="mTabpLic1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mTabpLic1.Text" xml:space="preserve">
-    <value>mLicense1</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.Name" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic1.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rTxtLic1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 355</value>
   </data>
   <data name="&gt;&gt;mTabpLic1.Parent" xml:space="preserve">
     <value>mTabsControl</value>
   </data>
-  <data name="&gt;&gt;mTabpLic1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mBtnPrevNull.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="mBtnPrevNull.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mBtnPrevNull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 364</value>
-  </data>
-  <data name="mBtnPrevNull.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnPrevNull.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="mBtnPrevNull.Text" xml:space="preserve">
-    <value>Previous</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Name" xml:space="preserve">
-    <value>mBtnPrevNull</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrevNull.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
+  <data name="&gt;&gt;mBtnPrev.Name" xml:space="preserve">
+    <value>mBtnPrev</value>
   </data>
   <data name="&gt;&gt;mBtnPrevNull.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="mBtnAccept.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;mBtnDecline.Parent" xml:space="preserve">
+    <value>mTabpLic1</value>
   </data>
-  <data name="mBtnAccept.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 364</value>
+  <data name="rTxtLic1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
   </data>
-  <data name="mBtnAccept.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnAccept.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="mBtnAccept.Text" xml:space="preserve">
-    <value>Accept</value>
-  </data>
-  <data name="&gt;&gt;mBtnAccept.Name" xml:space="preserve">
-    <value>mBtnAccept</value>
+  <data name="&gt;&gt;rTxtLic1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mBtnAccept.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;mBtnAccept.Parent" xml:space="preserve">
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmLicAccept</value>
+  </data>
+  <data name="mBtnPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnDecline2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;rTxtLic1.Name" xml:space="preserve">
+    <value>rTxtLic1</value>
+  </data>
+  <data name="&gt;&gt;mBtnPrev.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabsControl.Parent" xml:space="preserve">
+    <value>mPanelMain</value>
+  </data>
+  <data name="&gt;&gt;mBtnAcceptFinal.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabsControl.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnDecline.Name" xml:space="preserve">
+    <value>mBtnDecline</value>
+  </data>
+  <data name="mBtnPrevNull.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="mPanelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mBtnAccept.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 364</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic1.Name" xml:space="preserve">
     <value>mTabpLic1</value>
   </data>
-  <data name="&gt;&gt;mBtnAccept.ZOrder" xml:space="preserve">
+  <data name="mBtnAcceptFinal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rTxtLic1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mBtnAcceptFinal.Parent" xml:space="preserve">
+    <value>mTabpLic2</value>
+  </data>
+  <data name="mPanelMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 435</value>
+  </data>
+  <data name="mTabpLic2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 390</value>
+  </data>
+  <data name="mBtnDecline.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mBtnPrevNull.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mBtnAccept.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="mBtnPrevNull.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mPanelMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mBtnPrev.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="mBtnDecline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 364</value>
+  </data>
+  <data name="mTabsControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 432</value>
+  </data>
+  <data name="&gt;&gt;mBtnPrevNull.Name" xml:space="preserve">
+    <value>mBtnPrevNull</value>
+  </data>
+  <data name="&gt;&gt;mBtnAcceptFinal.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="mBtnDecline.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="mBtnDecline.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 364</value>
-  </data>
-  <data name="mBtnDecline.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnDecline.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="mBtnDecline.Text" xml:space="preserve">
-    <value>Decline</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.Name" xml:space="preserve">
-    <value>mBtnDecline</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.Parent" xml:space="preserve">
-    <value>mTabpLic1</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="rTxtLic1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="rTxtLic1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 3</value>
-  </data>
-  <data name="rTxtLic1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 355</value>
-  </data>
-  <data name="rTxtLic1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="rTxtLic1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;rTxtLic1.Name" xml:space="preserve">
-    <value>rTxtLic1</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="mTabsControl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;rTxtLic1.Parent" xml:space="preserve">
     <value>mTabpLic1</value>
   </data>
-  <data name="&gt;&gt;rTxtLic1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Name" xml:space="preserve">
-    <value>mBtnPrev</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.Name" xml:space="preserve">
-    <value>mBtnAcceptFinal</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Name" xml:space="preserve">
-    <value>mBtnDecline2</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic2.Name" xml:space="preserve">
-    <value>rTxtLic2</value>
-  </data>
   <data name="&gt;&gt;rTxtLic2.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rTxtLic2.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="mTabpLic2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="mTabpLic2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 390</value>
-  </data>
-  <data name="mTabpLic2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mTabpLic2.Text" xml:space="preserve">
-    <value>mLicense2</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Name" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;mTabsControl.Name" xml:space="preserve">
     <value>mTabsControl</value>
-  </data>
-  <data name="&gt;&gt;mTabpLic2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mBtnPrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="mBtnPrev.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 364</value>
-  </data>
-  <data name="mBtnPrev.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnPrev.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="mBtnPrev.Text" xml:space="preserve">
-    <value>Previous</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Name" xml:space="preserve">
-    <value>mBtnPrev</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnPrev.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mBtnAcceptFinal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="mBtnAcceptFinal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 364</value>
-  </data>
-  <data name="mBtnAcceptFinal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnAcceptFinal.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="mBtnAcceptFinal.Text" xml:space="preserve">
-    <value>Accept</value>
   </data>
   <data name="&gt;&gt;mBtnAcceptFinal.Name" xml:space="preserve">
     <value>mBtnAcceptFinal</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnAcceptFinal.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="mBtnDecline2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="mBtnDecline2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 364</value>
-  </data>
-  <data name="mBtnDecline2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="mBtnDecline2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="mBtnDecline2.Text" xml:space="preserve">
-    <value>Decline</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Name" xml:space="preserve">
-    <value>mBtnDecline2</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.Parent" xml:space="preserve">
-    <value>mTabpLic2</value>
-  </data>
-  <data name="&gt;&gt;mBtnDecline2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="rTxtLic2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="rTxtLic2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -1</value>
   </data>
   <data name="rTxtLic2.Size" type="System.Drawing.Size, System.Drawing">
     <value>384, 359</value>
   </data>
-  <data name="rTxtLic2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="mTabpLic1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 390</value>
   </data>
   <data name="rTxtLic2.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;rTxtLic2.Name" xml:space="preserve">
-    <value>rTxtLic2</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rTxtLic2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;mBtnDecline2.Parent" xml:space="preserve">
     <value>mTabpLic2</value>
+  </data>
+  <data name="mPanelMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
+  </data>
+  <data name="mBtnDecline2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 364</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mBtnAcceptFinal.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="mBtnAccept.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnAccept.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="mBtnPrevNull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic2.Name" xml:space="preserve">
+    <value>mTabpLic2</value>
+  </data>
+  <data name="&gt;&gt;mBtnAccept.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;rTxtLic2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;mBtnPrevNull.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>432, 515</value>
+  <data name="mTabpLic2.Text" xml:space="preserve">
+    <value>Modern Metro UI Framework</value>
+  </data>
+  <data name="rTxtLic2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="mBtnPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 364</value>
+  </data>
+  <data name="rTxtLic2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mTabpLic1.Text" xml:space="preserve">
+    <value>EpicMorg License</value>
+  </data>
+  <data name="mBtnAcceptFinal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 364</value>
+  </data>
+  <data name="mBtnDecline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;mBtnDecline2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mBtnPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;mPanelMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mBtnAcceptFinal.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mBtnDecline.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mBtnDecline2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mBtnPrevNull.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -603,19 +378,112 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>FrmLicAccept</value>
+  <data name="mBtnAcceptFinal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;StyleManager.Name" xml:space="preserve">
-    <value>StyleManager</value>
+  <data name="&gt;&gt;mBtnAccept.Parent" xml:space="preserve">
+    <value>mTabpLic1</value>
   </data>
   <data name="&gt;&gt;StyleManager.Type" xml:space="preserve">
     <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmLicAccept</value>
+  <data name="&gt;&gt;mBtnPrev.Parent" xml:space="preserve">
+    <value>mTabpLic2</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="mTabpLic1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
+  <data name="&gt;&gt;rTxtLic1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mTabsControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>License agreements</value>
+  </data>
+  <data name="mPanelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mTabpLic2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;rTxtLic2.Parent" xml:space="preserve">
+    <value>mTabpLic2</value>
+  </data>
+  <data name="&gt;&gt;rTxtLic2.Name" xml:space="preserve">
+    <value>rTxtLic2</value>
+  </data>
+  <data name="mBtnPrevNull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 364</value>
+  </data>
+  <data name="mBtnDecline2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;mBtnPrev.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mPanelMain.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mBtnAccept.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mBtnDecline2.Text" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="&gt;&gt;mBtnPrevNull.Parent" xml:space="preserve">
+    <value>mTabpLic1</value>
+  </data>
+  <data name="mBtnPrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="rTxtLic1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;mPanelMain.Name" xml:space="preserve">
+    <value>mPanelMain</value>
+  </data>
+  <data name="mTabpLic2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>432, 515</value>
+  </data>
+  <data name="mBtnDecline.Text" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="&gt;&gt;mTabpLic2.Parent" xml:space="preserve">
+    <value>mTabsControl</value>
+  </data>
+  <data name="&gt;&gt;mBtnAccept.Name" xml:space="preserve">
+    <value>mBtnAccept</value>
+  </data>
+  <data name="&gt;&gt;mTabsControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabpLic1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="rTxtLic1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="mTabsControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
