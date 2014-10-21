@@ -26,8 +26,14 @@ namespace SteamCMD_reGUI_Client.UI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var frmbet = new FrmBrowser();
+            var frmbet = new FrmDownloader();
             frmbet.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var frmd = new FrmDownloader();
+            frmd.ShowDialog();
         }
 
        

@@ -79,7 +79,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Please check path to steamcmd.exe!.
+        ///   Ищет локализованную строку, похожую на steamcmd.exe not found! Try to download it?.
         /// </summary>
         internal static string sCheckPath {
             get {
@@ -93,6 +93,15 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         internal static string sDone {
             get {
                 return ResourceManager.GetString("sDone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Download complete!.
+        /// </summary>
+        internal static string sDownloadingComplete {
+            get {
+                return ResourceManager.GetString("sDownloadingComplete", resourceCulture);
             }
         }
         
@@ -174,6 +183,24 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         internal static string sRussian {
             get {
                 return ResourceManager.GetString("sRussian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Unpacking....
+        /// </summary>
+        internal static string sUnpacking {
+            get {
+                return ResourceManager.GetString("sUnpacking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Unpacking complete.
+        /// </summary>
+        internal static string sUnpackingComplete {
+            get {
+                return ResourceManager.GetString("sUnpackingComplete", resourceCulture);
             }
         }
     }

@@ -28,19 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSplashScreen));
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.cstmLblWait = new SteamCMD_reGUI_Client.UI.CustomLabel();
             this.cstmLblVersion = new SteamCMD_reGUI_Client.UI.CustomLabel();
             this.cstmLblName = new SteamCMD_reGUI_Client.UI.CustomLabel();
             this.SuspendLayout();
-            // 
-            // timer
-            // 
-            this.timer.Enabled = true;
-            this.timer.Interval = 500;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // cstmLblWait
             // 
@@ -114,7 +106,6 @@
 
         private CustomLabel cstmLblName;
         private CustomLabel cstmLblVersion;
-        private System.Windows.Forms.Timer timer;
         private CustomLabel cstmLblWait;
         
     }

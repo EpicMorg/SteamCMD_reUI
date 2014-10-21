@@ -42,24 +42,44 @@ namespace SteamCMD_reGUI_Client.UI {
             mToogleLog.Checked = ch.Misc.Logging;
         }
 
-        private bool ValidateInput() {
+        private bool AlertOnBadConfig() {
             var txtbox = mTxtSTEAMCMD.Text;
             var txtbox2 = mTxtDeafOD.Text;
-            return !String.IsNullOrWhiteSpace(txtbox) && File.Exists(txtbox) && !String.IsNullOrWhiteSpace(txtbox2) && Directory.Exists(txtbox2);
-        }
+            var ok = true;
+            string error=null;
+            if ( !CoreHandler.Instance.Config.Validate() ) {
+                ok = false;
+                error = Strings.sError;
+            }
+            if ( ok
+                 &&( String.IsNullOrWhiteSpace( txtbox )
+                 || !File.Exists( txtbox ) ) ) {
 
-        private bool AlertOnBadConfig() {
-            var ok = CoreHandler.Instance.Config.Validate() && ( ValidateInput() || !CoreHandler.Instance.Config.Misc.FirstRun );
-            if ( !ok )
-                MessageBox.Show( Strings.sCheckPath, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error );
+                     if (this.MetroMessageBox(Strings.sCheckPath, Strings.sError, MessageBoxButtons.YesNo)
+== DialogResult.Yes)
+                {
+                     var frmDownloader = new FrmDownloader();
+                     frmDownloader.ShowDialog();
+                     }
+                else
+                {
+                    ok = false;
+                    error = Strings.sError;
+                }
+            }
+            if ( ok && ( String.IsNullOrWhiteSpace( txtbox2 ) || !Directory.Exists( txtbox2 ) ) ) {
+                ok = false;
+                error = Strings.sError;
+            }
+            if ( !ok ) {
+                this.MetroMessageBox(Strings.sError, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             return ok;
         }
 
         private void mBtnSave_Click( object sender, EventArgs e ) {
-            if ( !ValidateInput() ) {
-                MetroMessageBox.Show( this, Strings.sCheckPath, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error );
+            if ( !AlertOnBadConfig() )
                 return;
-            }
 
             var config = CoreHandler.Instance.Config; 
             config.Misc.Logging = mToogleLog.Checked;
@@ -72,19 +92,14 @@ namespace SteamCMD_reGUI_Client.UI {
             config.Misc.FirstRun = false;
 
             if (!config.Validate()) {
-                MetroMessageBox.Show(this, Strings.sCfgInvalid, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 this.MetroMessageBox(Strings.sCfgInvalid, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             CoreHandler.Instance.SaveConfig();
             MetroMessageBox.Show( this, Strings.sCfgSaved, Strings.sDone, MessageBoxButtons.OK, MessageBoxIcon.Information );
             Application.Restart();
         }
-
-        private void FrmSettings_FormClosing( object sender, FormClosingEventArgs e ) {
-            if ( !AlertOnBadConfig() )
-                e.Cancel = true;
-        }
-
+          
         private void mBtnReset_Click( object sender, EventArgs e ) {
             var config = CoreHandler.Instance.Config;
             config.Misc.Logging = false;
@@ -94,7 +109,7 @@ namespace SteamCMD_reGUI_Client.UI {
             config.Misc.LicensesAccepted = false;
             config.Interface.SplashScreen = true;
             if (!config.Validate()) {
-                MetroMessageBox.Show(this, Strings.sCfgInvalid, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 this.MetroMessageBox(Strings.sCfgInvalid, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             CoreHandler.Instance.SaveConfig();

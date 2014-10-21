@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using SteamCMD_reGUI_Client.LOCALE;
 using SteamCMD_reGUI_Client.WRAPPER;
@@ -8,11 +9,12 @@ namespace SteamCMD_reGUI_Client.UI
 {    
     public partial class FrmSplashScreen : Form
     {
-        int _time1;
+ 
         public FrmSplashScreen()
         {
             InitializeComponent();
             cstmLblWait.Text = Strings.sLoading;
+
         }
 
         #region
@@ -60,16 +62,13 @@ namespace SteamCMD_reGUI_Client.UI
                 }
             }
         }
-        private void FrmSplashScreen_Load(object sender, EventArgs e)
-        {
+        private async void FrmSplashScreen_Load(object sender, EventArgs e) {
             cstmLblName.Text  = String.Format("{0}", AssemblyProduct);
             cstmLblVersion.Text = String.Format("{0}", AssemblyVersion);
+            await Task.Delay( 3500 );
+            this.Check();
         }
         
-        private void timer_Tick(object sender, EventArgs e)
-        {
-            timer.Stop();
-            Check();
-        } 
+       
     }
 }
