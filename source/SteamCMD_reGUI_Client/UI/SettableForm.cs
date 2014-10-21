@@ -17,11 +17,13 @@ namespace SteamCMD_reGUI_Client.UI
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettableForm));
             this.SuspendLayout();
             // 
             // SettableForm
             // 
             this.ClientSize = new System.Drawing.Size(300, 300);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SettableForm";
             this.Load += new System.EventHandler(this.SettableForm_Load);
             this.ResumeLayout(false);

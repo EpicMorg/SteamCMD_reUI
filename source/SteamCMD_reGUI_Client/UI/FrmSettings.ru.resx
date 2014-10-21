@@ -120,9 +120,6 @@
   <data name="mBtnSave.Text" xml:space="preserve">
     <value>Сохранить</value>
   </data>
-  <data name="mTabInterface.Text" xml:space="preserve">
-    <value>Интерфейс</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 19</value>
@@ -148,8 +145,8 @@
   <data name="mLblLang.Text" xml:space="preserve">
     <value>Язык:</value>
   </data>
-  <data name="mTabPaths.Text" xml:space="preserve">
-    <value>Пути</value>
+  <data name="mTabInterface.Text" xml:space="preserve">
+    <value>Интерфейс</value>
   </data>
   <data name="mBtnDeafOD.Text" xml:space="preserve">
     <value>Обзор</value>
@@ -168,6 +165,18 @@
   </data>
   <data name="mLblSTEAMCMD.Text" xml:space="preserve">
     <value>Путь к Steam CMD:</value>
+  </data>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Пути</value>
+  </data>
+  <data name="mLblLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="mLblLog.Text" xml:space="preserve">
+    <value>Логгирование:</value>
+  </data>
+  <data name="mTabOther.Text" xml:space="preserve">
+    <value>Разное</value>
   </data>
   <data name="mBtnReset.Text" xml:space="preserve">
     <value>Сбросить</value>

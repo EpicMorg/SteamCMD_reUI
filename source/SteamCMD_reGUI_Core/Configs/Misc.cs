@@ -7,10 +7,16 @@ namespace SteamCMD_reGUI_Core.Configs
         public Misc()
         {
             FirstRun = true;
-            LicensesAccepted = false; 
+            LicensesAccepted = false;
+            Logging = false;
         }
 
         public bool FirstRun
+        {
+            get;
+            set;
+        }
+        public bool Logging
         {
             get;
             set;

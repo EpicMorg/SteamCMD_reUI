@@ -68,13 +68,8 @@ namespace SteamCMD_reGUI_Client.UI
         
         private void timer_Tick(object sender, EventArgs e)
         {
-          
-            _time1 += 1;
-            progressbar.Value = _time1;
-            if ( progressbar.Value != 100 )
-                return;
             timer.Stop();
             Check();
-        }
+        } 
     }
 }

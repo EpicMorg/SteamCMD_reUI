@@ -35,11 +35,11 @@ namespace SteamCMD_reGUI_Client.UI {
         public void LoadConfig() {
             var ch = CoreHandler.Instance.Config;
             var path = ch.Paths;
-            var interf = ch.Interface;
-
+            var interf = ch.Interface; 
             mTxtSTEAMCMD.Text = path.SteamCmdPath;
             mTxtDeafOD.Text = path.DefaultOutputDir;
             mToogleShowSplash.Checked = interf.SplashScreen;
+            mToogleLog.Checked = ch.Misc.Logging;
         }
 
         private bool ValidateInput() {
@@ -61,8 +61,8 @@ namespace SteamCMD_reGUI_Client.UI {
                 return;
             }
 
-            var config = CoreHandler.Instance.Config;
-
+            var config = CoreHandler.Instance.Config; 
+            config.Misc.Logging = mToogleLog.Checked;
             config.Paths.SteamCmdPath = mTxtSTEAMCMD.Text;
             config.Paths.DefaultOutputDir = mTxtDeafOD.Text;
             config.Interface.SplashScreen = mToogleShowSplash.Checked;
@@ -87,6 +87,7 @@ namespace SteamCMD_reGUI_Client.UI {
 
         private void mBtnReset_Click( object sender, EventArgs e ) {
             var config = CoreHandler.Instance.Config;
+            config.Misc.Logging = false;
             config.Interface.Theme = (MetroThemeStyle) mComboAppTheme.SelectedItem;
             config.Interface.Style = (MetroColorStyle) mComboAppStyle.SelectedItem;
             config.Misc.FirstRun = true;
