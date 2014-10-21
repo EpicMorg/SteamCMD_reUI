@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
             this.mBtnSave = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings = new MetroFramework.Controls.MetroTabControl();
@@ -42,24 +41,24 @@
             this.mLblLang = new MetroFramework.Controls.MetroLabel();
             this.mComboLang = new MetroFramework.Controls.MetroComboBox();
             this.mTabPaths = new MetroFramework.Controls.MetroTabPage();
+            this.mBtnDeafOD = new MetroFramework.Controls.MetroButton();
             this.mBtnBrowse = new MetroFramework.Controls.MetroButton();
+            this.mTxtDeafOD = new MetroFramework.Controls.MetroTextBox();
+            this.mLblDeafOD = new MetroFramework.Controls.MetroLabel();
             this.mTxtSTEAMCMD = new MetroFramework.Controls.MetroTextBox();
             this.mLblSTEAMCMD = new MetroFramework.Controls.MetroLabel();
             this.mBtnReset = new MetroFramework.Controls.MetroButton();
             this.fileBrowser = new System.Windows.Forms.OpenFileDialog();
-            this.metroStyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
+            this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             this.mTabsSettings.SuspendLayout();
             this.mTabInterface.SuspendLayout();
             this.mTabPaths.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).BeginInit();
             this.SuspendLayout();
             // 
             // mBtnSave
             // 
             resources.ApplyResources(this.mBtnSave, "mBtnSave");
             this.mBtnSave.Name = "mBtnSave";
-            this.mBtnSave.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mBtnSave.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnSave.UseSelectable = true;
             this.mBtnSave.Click += new System.EventHandler(this.mBtnSave_Click);
             // 
@@ -70,10 +69,9 @@
             this.mTabsSettings.Controls.Add(this.mTabPaths);
             this.mTabsSettings.Multiline = true;
             this.mTabsSettings.Name = "mTabsSettings";
-            this.mTabsSettings.SelectedIndex = 0;
-            this.mTabsSettings.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mTabsSettings.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mTabsSettings.SelectedIndex = 1;
             this.mTabsSettings.UseSelectable = true;
+            this.mTabsSettings.SelectedIndexChanged += new System.EventHandler(this.mTabsSettings_SelectedIndexChanged);
             // 
             // mTabInterface
             // 
@@ -90,11 +88,10 @@
             this.mTabInterface.HorizontalScrollbarSize = 10;
             resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Name = "mTabInterface";
-            this.mTabInterface.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mTabInterface.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTabInterface.VerticalScrollbarBarColor = true;
             this.mTabInterface.VerticalScrollbarHighlightOnWheel = false;
             this.mTabInterface.VerticalScrollbarSize = 10;
+            this.mTabInterface.Click += new System.EventHandler(this.mTabInterface_Click);
             // 
             // mToogleShowSplash
             // 
@@ -102,68 +99,63 @@
             this.mToogleShowSplash.Checked = true;
             this.mToogleShowSplash.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mToogleShowSplash.Name = "mToogleShowSplash";
-            this.mToogleShowSplash.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mToogleShowSplash.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mToogleShowSplash.UseSelectable = true;
+            this.mToogleShowSplash.CheckedChanged += new System.EventHandler(this.mToogleShowSplash_CheckedChanged);
             // 
             // mLblShowSplash
             // 
             resources.ApplyResources(this.mLblShowSplash, "mLblShowSplash");
             this.mLblShowSplash.Name = "mLblShowSplash";
-            this.mLblShowSplash.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mLblShowSplash.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mLblShowSplash.Click += new System.EventHandler(this.mLblShowSplash_Click);
             // 
             // mLblAppStyle
             // 
             resources.ApplyResources(this.mLblAppStyle, "mLblAppStyle");
             this.mLblAppStyle.Name = "mLblAppStyle";
-            this.mLblAppStyle.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mLblAppStyle.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mLblAppStyle.Click += new System.EventHandler(this.mLblAppStyle_Click);
             // 
             // mComboAppStyle
             // 
             this.mComboAppStyle.FormattingEnabled = true;
             resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.Name = "mComboAppStyle";
-            this.mComboAppStyle.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mComboAppStyle.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboAppStyle.UseSelectable = true;
+            this.mComboAppStyle.SelectedIndexChanged += new System.EventHandler(this.mComboAppStyle_SelectedIndexChanged);
             // 
             // mLblAppTheme
             // 
             resources.ApplyResources(this.mLblAppTheme, "mLblAppTheme");
             this.mLblAppTheme.Name = "mLblAppTheme";
-            this.mLblAppTheme.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mLblAppTheme.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mLblAppTheme.Click += new System.EventHandler(this.mLblAppTheme_Click);
             // 
             // mComboAppTheme
             // 
             this.mComboAppTheme.FormattingEnabled = true;
             resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.Name = "mComboAppTheme";
-            this.mComboAppTheme.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mComboAppTheme.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboAppTheme.UseSelectable = true;
+            this.mComboAppTheme.SelectedIndexChanged += new System.EventHandler(this.mComboAppTheme_SelectedIndexChanged);
             // 
             // mLblLang
             // 
             resources.ApplyResources(this.mLblLang, "mLblLang");
             this.mLblLang.Name = "mLblLang";
-            this.mLblLang.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mLblLang.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mLblLang.Click += new System.EventHandler(this.mLblLang_Click);
             // 
             // mComboLang
             // 
             this.mComboLang.FormattingEnabled = true;
             resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.Name = "mComboLang";
-            this.mComboLang.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mComboLang.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mComboLang.UseSelectable = true;
+            this.mComboLang.SelectedIndexChanged += new System.EventHandler(this.mComboLang_SelectedIndexChanged);
             // 
             // mTabPaths
             // 
+            this.mTabPaths.Controls.Add(this.mBtnDeafOD);
             this.mTabPaths.Controls.Add(this.mBtnBrowse);
+            this.mTabPaths.Controls.Add(this.mTxtDeafOD);
+            this.mTabPaths.Controls.Add(this.mLblDeafOD);
             this.mTabPaths.Controls.Add(this.mTxtSTEAMCMD);
             this.mTabPaths.Controls.Add(this.mLblSTEAMCMD);
             this.mTabPaths.HorizontalScrollbarBarColor = true;
@@ -171,20 +163,42 @@
             this.mTabPaths.HorizontalScrollbarSize = 10;
             resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Name = "mTabPaths";
-            this.mTabPaths.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mTabPaths.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTabPaths.VerticalScrollbarBarColor = true;
             this.mTabPaths.VerticalScrollbarHighlightOnWheel = false;
             this.mTabPaths.VerticalScrollbarSize = 10;
+            this.mTabPaths.Click += new System.EventHandler(this.mTabPaths_Click);
+            // 
+            // mBtnDeafOD
+            // 
+            resources.ApplyResources(this.mBtnDeafOD, "mBtnDeafOD");
+            this.mBtnDeafOD.Name = "mBtnDeafOD";
+            this.mBtnDeafOD.UseSelectable = true;
+            this.mBtnDeafOD.Click += new System.EventHandler(this.mBtnDeafOD_Click);
             // 
             // mBtnBrowse
             // 
             resources.ApplyResources(this.mBtnBrowse, "mBtnBrowse");
             this.mBtnBrowse.Name = "mBtnBrowse";
-            this.mBtnBrowse.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mBtnBrowse.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnBrowse.UseSelectable = true;
             this.mBtnBrowse.Click += new System.EventHandler(this.mBtnBrowse_Click);
+            // 
+            // mTxtDeafOD
+            // 
+            this.mTxtDeafOD.Lines = new string[0];
+            resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
+            this.mTxtDeafOD.MaxLength = 32767;
+            this.mTxtDeafOD.Name = "mTxtDeafOD";
+            this.mTxtDeafOD.PasswordChar = '\0';
+            this.mTxtDeafOD.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.mTxtDeafOD.SelectedText = "";
+            this.mTxtDeafOD.UseSelectable = true;
+            this.mTxtDeafOD.Click += new System.EventHandler(this.mTxtSTEAMCMD_Click);
+            // 
+            // mLblDeafOD
+            // 
+            resources.ApplyResources(this.mLblDeafOD, "mLblDeafOD");
+            this.mLblDeafOD.Name = "mLblDeafOD";
+            this.mLblDeafOD.Click += new System.EventHandler(this.mLblSTEAMCMD_Click);
             // 
             // mTxtSTEAMCMD
             // 
@@ -195,35 +209,26 @@
             this.mTxtSTEAMCMD.PasswordChar = '\0';
             this.mTxtSTEAMCMD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSTEAMCMD.SelectedText = "";
-            this.mTxtSTEAMCMD.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mTxtSTEAMCMD.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mTxtSTEAMCMD.UseSelectable = true;
+            this.mTxtSTEAMCMD.Click += new System.EventHandler(this.mTxtSTEAMCMD_Click);
             // 
             // mLblSTEAMCMD
             // 
             resources.ApplyResources(this.mLblSTEAMCMD, "mLblSTEAMCMD");
             this.mLblSTEAMCMD.Name = "mLblSTEAMCMD";
-            this.mLblSTEAMCMD.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mLblSTEAMCMD.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.mLblSTEAMCMD.Click += new System.EventHandler(this.mLblSTEAMCMD_Click);
             // 
             // mBtnReset
             // 
             resources.ApplyResources(this.mBtnReset, "mBtnReset");
             this.mBtnReset.Name = "mBtnReset";
-            this.mBtnReset.Style = MetroFramework.MetroColorStyle.Silver;
-            this.mBtnReset.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.mBtnReset.UseSelectable = true;
             this.mBtnReset.Click += new System.EventHandler(this.mBtnReset_Click);
             // 
             // fileBrowser
             // 
             resources.ApplyResources(this.fileBrowser, "fileBrowser");
-            // 
-            // metroStyleManager
-            // 
-            this.metroStyleManager.Owner = this;
-            this.metroStyleManager.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroStyleManager.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.fileBrowser.FileOk += new System.ComponentModel.CancelEventHandler(this.fileBrowser_FileOk);
             // 
             // FrmSettings
             // 
@@ -236,8 +241,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmSettings";
             this.Resizable = false;
-            this.Style = MetroFramework.MetroColorStyle.Silver;
-            this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSettings_FormClosing);
             this.Load += new System.EventHandler(this.FrmSettings_Load);
             this.mTabsSettings.ResumeLayout(false);
@@ -245,7 +248,6 @@
             this.mTabInterface.PerformLayout();
             this.mTabPaths.ResumeLayout(false);
             this.mTabPaths.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -254,7 +256,6 @@
 
         private MetroFramework.Controls.MetroButton mBtnSave;
         private MetroFramework.Controls.MetroTabControl mTabsSettings;
-        private MetroFramework.Controls.MetroTabPage mTabInterface;
         private MetroFramework.Controls.MetroComboBox mComboLang;
         private MetroFramework.Controls.MetroLabel mLblLang;
         private MetroFramework.Controls.MetroLabel mLblAppStyle;
@@ -269,6 +270,10 @@
         private MetroFramework.Controls.MetroButton mBtnBrowse;
         private MetroFramework.Controls.MetroButton mBtnReset;
         private System.Windows.Forms.OpenFileDialog fileBrowser;
-        public MetroFramework.Components.MetroStyleManager metroStyleManager;
+        public MetroFramework.Controls.MetroTabPage mTabInterface;
+        private MetroFramework.Controls.MetroButton mBtnDeafOD;
+        private MetroFramework.Controls.MetroTextBox mTxtDeafOD;
+        private MetroFramework.Controls.MetroLabel mLblDeafOD;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowser;
     }
 }

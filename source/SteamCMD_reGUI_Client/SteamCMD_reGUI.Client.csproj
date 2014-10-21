@@ -160,6 +160,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\SettableForm.resx">
+      <DependentUpon>SettableForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -186,6 +189,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\splash.png" />
+    <None Include="Resources\GitHub-Mark.png" />
     <Content Include="steam_dark_all.ico" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />
   </ItemGroup>

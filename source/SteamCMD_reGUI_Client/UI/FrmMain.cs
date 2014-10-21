@@ -6,7 +6,7 @@ using SteamCMD_reGUI_Client.LOCALE;
 
 namespace SteamCMD_reGUI_Client.UI
 {
-    public partial class FrmMain : MetroForm
+    public partial class FrmMain : SettableForm
     {
         public FrmMain()
         {
@@ -16,7 +16,7 @@ namespace SteamCMD_reGUI_Client.UI
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            
+            this.Focus();
         }
 
         private void button1_Click( object sender, EventArgs e ) {

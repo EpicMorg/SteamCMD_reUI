@@ -381,6 +381,30 @@
   <data name="&gt;&gt;mTabInterface.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="mBtnDeafOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 82</value>
+  </data>
+  <data name="mBtnDeafOD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="mBtnDeafOD.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mBtnDeafOD.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;mBtnDeafOD.Name" xml:space="preserve">
+    <value>mBtnDeafOD</value>
+  </data>
+  <data name="&gt;&gt;mBtnDeafOD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnDeafOD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mBtnDeafOD.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="mBtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>375, 34</value>
   </data>
@@ -403,7 +427,55 @@
     <value>mTabPaths</value>
   </data>
   <data name="&gt;&gt;mBtnBrowse.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="mTxtDeafOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 82</value>
+  </data>
+  <data name="mTxtDeafOD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 23</value>
+  </data>
+  <data name="mTxtDeafOD.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mTxtDeafOD.Name" xml:space="preserve">
+    <value>mTxtDeafOD</value>
+  </data>
+  <data name="&gt;&gt;mTxtDeafOD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTxtDeafOD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mTxtDeafOD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mLblDeafOD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mLblDeafOD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 60</value>
+  </data>
+  <data name="mLblDeafOD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 19</value>
+  </data>
+  <data name="mLblDeafOD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mLblDeafOD.Text" xml:space="preserve">
+    <value>Default output dir:</value>
+  </data>
+  <data name="&gt;&gt;mLblDeafOD.Name" xml:space="preserve">
+    <value>mLblDeafOD</value>
+  </data>
+  <data name="&gt;&gt;mLblDeafOD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mLblDeafOD.Parent" xml:space="preserve">
+    <value>mTabPaths</value>
+  </data>
+  <data name="&gt;&gt;mLblDeafOD.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="mTxtSTEAMCMD.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 34</value>
@@ -424,7 +496,7 @@
     <value>mTabPaths</value>
   </data>
   <data name="&gt;&gt;mTxtSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="mLblSTEAMCMD.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -451,7 +523,7 @@
     <value>mTabPaths</value>
   </data>
   <data name="&gt;&gt;mLblSTEAMCMD.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="mTabPaths.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 38</value>
@@ -531,8 +603,8 @@
   <data name="fileBrowser.Filter" xml:space="preserve">
     <value>Steam CMD|steamcmd.exe</value>
   </data>
-  <metadata name="metroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>128, 17</value>
+  <metadata name="folderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>110, 13</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -576,11 +648,11 @@
   <data name="&gt;&gt;fileBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;metroStyleManager.Name" xml:space="preserve">
-    <value>metroStyleManager</value>
+  <data name="&gt;&gt;folderBrowser.Name" xml:space="preserve">
+    <value>folderBrowser</value>
   </data>
-  <data name="&gt;&gt;metroStyleManager.Type" xml:space="preserve">
-    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;folderBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmSettings</value>

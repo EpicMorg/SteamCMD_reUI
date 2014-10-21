@@ -7,6 +7,7 @@ namespace SteamCMD_reGUI_Core.Configs
     {
         public Paths() { 
             SteamCmdPath = Path.Combine(Locator.GetExeDir, "steamcmd.exe");
+            DefaultOutputDir = Locator.GetExeDir;
         }
 
         public string SteamCmdPath
@@ -15,8 +16,14 @@ namespace SteamCMD_reGUI_Core.Configs
             set;
         }
 
+        public string DefaultOutputDir
+        {
+            get;
+            set;
+        }
+
         public bool Validate() {
-            return ValidatePath( SteamCmdPath );
+            return ValidatePath(SteamCmdPath) & ValidatePath(DefaultOutputDir);
             
         }
 

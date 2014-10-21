@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLicAccept));
-            this.StyleManager = new MetroFramework.Components.MetroStyleManager(this.components);
             this.mPanelMain = new MetroFramework.Controls.MetroPanel();
             this.mTabsControl = new MetroFramework.Controls.MetroTabControl();
             this.mTabpLic1 = new MetroFramework.Controls.MetroTabPage();
@@ -43,23 +41,16 @@
             this.mBtnAcceptFinal = new MetroFramework.Controls.MetroButton();
             this.mBtnDecline2 = new MetroFramework.Controls.MetroButton();
             this.rTxtLic2 = new System.Windows.Forms.RichTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.StyleManager)).BeginInit();
             this.mPanelMain.SuspendLayout();
             this.mTabsControl.SuspendLayout();
             this.mTabpLic1.SuspendLayout();
             this.mTabpLic2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // StyleManager
-            // 
-            this.StyleManager.Owner = null;
-            this.StyleManager.Style = MetroFramework.MetroColorStyle.Silver;
-            this.StyleManager.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
             // mPanelMain
             // 
-            resources.ApplyResources(this.mPanelMain, "mPanelMain");
             this.mPanelMain.Controls.Add(this.mTabsControl);
+            resources.ApplyResources(this.mPanelMain, "mPanelMain");
             this.mPanelMain.HorizontalScrollbarBarColor = true;
             this.mPanelMain.HorizontalScrollbarHighlightOnWheel = false;
             this.mPanelMain.HorizontalScrollbarSize = 10;
@@ -72,9 +63,9 @@
             // 
             // mTabsControl
             // 
-            resources.ApplyResources(this.mTabsControl, "mTabsControl");
             this.mTabsControl.Controls.Add(this.mTabpLic1);
             this.mTabsControl.Controls.Add(this.mTabpLic2);
+            resources.ApplyResources(this.mTabsControl, "mTabsControl");
             this.mTabsControl.Name = "mTabsControl";
             this.mTabsControl.SelectedIndex = 1;
             this.mTabsControl.Style = MetroFramework.MetroColorStyle.Silver;
@@ -83,7 +74,6 @@
             // 
             // mTabpLic1
             // 
-            resources.ApplyResources(this.mTabpLic1, "mTabpLic1");
             this.mTabpLic1.Controls.Add(this.mBtnPrevNull);
             this.mTabpLic1.Controls.Add(this.mBtnAccept);
             this.mTabpLic1.Controls.Add(this.mBtnDecline);
@@ -91,6 +81,7 @@
             this.mTabpLic1.HorizontalScrollbarBarColor = true;
             this.mTabpLic1.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabpLic1.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabpLic1, "mTabpLic1");
             this.mTabpLic1.Name = "mTabpLic1";
             this.mTabpLic1.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabpLic1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -136,7 +127,6 @@
             // 
             // mTabpLic2
             // 
-            resources.ApplyResources(this.mTabpLic2, "mTabpLic2");
             this.mTabpLic2.Controls.Add(this.mBtnPrev);
             this.mTabpLic2.Controls.Add(this.mBtnAcceptFinal);
             this.mTabpLic2.Controls.Add(this.mBtnDecline2);
@@ -144,6 +134,7 @@
             this.mTabpLic2.HorizontalScrollbarBarColor = true;
             this.mTabpLic2.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabpLic2.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabpLic2, "mTabpLic2");
             this.mTabpLic2.Name = "mTabpLic2";
             this.mTabpLic2.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabpLic2.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -199,7 +190,6 @@
             this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.FrmLicAccept_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.StyleManager)).EndInit();
             this.mPanelMain.ResumeLayout(false);
             this.mTabsControl.ResumeLayout(false);
             this.mTabpLic1.ResumeLayout(false);
@@ -210,7 +200,6 @@
 
         #endregion
 
-        private MetroFramework.Components.MetroStyleManager StyleManager;
         private MetroFramework.Controls.MetroPanel mPanelMain;
         private MetroFramework.Controls.MetroButton mBtnAccept;
         private MetroFramework.Controls.MetroButton mBtnDecline;

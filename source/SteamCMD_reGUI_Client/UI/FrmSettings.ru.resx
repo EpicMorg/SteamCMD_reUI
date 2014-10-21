@@ -151,8 +151,17 @@
   <data name="mTabPaths.Text" xml:space="preserve">
     <value>Пути</value>
   </data>
+  <data name="mBtnDeafOD.Text" xml:space="preserve">
+    <value>Обзор</value>
+  </data>
   <data name="mBtnBrowse.Text" xml:space="preserve">
     <value>Обзор</value>
+  </data>
+  <data name="mLblDeafOD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="mLblDeafOD.Text" xml:space="preserve">
+    <value>Исходящая папка:</value>
   </data>
   <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 19</value>

@@ -7,7 +7,7 @@ using SteamCMD_reGUI_Client.WRAPPER;
 
 namespace SteamCMD_reGUI_Client.UI
 {
-    public partial class FrmLicAccept :   MetroForm
+    public partial class FrmLicAccept : MetroForm
     {
          public FrmLicAccept()
         {
