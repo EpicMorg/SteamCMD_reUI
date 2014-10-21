@@ -1,26 +1,21 @@
 ﻿using System.Xml.Serialization;
+using MetroFramework;
 
 namespace SteamCMD_reGUI_Core.Configs
 {
     public class Theme
     {
-        public Theme()
+        public Theme() { }
+        public Theme(MetroThemeStyle theme = MetroThemeStyle.Dark)
         {
-            ThemeName = "Dark";
-            ThemeCode = "MetroThemeStyle.Dark";
+            ThemeCode = theme;
         }
         [XmlAttribute]
-        public string ThemeName
+        public MetroThemeStyle ThemeCode
         {
             get;
             set;
         }
-        [XmlAttribute]
-        public string ThemeCode
-        {
-            get;
-            set;
-        }
-        public override string ToString() { return this.ThemeName; }
+        public override string ToString() { return this.ThemeCode.ToString(); }
     }
 }

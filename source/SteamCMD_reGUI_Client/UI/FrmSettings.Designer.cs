@@ -124,9 +124,6 @@
             // 
             this.mComboAppStyle.FormattingEnabled = true;
             resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
-            this.mComboAppStyle.Items.AddRange(new object[] {
-            resources.GetString("mComboAppStyle.Items"),
-            resources.GetString("mComboAppStyle.Items1")});
             this.mComboAppStyle.Name = "mComboAppStyle";
             this.mComboAppStyle.Style = MetroFramework.MetroColorStyle.Silver;
             this.mComboAppStyle.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -141,11 +138,8 @@
             // 
             // mComboAppTheme
             // 
-            resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.FormattingEnabled = true;
-            this.mComboAppTheme.Items.AddRange(new object[] {
-            resources.GetString("mComboAppTheme.Items"),
-            resources.GetString("mComboAppTheme.Items1")});
+            resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.Name = "mComboAppTheme";
             this.mComboAppTheme.Style = MetroFramework.MetroColorStyle.Silver;
             this.mComboAppTheme.Theme = MetroFramework.MetroThemeStyle.Dark;

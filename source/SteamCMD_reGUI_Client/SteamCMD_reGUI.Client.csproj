@@ -122,6 +122,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="UI\SettableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="WRAPPER\CoreHandler.cs" />
     <EmbeddedResource Include="LOCALE\Strings.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>

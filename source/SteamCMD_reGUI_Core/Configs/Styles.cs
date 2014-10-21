@@ -1,25 +1,22 @@
 ﻿using System.Xml.Serialization;
+using MetroFramework;
 
 namespace SteamCMD_reGUI_Core.Configs
 {
     public class Style
-    { 
-        public Style() {
-            StyleName = "Sylver";
-            StyleCode = "MetroColorStyle.Silver";
-        }
-       [XmlAttribute]
-        public string StyleName
+    {
+        public Style() { }
+
+        public Style(MetroColorStyle style = MetroColorStyle.Silver)
         {
-            get;
-            set;
+            StyleCode = style;
         }
         [XmlAttribute]
-        public string StyleCode
+        public MetroColorStyle StyleCode
         {
             get;
             set;
         }
-        public override string ToString() { return this.StyleName; }
+        public override string ToString() { return this.StyleCode.ToString(); }
     }
 }

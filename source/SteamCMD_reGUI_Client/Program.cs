@@ -3,46 +3,33 @@ using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 using SteamCMD_reGUI_Client.UI;
-using SteamCMD_reGUI_Client.WRAPPER; 
+using SteamCMD_reGUI_Client.WRAPPER;
 
-namespace SteamCMD_reGUI_Client
-{
-    static class Program
-    { 
+namespace SteamCMD_reGUI_Client {
+    internal static class Program {
         [STAThread]
-        static void Main() { 
+        private static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            if ( !CoreHandler.Instance.Config.Interface.SplashScreen ) {
-                CheckIt();
-            }
-            else {
-                Application.Run(new FrmSplashScreen());
-            }
             LoadLocale();
-        } 
-
-        public static void CheckIt()
-        {
-             if ( !CoreHandler.Instance.Config.Misc.LicensesAccepted ) {
-                Application.Run(new FrmLicAccept());
-            }
-            else {
-                if (CoreHandler.Instance.Config.Misc.FirstRun ) {
-                        Application.Run(new FrmSettings()); 
-                }
-                else { 
-                Application.Run(new FrmMain());
-                } 
-            }
+            if ( !CoreHandler.Instance.Config.Interface.SplashScreen )
+                CheckIt();
+            else
+                Application.Run( new FrmSplashScreen() );
         }
-       
-        private static void LoadLocale()
-        {
+
+        public static void CheckIt() {
+            if ( CoreHandler.Instance.Config.Misc.LicensesAccepted )
+                Application.Run( CoreHandler.Instance.Config.Misc.FirstRun ? new FrmSettings() : (Form) new FrmMain() );
+            else
+                Application.Run( new FrmLicAccept() );
+        }
+
+        private static void LoadLocale() {
             var loc = CoreHandler.Instance.Config.Interface.InterfaceLang;
-            if (String.IsNullOrEmpty(loc))
+            if ( String.IsNullOrEmpty( loc ) )
                 return;
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(loc);
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo( loc );
         }
     }
 }
