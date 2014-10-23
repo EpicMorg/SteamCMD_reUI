@@ -152,6 +152,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmMain.ru.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,7 +196,16 @@
     <Content Include="LICENSES\ModernMetroUIFramework.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="steam_light_128.png" />
     <None Include="Resources\splash.png" />
+    <None Include="steam_dark_128.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.social.github.octocat.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.social.github.octocat.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.nyan.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.nyan.png" />
+    <Content Include="LICENSES\WindowsIcons.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="steam_dark_all.ico" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />
   </ItemGroup>

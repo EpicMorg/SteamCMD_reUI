@@ -29,6 +29,14 @@ namespace SteamCMD_reGUI_Client.UI {
                 this.MetroMessageBox( "" + ex2, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
                 rTxtLic1.Text = @"File Not Found!";
             }
+            var lic3 = path + @"//LICENSES//WindowsIcons.txt";
+            try {
+                rTxtLic3.Text = File.ReadAllText( lic3 );
+            }
+            catch ( Exception ex3 ) {
+                this.MetroMessageBox( "" + ex3, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                rTxtLic3.Text = @"File Not Found!";
+            }
         }
 
         private void Exterinate() { Application.Exit(); }
@@ -53,5 +61,11 @@ namespace SteamCMD_reGUI_Client.UI {
             i.SaveConfig();
             Application.Restart();
         }
+
+        private void mBtnAcceptMUF_Click( object sender, EventArgs e ) { mTabsControl.SelectTab( mTabpLic3 ); }
+
+        private void mBtnPrev2_Click( object sender, EventArgs e ) { mTabsControl.SelectTab( mTabpLic2 ); }
+
+        private void mBtnDecline3_Click( object sender, EventArgs e ) { Exterinate(); }
     }
 }

@@ -18,7 +18,7 @@ namespace SteamCMD_reGUI_Client.UI
         }
 
         #region
-        private static string AssemblyVersion
+        public static string AssemblyVersion
         {
             get
             {
@@ -26,7 +26,7 @@ namespace SteamCMD_reGUI_Client.UI
             }
         }
 
-        private static string AssemblyProduct
+        public static string AssemblyProduct
         {
             get
             {
