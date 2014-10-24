@@ -159,6 +159,12 @@
   <data name="sRussian" xml:space="preserve">
     <value>Русский</value>
   </data>
+  <data name="sStartP" xml:space="preserve">
+    <value>Запуск</value>
+  </data>
+  <data name="sStopP" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
   <data name="sUnpacking" xml:space="preserve">
     <value>Распаковка...</value>
   </data>

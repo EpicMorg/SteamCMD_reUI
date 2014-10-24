@@ -18,7 +18,6 @@ namespace SteamCMD_reGUI_Client.UI {
                 this.Close();
             else {
                 var steamCmdPathfull = saveFileDialog.FileName;
-                //var steamCmdPathfull = Path.Combine( Path.GetDirectoryName( CoreHandler.Instance.Config.Paths.SteamCmdPath ), "steamcmd.zip" ); 
                 try {
                     var webClient = new WebClient();
                     webClient.DownloadFileCompleted += Completed;
@@ -41,8 +40,6 @@ namespace SteamCMD_reGUI_Client.UI {
 
         private void Unpack() {
             this.Text = Strings.sUnpacking;
-            //var ch = CoreHandler.Instance.Config.Paths.SteamCmdPath;
-            //var steamCmdPathZip = ch.Replace("steamcmd.exe", "steamcmd.zip");
             var zipfile = saveFileDialog.FileName;
             var targetpath = Path.GetDirectoryName( zipfile );
             if ( File.Exists( zipfile ) ) {

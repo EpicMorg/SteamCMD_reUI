@@ -22,10 +22,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            this.button1 = new System.Windows.Forms.Button();
             this.mTabsMain = new MetroFramework.Controls.MetroTabControl();
             this.mTabMain = new MetroFramework.Controls.MetroTabPage();
-            this.button3 = new System.Windows.Forms.Button();
+            this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
+            this.mToggleValidate = new MetroFramework.Controls.MetroToggle();
+            this.mTileProcess = new MetroFramework.Controls.MetroTile();
+            this.mLblValidate = new MetroFramework.Controls.MetroLabel();
+            this.mLblServer = new MetroFramework.Controls.MetroLabel();
+            this.mPanelLogin = new MetroFramework.Controls.MetroPanel();
+            this.mTxtPassword = new MetroFramework.Controls.MetroTextBox();
+            this.mTxtLogin = new MetroFramework.Controls.MetroTextBox();
+            this.mLblPassword = new MetroFramework.Controls.MetroLabel();
+            this.mLblLogin = new MetroFramework.Controls.MetroLabel();
+            this.mComboServers = new MetroFramework.Controls.MetroComboBox();
+            this.mTileAbout = new MetroFramework.Controls.MetroTile();
+            this.mTileSettings = new MetroFramework.Controls.MetroTile();
+            this.mTileConsole = new MetroFramework.Controls.MetroTile();
             this.mTabConsole = new MetroFramework.Controls.MetroTabPage();
             this.mTxtConLog = new MetroFramework.Controls.MetroTextBox();
             this.mTabAbout = new MetroFramework.Controls.MetroTabPage();
@@ -44,6 +56,7 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.mTabsMain.SuspendLayout();
             this.mTabMain.SuspendLayout();
+            this.mPanelLogin.SuspendLayout();
             this.mTabConsole.SuspendLayout();
             this.mTabAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAbout)).BeginInit();
@@ -51,51 +64,166 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // mTabsMain
             // 
-            resources.ApplyResources(this.mTabsMain, "mTabsMain");
             this.mTabsMain.Controls.Add(this.mTabMain);
             this.mTabsMain.Controls.Add(this.mTabConsole);
             this.mTabsMain.Controls.Add(this.mTabAbout);
+            resources.ApplyResources(this.mTabsMain, "mTabsMain");
             this.mTabsMain.Name = "mTabsMain";
-            this.mTabsMain.SelectedIndex = 2;
+            this.mTabsMain.SelectedIndex = 0;
             this.mTabsMain.UseSelectable = true;
             // 
             // mTabMain
             // 
-            resources.ApplyResources(this.mTabMain, "mTabMain");
-            this.mTabMain.Controls.Add(this.button3);
-            this.mTabMain.Controls.Add(this.button1);
+            this.mTabMain.Controls.Add(this.metroProgressBar1);
+            this.mTabMain.Controls.Add(this.mToggleValidate);
+            this.mTabMain.Controls.Add(this.mTileProcess);
+            this.mTabMain.Controls.Add(this.mLblValidate);
+            this.mTabMain.Controls.Add(this.mLblServer);
+            this.mTabMain.Controls.Add(this.mPanelLogin);
+            this.mTabMain.Controls.Add(this.mComboServers);
+            this.mTabMain.Controls.Add(this.mTileAbout);
+            this.mTabMain.Controls.Add(this.mTileSettings);
+            this.mTabMain.Controls.Add(this.mTileConsole);
             this.mTabMain.HorizontalScrollbarBarColor = true;
             this.mTabMain.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabMain.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabMain, "mTabMain");
             this.mTabMain.Name = "mTabMain";
             this.mTabMain.VerticalScrollbarBarColor = true;
             this.mTabMain.VerticalScrollbarHighlightOnWheel = false;
             this.mTabMain.VerticalScrollbarSize = 10;
             this.mTabMain.Click += new System.EventHandler(this.mTabMain_Click);
             // 
-            // button3
+            // metroProgressBar1
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            resources.ApplyResources(this.metroProgressBar1, "metroProgressBar1");
+            this.metroProgressBar1.Name = "metroProgressBar1";
+            // 
+            // mToggleValidate
+            // 
+            resources.ApplyResources(this.mToggleValidate, "mToggleValidate");
+            this.mToggleValidate.Checked = true;
+            this.mToggleValidate.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.mToggleValidate.Name = "mToggleValidate";
+            this.mToggleValidate.UseSelectable = true;
+            // 
+            // mTileProcess
+            // 
+            this.mTileProcess.ActiveControl = null;
+            resources.ApplyResources(this.mTileProcess, "mTileProcess");
+            this.mTileProcess.Name = "mTileProcess";
+            this.mTileProcess.TileImage = global::SteamCMD_reGUI_Client.Properties.Resources.start_dark;
+            this.mTileProcess.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.mTileProcess.UseSelectable = true;
+            this.mTileProcess.UseTileImage = true;
+            this.mTileProcess.Click += new System.EventHandler(this.mTileProcess_Click);
+            // 
+            // mLblValidate
+            // 
+            resources.ApplyResources(this.mLblValidate, "mLblValidate");
+            this.mLblValidate.Name = "mLblValidate";
+            // 
+            // mLblServer
+            // 
+            resources.ApplyResources(this.mLblServer, "mLblServer");
+            this.mLblServer.Name = "mLblServer";
+            // 
+            // mPanelLogin
+            // 
+            resources.ApplyResources(this.mPanelLogin, "mPanelLogin");
+            this.mPanelLogin.Controls.Add(this.mTxtPassword);
+            this.mPanelLogin.Controls.Add(this.mTxtLogin);
+            this.mPanelLogin.Controls.Add(this.mLblPassword);
+            this.mPanelLogin.Controls.Add(this.mLblLogin);
+            this.mPanelLogin.HorizontalScrollbarBarColor = true;
+            this.mPanelLogin.HorizontalScrollbarHighlightOnWheel = false;
+            this.mPanelLogin.HorizontalScrollbarSize = 10;
+            this.mPanelLogin.Name = "mPanelLogin";
+            this.mPanelLogin.VerticalScrollbarBarColor = true;
+            this.mPanelLogin.VerticalScrollbarHighlightOnWheel = false;
+            this.mPanelLogin.VerticalScrollbarSize = 10;
+            // 
+            // mTxtPassword
+            // 
+            resources.ApplyResources(this.mTxtPassword, "mTxtPassword");
+            this.mTxtPassword.Lines = new string[0];
+            this.mTxtPassword.MaxLength = 32767;
+            this.mTxtPassword.Name = "mTxtPassword";
+            this.mTxtPassword.PasswordChar = '*';
+            this.mTxtPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.mTxtPassword.SelectedText = "";
+            this.mTxtPassword.UseSelectable = true;
+            // 
+            // mTxtLogin
+            // 
+            resources.ApplyResources(this.mTxtLogin, "mTxtLogin");
+            this.mTxtLogin.Lines = new string[0];
+            this.mTxtLogin.MaxLength = 32767;
+            this.mTxtLogin.Name = "mTxtLogin";
+            this.mTxtLogin.PasswordChar = '\0';
+            this.mTxtLogin.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.mTxtLogin.SelectedText = "";
+            this.mTxtLogin.UseSelectable = true;
+            // 
+            // mLblPassword
+            // 
+            resources.ApplyResources(this.mLblPassword, "mLblPassword");
+            this.mLblPassword.Name = "mLblPassword";
+            // 
+            // mLblLogin
+            // 
+            resources.ApplyResources(this.mLblLogin, "mLblLogin");
+            this.mLblLogin.Name = "mLblLogin";
+            // 
+            // mComboServers
+            // 
+            resources.ApplyResources(this.mComboServers, "mComboServers");
+            this.mComboServers.FormattingEnabled = true;
+            this.mComboServers.Name = "mComboServers";
+            this.mComboServers.UseSelectable = true;
+            // 
+            // mTileAbout
+            // 
+            this.mTileAbout.ActiveControl = null;
+            resources.ApplyResources(this.mTileAbout, "mTileAbout");
+            this.mTileAbout.Name = "mTileAbout";
+            this.mTileAbout.TileImage = global::SteamCMD_reGUI_Client.Properties.Resources.nyan_dark;
+            this.mTileAbout.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.mTileAbout.UseSelectable = true;
+            this.mTileAbout.UseTileImage = true;
+            this.mTileAbout.Click += new System.EventHandler(this.mTileAbout_Click);
+            // 
+            // mTileSettings
+            // 
+            this.mTileSettings.ActiveControl = null;
+            resources.ApplyResources(this.mTileSettings, "mTileSettings");
+            this.mTileSettings.Name = "mTileSettings";
+            this.mTileSettings.TileImage = global::SteamCMD_reGUI_Client.Properties.Resources.setings_dark;
+            this.mTileSettings.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.mTileSettings.UseSelectable = true;
+            this.mTileSettings.UseTileImage = true;
+            this.mTileSettings.Click += new System.EventHandler(this.mTileSettings_Click);
+            // 
+            // mTileConsole
+            // 
+            this.mTileConsole.ActiveControl = null;
+            resources.ApplyResources(this.mTileConsole, "mTileConsole");
+            this.mTileConsole.Name = "mTileConsole";
+            this.mTileConsole.TileImage = global::SteamCMD_reGUI_Client.Properties.Resources.console_dark;
+            this.mTileConsole.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.mTileConsole.UseSelectable = true;
+            this.mTileConsole.UseTileImage = true;
+            this.mTileConsole.Click += new System.EventHandler(this.mTileConsole_Click);
             // 
             // mTabConsole
             // 
-            resources.ApplyResources(this.mTabConsole, "mTabConsole");
             this.mTabConsole.Controls.Add(this.mTxtConLog);
             this.mTabConsole.HorizontalScrollbarBarColor = true;
             this.mTabConsole.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabConsole.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabConsole, "mTabConsole");
             this.mTabConsole.Name = "mTabConsole";
             this.mTabConsole.VerticalScrollbarBarColor = true;
             this.mTabConsole.VerticalScrollbarHighlightOnWheel = false;
@@ -116,7 +244,6 @@
             // 
             // mTabAbout
             // 
-            resources.ApplyResources(this.mTabAbout, "mTabAbout");
             this.mTabAbout.Controls.Add(this.mLnkMF);
             this.mTabAbout.Controls.Add(this.mLnkMIC);
             this.mTabAbout.Controls.Add(this.mLnkRG);
@@ -133,6 +260,7 @@
             this.mTabAbout.HorizontalScrollbarBarColor = true;
             this.mTabAbout.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabAbout.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabAbout, "mTabAbout");
             this.mTabAbout.Name = "mTabAbout";
             this.mTabAbout.VerticalScrollbarBarColor = true;
             this.mTabAbout.VerticalScrollbarHighlightOnWheel = false;
@@ -211,25 +339,25 @@
             // 
             // picAbout
             // 
-            resources.ApplyResources(this.picAbout, "picAbout");
             this.picAbout.BackColor = System.Drawing.Color.Transparent;
             this.picAbout.Image = global::SteamCMD_reGUI_Client.Properties.Resources.nyan_dark;
+            resources.ApplyResources(this.picAbout, "picAbout");
             this.picAbout.Name = "picAbout";
             this.picAbout.TabStop = false;
             // 
             // picMF
             // 
-            resources.ApplyResources(this.picMF, "picMF");
             this.picMF.BackColor = System.Drawing.Color.Transparent;
             this.picMF.Image = global::SteamCMD_reGUI_Client.Properties.Resources.github_octocat_dark;
+            resources.ApplyResources(this.picMF, "picMF");
             this.picMF.Name = "picMF";
             this.picMF.TabStop = false;
             // 
             // picLogo
             // 
-            resources.ApplyResources(this.picLogo, "picLogo");
             this.picLogo.BackColor = System.Drawing.Color.Transparent;
             this.picLogo.Image = global::SteamCMD_reGUI_Client.Properties.Resources.steam_dark_128;
+            resources.ApplyResources(this.picLogo, "picLogo");
             this.picLogo.Name = "picLogo";
             this.picLogo.TabStop = false;
             // 
@@ -244,6 +372,9 @@
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.mTabsMain.ResumeLayout(false);
             this.mTabMain.ResumeLayout(false);
+            this.mTabMain.PerformLayout();
+            this.mPanelLogin.ResumeLayout(false);
+            this.mPanelLogin.PerformLayout();
             this.mTabConsole.ResumeLayout(false);
             this.mTabAbout.ResumeLayout(false);
             this.mTabAbout.PerformLayout();
@@ -256,10 +387,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         private MetroFramework.Controls.MetroTabControl mTabsMain;
-        private MetroFramework.Controls.MetroTabPage mTabMain; 
-        private System.Windows.Forms.Button button3;
+        private MetroFramework.Controls.MetroTabPage mTabMain;
         private MetroFramework.Controls.MetroTabPage mTabConsole;
         private MetroFramework.Controls.MetroTabPage mTabAbout;
         private MetroFramework.Controls.MetroTextBox mTxtConLog;
@@ -276,6 +405,20 @@
         private MetroFramework.Controls.MetroLink mLnkMIC;
         private MetroFramework.Controls.MetroLabel mLblKASTHACK;
         private MetroFramework.Controls.MetroLabel mLblSTAM;
+        private MetroFramework.Controls.MetroTile mTileAbout;
+        private MetroFramework.Controls.MetroTile mTileSettings;
+        private MetroFramework.Controls.MetroTile mTileConsole;
+        private MetroFramework.Controls.MetroComboBox mComboServers;
+        private MetroFramework.Controls.MetroLabel mLblServer;
+        private MetroFramework.Controls.MetroPanel mPanelLogin;
+        private MetroFramework.Controls.MetroLabel mLblLogin;
+        private MetroFramework.Controls.MetroTextBox mTxtPassword;
+        private MetroFramework.Controls.MetroTextBox mTxtLogin;
+        private MetroFramework.Controls.MetroLabel mLblPassword;
+        private MetroFramework.Controls.MetroTile mTileProcess;
+        private MetroFramework.Controls.MetroLabel mLblValidate;
+        private MetroFramework.Controls.MetroToggle mToggleValidate;
+        private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
 
 
 

@@ -187,6 +187,24 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Start.
+        /// </summary>
+        internal static string sStartP {
+            get {
+                return ResourceManager.GetString("sStartP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Stop.
+        /// </summary>
+        internal static string sStopP {
+            get {
+                return ResourceManager.GetString("sStopP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Unpacking....
         /// </summary>
         internal static string sUnpacking {
