@@ -30,12 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDownloader));
             this.metroProgressBar = new MetroFramework.Controls.MetroProgressBar();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // metroProgressBar
             // 
             resources.ApplyResources(this.metroProgressBar, "metroProgressBar");
             this.metroProgressBar.Name = "metroProgressBar";
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.FileName = "steamcmd.zip";
+            resources.ApplyResources(this.saveFileDialog, "saveFileDialog");
             // 
             // FrmDownloader
             // 
@@ -55,6 +61,7 @@
         #endregion
 
         private MetroFramework.Controls.MetroProgressBar metroProgressBar;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
 
     }
 }
