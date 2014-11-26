@@ -183,6 +183,7 @@
             this.mComboServers.FormattingEnabled = true;
             this.mComboServers.Name = "mComboServers";
             this.mComboServers.UseSelectable = true;
+            this.mComboServers.SelectedIndexChanged += new System.EventHandler(this.mComboServers_SelectedIndexChanged);
             // 
             // mTileAbout
             // 

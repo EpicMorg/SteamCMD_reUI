@@ -14,9 +14,7 @@ namespace SteamCMD_reGUI_Client.UI {
             InitializeComponent();
             var iface = CoreHandler.Instance.Config.Interface;
             mTabsSettings.SelectTab( mTabInterface );
-            var langs = new[] {
-                "en-US", "ru-RU"
-            }.Select( a => new Langs( a ) ).ToArray();
+            var langs = new[] { "en-US", "ru-RU" }.Select( a => new Langs( a ) ).ToArray();
             mComboLang.Items.AddRange( langs );
             mComboAppStyle.Items.AddRange( Enum.GetValues( typeof( MetroColorStyle ) ).OfType<object>().ToArray() );
             mComboAppTheme.Items.AddRange( Enum.GetValues( typeof( MetroThemeStyle ) ).OfType<object>().ToArray() );
@@ -27,7 +25,7 @@ namespace SteamCMD_reGUI_Client.UI {
 
         private void FrmSettings_Load( object sender, EventArgs e ) {
             LoadConfig();
-            this.Focus();
+            Focus();
         }
 
         // ReSharper disable once MemberCanBePrivate.Global
@@ -65,14 +63,12 @@ namespace SteamCMD_reGUI_Client.UI {
                 error = Strings.sError;
             }
             if ( !ok )
-                this.MetroMessageBox( Strings.sError, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error );
+                this.MetroMessageBox( error, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error );
             return ok;
         }
 
         private void mBtnSave_Click( object sender, EventArgs e ) {
-            if ( !AlertOnBadConfig() )
-                return;
-
+            if ( !AlertOnBadConfig() ) return;
             var config = CoreHandler.Instance.Config;
             config.Misc.Logging = mToogleLog.Checked;
             config.Paths.SteamCmdPath = mTxtSTEAMCMD.Text;
@@ -115,34 +111,6 @@ namespace SteamCMD_reGUI_Client.UI {
                 return;
             mTxtSTEAMCMD.Text = fileBrowser.FileName;
         }
-
-        private void mTabsSettings_SelectedIndexChanged( object sender, EventArgs e ) { }
-
-        private void mTabInterface_Click( object sender, EventArgs e ) { }
-
-        private void mToogleShowSplash_CheckedChanged( object sender, EventArgs e ) { }
-
-        private void mLblShowSplash_Click( object sender, EventArgs e ) { }
-
-        private void mLblAppStyle_Click( object sender, EventArgs e ) { }
-
-        private void mComboAppStyle_SelectedIndexChanged( object sender, EventArgs e ) { }
-
-        private void mLblAppTheme_Click( object sender, EventArgs e ) { }
-
-        private void mComboAppTheme_SelectedIndexChanged( object sender, EventArgs e ) { }
-
-        private void mLblLang_Click( object sender, EventArgs e ) { }
-
-        private void mComboLang_SelectedIndexChanged( object sender, EventArgs e ) { }
-
-        private void mTabPaths_Click( object sender, EventArgs e ) { }
-
-        private void mTxtSTEAMCMD_Click( object sender, EventArgs e ) { }
-
-        private void mLblSTEAMCMD_Click( object sender, EventArgs e ) { }
-
-        private void fileBrowser_FileOk( object sender, System.ComponentModel.CancelEventArgs e ) { }
 
         private void mBtnDeafOD_Click( object sender, EventArgs e ) {
             if ( folderBrowser.ShowDialog() != DialogResult.OK )

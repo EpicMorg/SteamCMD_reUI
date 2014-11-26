@@ -76,7 +76,6 @@
             this.mTabsSettings.Name = "mTabsSettings";
             this.mTabsSettings.SelectedIndex = 2;
             this.mTabsSettings.UseSelectable = true;
-            this.mTabsSettings.SelectedIndexChanged += new System.EventHandler(this.mTabsSettings_SelectedIndexChanged);
             // 
             // mTabInterface
             // 
@@ -96,7 +95,6 @@
             this.mTabInterface.VerticalScrollbarBarColor = true;
             this.mTabInterface.VerticalScrollbarHighlightOnWheel = false;
             this.mTabInterface.VerticalScrollbarSize = 10;
-            this.mTabInterface.Click += new System.EventHandler(this.mTabInterface_Click);
             // 
             // mToogleShowSplash
             // 
@@ -105,19 +103,16 @@
             this.mToogleShowSplash.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mToogleShowSplash.Name = "mToogleShowSplash";
             this.mToogleShowSplash.UseSelectable = true;
-            this.mToogleShowSplash.CheckedChanged += new System.EventHandler(this.mToogleShowSplash_CheckedChanged);
             // 
             // mLblShowSplash
             // 
             resources.ApplyResources(this.mLblShowSplash, "mLblShowSplash");
             this.mLblShowSplash.Name = "mLblShowSplash";
-            this.mLblShowSplash.Click += new System.EventHandler(this.mLblShowSplash_Click);
             // 
             // mLblAppStyle
             // 
             resources.ApplyResources(this.mLblAppStyle, "mLblAppStyle");
             this.mLblAppStyle.Name = "mLblAppStyle";
-            this.mLblAppStyle.Click += new System.EventHandler(this.mLblAppStyle_Click);
             // 
             // mComboAppStyle
             // 
@@ -125,13 +120,11 @@
             resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.Name = "mComboAppStyle";
             this.mComboAppStyle.UseSelectable = true;
-            this.mComboAppStyle.SelectedIndexChanged += new System.EventHandler(this.mComboAppStyle_SelectedIndexChanged);
             // 
             // mLblAppTheme
             // 
             resources.ApplyResources(this.mLblAppTheme, "mLblAppTheme");
             this.mLblAppTheme.Name = "mLblAppTheme";
-            this.mLblAppTheme.Click += new System.EventHandler(this.mLblAppTheme_Click);
             // 
             // mComboAppTheme
             // 
@@ -139,13 +132,11 @@
             resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.Name = "mComboAppTheme";
             this.mComboAppTheme.UseSelectable = true;
-            this.mComboAppTheme.SelectedIndexChanged += new System.EventHandler(this.mComboAppTheme_SelectedIndexChanged);
             // 
             // mLblLang
             // 
             resources.ApplyResources(this.mLblLang, "mLblLang");
             this.mLblLang.Name = "mLblLang";
-            this.mLblLang.Click += new System.EventHandler(this.mLblLang_Click);
             // 
             // mComboLang
             // 
@@ -153,7 +144,6 @@
             resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.Name = "mComboLang";
             this.mComboLang.UseSelectable = true;
-            this.mComboLang.SelectedIndexChanged += new System.EventHandler(this.mComboLang_SelectedIndexChanged);
             // 
             // mTabPaths
             // 
@@ -171,7 +161,6 @@
             this.mTabPaths.VerticalScrollbarBarColor = true;
             this.mTabPaths.VerticalScrollbarHighlightOnWheel = false;
             this.mTabPaths.VerticalScrollbarSize = 10;
-            this.mTabPaths.Click += new System.EventHandler(this.mTabPaths_Click);
             // 
             // mBtnDeafOD
             // 
@@ -193,17 +182,14 @@
             resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
             this.mTxtDeafOD.MaxLength = 32767;
             this.mTxtDeafOD.Name = "mTxtDeafOD";
-            this.mTxtDeafOD.PasswordChar = '\0';
             this.mTxtDeafOD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtDeafOD.SelectedText = "";
             this.mTxtDeafOD.UseSelectable = true;
-            this.mTxtDeafOD.Click += new System.EventHandler(this.mTxtSTEAMCMD_Click);
             // 
             // mLblDeafOD
             // 
             resources.ApplyResources(this.mLblDeafOD, "mLblDeafOD");
             this.mLblDeafOD.Name = "mLblDeafOD";
-            this.mLblDeafOD.Click += new System.EventHandler(this.mLblSTEAMCMD_Click);
             // 
             // mTxtSTEAMCMD
             // 
@@ -211,17 +197,14 @@
             resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.MaxLength = 32767;
             this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD";
-            this.mTxtSTEAMCMD.PasswordChar = '\0';
             this.mTxtSTEAMCMD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSTEAMCMD.SelectedText = "";
             this.mTxtSTEAMCMD.UseSelectable = true;
-            this.mTxtSTEAMCMD.Click += new System.EventHandler(this.mTxtSTEAMCMD_Click);
             // 
             // mLblSTEAMCMD
             // 
             resources.ApplyResources(this.mLblSTEAMCMD, "mLblSTEAMCMD");
             this.mLblSTEAMCMD.Name = "mLblSTEAMCMD";
-            this.mLblSTEAMCMD.Click += new System.EventHandler(this.mLblSTEAMCMD_Click);
             // 
             // mTabOther
             // 
@@ -259,7 +242,6 @@
             // fileBrowser
             // 
             resources.ApplyResources(this.fileBrowser, "fileBrowser");
-            this.fileBrowser.FileOk += new System.ComponentModel.CancelEventHandler(this.fileBrowser_FileOk);
             // 
             // FrmSettings
             // 

@@ -17,6 +17,6 @@ namespace SteamCMD_reGUI_Core.Configs
             get;
             set;
         }
-        public override string ToString() { return this.StyleCode.ToString(); }
+        public override string ToString() => StyleCode.ToString();
     }
 }

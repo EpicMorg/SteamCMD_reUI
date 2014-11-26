@@ -33,15 +33,11 @@ namespace SteamCMD_reGUI_Core.Configs {
             set;
         }
          
-        public void Save( string path ) { 
-            Formatter<Config>.Serialize( path,this );
-        }
+        public void Save( string path ) => Formatter<Config>.Serialize( path,this );
 
-        public static Config Load( string path ) {
-            return Formatter<Config>.Deserialize(path)??new Config();
-        }
+        public static Config Load( string path ) => Formatter<Config>.Deserialize(path)??new Config();
 
-        public bool Validate() { return Paths.Validate() && Misc.Validate() && Interface.Validate(); }
+        public bool Validate() => Paths.Validate() && Misc.Validate() && Interface.Validate();
     }
 
 }

@@ -28,6 +28,6 @@ namespace SteamCMD_reGUI_Core.Configs
             set;
         }
 
-        public bool Validate() { return true; }
+        public bool Validate() => true;
     }
 }

@@ -1,5 +1,4 @@
-﻿using System; 
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace SteamCMD_reGUI_Core.Configs
 {
@@ -34,9 +33,10 @@ namespace SteamCMD_reGUI_Core.Configs
             get;
             set;
         }
+        [XmlAttribute]
+        public bool Purchased { get; set; }
 
-        public bool Validate() {
-            throw new NotImplementedException(); 
-        }
+        public override string ToString() => ServerName;
+        public bool Validate() => true;
     }
 }
