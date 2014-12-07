@@ -15,7 +15,7 @@ namespace SteamCMD_reGUI_Client.UI {
         public FrmMain() {
             InitializeComponent();
             mTabsMain.SelectTab( mTabMain );
-            mComboServers.DataSource = CoreHandler.Instance.Servers;
+            //mComboServers.DataSource = CoreHandler.Instance.Servers;
             mTileProcess.Text = Strings.sStartP;
             if ( Theme != MetroThemeStyle.Light ) {
                 picLogo.Image = Resources.steam_light_128;
@@ -33,6 +33,7 @@ namespace SteamCMD_reGUI_Client.UI {
         private void FrmMain_Load( object sender, EventArgs e ) {
             mLblProdName.Text = String.Format( "{0}", FrmSplashScreen.AssemblyProduct );
             mLblProdVer.Text = String.Format( "{0}", FrmSplashScreen.AssemblyVersion );
+            mComboServers.Items.Add( new Server() { AnonLogin = true, AppId = 232250, ServerName = "TF2" } );
             Focus();
         }
 
@@ -61,15 +62,16 @@ namespace SteamCMD_reGUI_Client.UI {
                 var srv = mComboServers.SelectedItem as Server;
                 if ( srv == null ) return;
                 var args = BuildArgs( srv );
-                using (var proc = new Process() {
+
+                using (var proc = new Process {
                     StartInfo =
-                        new ProcessStartInfo() {
+                        new ProcessStartInfo {
                             Arguments = args,
                             CreateNoWindow = true,
                             RedirectStandardError = true,
                             RedirectStandardInput = true,
                             RedirectStandardOutput = true,
-                            UseShellExecute = true,
+                            UseShellExecute = false,
                             FileName = paths.SteamCmdPath,
                             WorkingDirectory = paths.DefaultOutputDir,
                             WindowStyle = ProcessWindowStyle.Hidden,
@@ -79,17 +81,25 @@ namespace SteamCMD_reGUI_Client.UI {
                             ErrorDialogParentHandle = Handle
                         }
                 }) {
-                    var mrs = new ManualResetEvent(false);
-                    proc.Exited += ( a, b ) => mrs.Set();
-                    DataReceivedEventHandler procOnErrorDataReceived = ( a, b ) => mTxtConLog.Text += b.Data;
-                    proc.ErrorDataReceived += procOnErrorDataReceived;
-                    proc.OutputDataReceived += procOnErrorDataReceived;
-                    proc.Start();
-                    await Task.Run( (Action)(() => mrs.WaitOne()) );
+                    try {
+                        var mrs = new ManualResetEvent( false );
+                        proc.Exited += ( a, b ) => mrs.Set();
+                        DataReceivedEventHandler procOnErrorDataReceived = ( a, b ) => Invoke( (Action) ( () => {
+                            mTxtConLog.AppendText( b.Data+Environment.NewLine );
+                        } ) );
+                        proc.ErrorDataReceived += procOnErrorDataReceived;
+                        proc.OutputDataReceived += procOnErrorDataReceived;
+                        proc.Start();
+                        proc.BeginOutputReadLine();
+                        proc.BeginErrorReadLine();
+                        await Task.Run( (Action) ( () => mrs.WaitOne() ) );
+                    }
+                    finally {
+                        if ( !proc.HasExited ) proc.Kill();
+                    }
                 }
             }
-            catch ( Exception ) {
-                
+            catch ( Exception ex ) {
                 throw;
             }
             finally { 
@@ -100,14 +110,14 @@ namespace SteamCMD_reGUI_Client.UI {
         private string BuildArgs( Server srv ) {
             var sb = new StringBuilder();
 
-            if ( srv.AnonLogin ) sb.Append( "+login anonymous" );
+            if ( srv.AnonLogin ) sb.Append( "+login anonymous " );
             else sb.AppendFormat( "+login {0} {1} ", mTxtLogin.Text, mTxtPassword.Text );
 
             sb.AppendFormat( "+app_update {0} ", srv.AppId );
 
             if ( !string.IsNullOrWhiteSpace( srv.ModName ) ) sb.AppendFormat( "mod {0} ", srv.ModName );
 
-            sb.AppendFormat( "+force_install_dir {0} ", CoreHandler.Instance.Config.Paths.DefaultOutputDir );
+            sb.AppendFormat( "+force_install_dir \"{0}\" ", CoreHandler.Instance.Config.Paths.DefaultOutputDir );
 
             sb.AppendFormat( "+app_set_config {0} ", srv.AppId );
 

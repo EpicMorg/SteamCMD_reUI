@@ -9,7 +9,7 @@ namespace SteamCMD_reGUI_Client.WRAPPER {
 
         public static CoreHandler Instance => InstanceLazy.Value;
         #endregion
-        private const string ServersName = "config.xml";
+        private const string ServersName = "servers.xml";
         private const string ConfigName = "config.xml";
         private readonly string _configPath;
 
