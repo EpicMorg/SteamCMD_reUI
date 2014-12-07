@@ -71,7 +71,7 @@
             this.mTabsMain.Controls.Add(this.mTabAbout);
             resources.ApplyResources(this.mTabsMain, "mTabsMain");
             this.mTabsMain.Name = "mTabsMain";
-            this.mTabsMain.SelectedIndex = 0;
+            this.mTabsMain.SelectedIndex = 2;
             this.mTabsMain.UseSelectable = true;
             // 
             // mTabMain
@@ -94,7 +94,6 @@
             this.mTabMain.VerticalScrollbarBarColor = true;
             this.mTabMain.VerticalScrollbarHighlightOnWheel = false;
             this.mTabMain.VerticalScrollbarSize = 10;
-            this.mTabMain.Click += new System.EventHandler(this.mTabMain_Click);
             // 
             // metroProgressBar1
             // 
@@ -162,6 +161,7 @@
             this.mTxtLogin.Lines = new string[0];
             this.mTxtLogin.MaxLength = 32767;
             this.mTxtLogin.Name = "mTxtLogin";
+            this.mTxtLogin.PasswordChar = '\0';
             this.mTxtLogin.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtLogin.SelectedText = "";
             this.mTxtLogin.UseSelectable = true;
@@ -236,6 +236,7 @@
             this.mTxtConLog.MaxLength = 32767;
             this.mTxtConLog.Multiline = true;
             this.mTxtConLog.Name = "mTxtConLog";
+            this.mTxtConLog.PasswordChar = '\0';
             this.mTxtConLog.ReadOnly = true;
             this.mTxtConLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.mTxtConLog.SelectedText = "";

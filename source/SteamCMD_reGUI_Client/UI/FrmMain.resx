@@ -322,13 +322,13 @@
     <value>3, 75</value>
   </data>
   <data name="mLblPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 19</value>
+    <value>108, 19</value>
   </data>
   <data name="mLblPassword.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="mLblPassword.Text" xml:space="preserve">
-    <value>SteamPassword</value>
+    <value>Steam password:</value>
   </data>
   <data name="&gt;&gt;mLblPassword.Name" xml:space="preserve">
     <value>mLblPassword</value>
@@ -349,13 +349,13 @@
     <value>3, 8</value>
   </data>
   <data name="mLblLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 19</value>
+    <value>82, 19</value>
   </data>
   <data name="mLblLogin.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="mLblLogin.Text" xml:space="preserve">
-    <value>Steam login</value>
+    <value>Steam login:</value>
   </data>
   <data name="&gt;&gt;mLblLogin.Name" xml:space="preserve">
     <value>mLblLogin</value>
@@ -380,6 +380,9 @@
   </data>
   <data name="mPanelLogin.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="mPanelLogin.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;mPanelLogin.Name" xml:space="preserve">
     <value>mPanelLogin</value>

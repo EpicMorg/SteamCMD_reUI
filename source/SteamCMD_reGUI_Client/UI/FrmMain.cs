@@ -33,13 +33,12 @@ namespace SteamCMD_reGUI_Client.UI {
         private void FrmMain_Load( object sender, EventArgs e ) {
             mLblProdName.Text = String.Format( "{0}", FrmSplashScreen.AssemblyProduct );
             mLblProdVer.Text = String.Format( "{0}", FrmSplashScreen.AssemblyVersion );
-            mComboServers.Items.Add( new Server() { AnonLogin = true, AppId = 232250, ServerName = "TF2" } );
+            mComboServers.Items.Add( new Server() { AnonLogin = true, AppId = 232250, ServerName = "Team Fortress 2 (only for debug)" } ); //in future - load servers from xml
+            mComboServers.SelectedIndex = 0;
             Focus();
         }
 
         private void button3_Click( object sender, EventArgs e ) => new FrmDownloader().ShowDialog();
-
-        private void mTabMain_Click( object sender, EventArgs e ) { }
 
         private void mLnkMF_Click( object sender, EventArgs e ) => Process.Start( "https://github.com/dennismagno/winforms-modernui/" );
 
@@ -131,6 +130,8 @@ namespace SteamCMD_reGUI_Client.UI {
         private void SetExecState() {
             _procStarted ^= true;
             mTileProcess.Enabled = !_procStarted;
+            if (_procStarted) { mPanelLogin.Enabled = mTileSettings.Enabled =  mComboServers.Enabled = mToggleValidate.Enabled = false; }
+            else {    mPanelLogin.Enabled = mTileSettings.Enabled = mComboServers.Enabled = mToggleValidate.Enabled = true;  }
             mTileProcess.Text = _procStarted ? Strings.sStopP : Strings.sStartP;
             if ( Style != MetroColorStyle.Black ) mTileProcess.TileImage = _procStarted ? Resources.stop_dark : Resources.start_dark;
             else mTileProcess.TileImage = _procStarted ? Resources.stop_light : Resources.start_light;
