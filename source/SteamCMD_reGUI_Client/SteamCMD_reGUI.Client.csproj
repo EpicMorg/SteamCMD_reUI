@@ -180,6 +180,9 @@
     <EmbeddedResource Include="UI\frmSteamGuard.resx">
       <DependentUpon>frmSteamGuard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSteamGuard.ru.resx">
+      <DependentUpon>frmSteamGuard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\SettableForm.resx">
       <DependentUpon>SettableForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,6 +229,12 @@
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.control.stop.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.control.play.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.control.stop.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.unlock.keyhole.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.unlock.keyhole.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.unlock.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.unlock.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.key.png" />
+    <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.key.png" />
     <Content Include="Servers.xml" />
     <Content Include="steam_dark_all.ico" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />

@@ -132,6 +132,9 @@
   <data name="sDownloadingComplete" xml:space="preserve">
     <value>Download complete!</value>
   </data>
+  <data name="sEmptyField" xml:space="preserve">
+    <value>The field can not be empty!</value>
+  </data>
   <data name="sEnglish" xml:space="preserve">
     <value>English</value>
   </data>
@@ -143,6 +146,9 @@
   </data>
   <data name="sGreeting" xml:space="preserve">
     <value>Hello!</value>
+  </data>
+  <data name="sHere" xml:space="preserve">
+    <value>...here</value>
   </data>
   <data name="sInformation" xml:space="preserve">
     <value>Information</value>

@@ -27,7 +27,7 @@ namespace SteamCMD_reGUI_Client {
 
         private static void LoadLocale() {
             var loc = CoreHandler.Instance.Config.Interface.InterfaceLang;
-            if ( String.IsNullOrEmpty( loc ) )
+            if (string.IsNullOrEmpty( loc ) )
                 return;
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo( loc );
         }

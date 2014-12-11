@@ -106,6 +106,15 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The field can not be empty!.
+        /// </summary>
+        internal static string sEmptyField {
+            get {
+                return ResourceManager.GetString("sEmptyField", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         internal static string sEnglish {
@@ -138,6 +147,15 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         internal static string sGreeting {
             get {
                 return ResourceManager.GetString("sGreeting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ...here.
+        /// </summary>
+        internal static string sHere {
+            get {
+                return ResourceManager.GetString("sHere", resourceCulture);
             }
         }
         

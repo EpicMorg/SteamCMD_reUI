@@ -29,44 +29,60 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSteamGuard));
+            this.mLblHelp = new MetroFramework.Controls.MetroLabel();
+            this.mBtnEnter = new MetroFramework.Controls.MetroTile();
             this.mTxtSGPhrase = new MetroFramework.Controls.MetroTextBox();
-            this.mBtnEnter = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
-            // mTxtSGPhrase
+            // mLblHelp
             // 
-            this.mTxtSGPhrase.Lines = new string[0];
-            this.mTxtSGPhrase.Location = new System.Drawing.Point(23, 63);
-            this.mTxtSGPhrase.MaxLength = 32767;
-            this.mTxtSGPhrase.Name = "mTxtSGPhrase";
-            this.mTxtSGPhrase.PasswordChar = '\0';
-            this.mTxtSGPhrase.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.mTxtSGPhrase.SelectedText = "";
-            this.mTxtSGPhrase.Size = new System.Drawing.Size(385, 23);
-            this.mTxtSGPhrase.TabIndex = 0;
-            this.mTxtSGPhrase.UseSelectable = true;
+            resources.ApplyResources(this.mLblHelp, "mLblHelp");
+            this.mLblHelp.BackColor = System.Drawing.Color.Transparent;
+            this.mLblHelp.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.mLblHelp.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.mLblHelp.Name = "mLblHelp";
+            this.mLblHelp.WrapToLine = true;
             // 
             // mBtnEnter
             // 
-            this.mBtnEnter.Location = new System.Drawing.Point(414, 63);
+            this.mBtnEnter.ActiveControl = null;
+            resources.ApplyResources(this.mBtnEnter, "mBtnEnter");
+            this.mBtnEnter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mBtnEnter.Name = "mBtnEnter";
-            this.mBtnEnter.Size = new System.Drawing.Size(75, 23);
-            this.mBtnEnter.TabIndex = 1;
-            this.mBtnEnter.Text = "OK";
+            this.mBtnEnter.TileImage = global::SteamCMD_reGUI_Client.Properties.Resources.dark_key;
+            this.mBtnEnter.TileImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.mBtnEnter.UseSelectable = true;
+            this.mBtnEnter.UseTileImage = true;
+            this.mBtnEnter.Click += new System.EventHandler(this.mBtnEnter_Click);
+            // 
+            // mTxtSGPhrase
+            // 
+            resources.ApplyResources(this.mTxtSGPhrase, "mTxtSGPhrase");
+            this.mTxtSGPhrase.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.mTxtSGPhrase.Icon = global::SteamCMD_reGUI_Client.Properties.Resources.dark_unlock;
+            this.mTxtSGPhrase.Lines = new string[0];
+            this.mTxtSGPhrase.MaxLength = 32767;
+            this.mTxtSGPhrase.Name = "mTxtSGPhrase";
+            this.mTxtSGPhrase.PasswordChar = '\0';
+            this.mTxtSGPhrase.PromptText = "...here";
+            this.mTxtSGPhrase.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.mTxtSGPhrase.SelectedText = "";
+            this.mTxtSGPhrase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mTxtSGPhrase.UseSelectable = true;
+            this.mTxtSGPhrase.TextChanged += new System.EventHandler(this.mTxtSGPhrase_TextChanged);
             // 
             // FrmSteamGuard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 109);
             this.Controls.Add(this.mBtnEnter);
+            this.Controls.Add(this.mLblHelp);
             this.Controls.Add(this.mTxtSGPhrase);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmSteamGuard";
             this.Resizable = false;
             this.ShowInTaskbar = false;
-            this.Text = "SteamGuard";
             this.Load += new System.EventHandler(this.frmSteamGuard_Load);
             this.ResumeLayout(false);
 
@@ -75,6 +91,7 @@
         #endregion
 
         private MetroFramework.Controls.MetroTextBox mTxtSGPhrase;
-        private MetroFramework.Controls.MetroButton mBtnEnter;
+        private MetroFramework.Controls.MetroLabel mLblHelp;
+        private MetroFramework.Controls.MetroTile mBtnEnter;
     }
 }

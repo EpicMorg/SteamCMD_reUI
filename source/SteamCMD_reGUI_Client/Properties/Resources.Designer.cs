@@ -83,6 +83,36 @@ namespace SteamCMD_reGUI_Client.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dark_key {
+            get {
+                object obj = ResourceManager.GetObject("dark_key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dark_unlock {
+            get {
+                object obj = ResourceManager.GetObject("dark_unlock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dark_unlock_keyhole {
+            get {
+                object obj = ResourceManager.GetObject("dark_unlock_keyhole", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap github_octocat_dark {
             get {
                 object obj = ResourceManager.GetObject("github_octocat_dark", resourceCulture);
@@ -96,6 +126,36 @@ namespace SteamCMD_reGUI_Client.Properties {
         internal static System.Drawing.Bitmap github_octocat_light {
             get {
                 object obj = ResourceManager.GetObject("github_octocat_light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap light_key {
+            get {
+                object obj = ResourceManager.GetObject("light_key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap light_unlock {
+            get {
+                object obj = ResourceManager.GetObject("light_unlock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap light_unlock_keyhole {
+            get {
+                object obj = ResourceManager.GetObject("light_unlock_keyhole", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
