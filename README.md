@@ -2,6 +2,8 @@
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
+![](https://img.epicm.org/get/4)
+
 ### Some notes ###
 
 - Written in **C# 6.0** with **Microsoft [.NET Framework 4.5.3 (4.6 Preview)](http://www.microsoft.com/en-US/download/details.aspx?id=44927 "Link for download")**.
@@ -10,6 +12,7 @@
 - Actual list of supported games can be found [here](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/Servers.xml).
 - The ability to edit the list of supported games manually by the user (*This list is not hardcoded in the program*).
 - Localization: `en_US`, `ru_RU` (*You can help to translate this app, contact me*).
+- App themes support.
 
 
 ### Minimal system requirements  ###
