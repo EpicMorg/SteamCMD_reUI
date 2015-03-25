@@ -25,7 +25,7 @@ Look [here](# "How to use this app") for manual.
 
 ### Troubleshooting ###
 
-Look [here](# "Troubleshooting") if ypu have some problems. It maby help.
+Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway you can create new issue [here] (https://github.com/stamepicmorg/SteamCMD_reGUI/issues).
 
 ## [License](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/LICENSE) ##
 
