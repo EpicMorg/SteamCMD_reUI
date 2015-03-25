@@ -1,8 +1,14 @@
-## Welcome to SteamCMD_reGUI ##
+## Welcome to SteamCMD_reGUI [![Share this](https://downloads.epicm.org/zone51/facebook.png)](https://who.ec/ipO) ##
+
+[![Share this](https://downloads.epicm.org/zone51/twitter_1.png)](https://who.ec/irO)
+
+
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
 ![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
+
+http://vk.com/images/faviconnew.ico?3
 
 ### Some notes ###
 
