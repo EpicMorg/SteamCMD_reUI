@@ -2,7 +2,7 @@
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
-![](https://img.epicm.org/get/4)
+![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
 
 ### Some notes ###
 
