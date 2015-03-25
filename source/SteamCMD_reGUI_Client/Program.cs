@@ -19,8 +19,8 @@ namespace SteamCMD_reGUI_Client {
         }
 
         public static void CheckIt() {
-            if ( CoreHandler.Instance.Config.Misc.LicensesAccepted )
-                Application.Run( CoreHandler.Instance.Config.Misc.FirstRun ? new FrmSettings() : (Form) new FrmMain() );
+            if (CoreHandler.Instance.Config.Misc.LicensesAccepted)
+                Application.Run(CoreHandler.Instance.Config.Misc.FirstRun ? new FrmSettings() : (Form)new FrmMain() );
             else
                 Application.Run( new FrmLicAccept() );
         }

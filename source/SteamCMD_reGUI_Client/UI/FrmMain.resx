@@ -117,18 +117,42 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mBtnInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="mBtnInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mBtnInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mBtnInfo.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;mBtnInfo.Name" xml:space="preserve">
+    <value>mBtnInfo</value>
+  </data>
+  <data name="&gt;&gt;mBtnInfo.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mBtnInfo.Parent" xml:space="preserve">
+    <value>mTabMain</value>
+  </data>
+  <data name="&gt;&gt;mBtnInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="metroProgressBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="metroProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 332</value>
+    <value>6, 332</value>
   </data>
   <data name="metroProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>586, 23</value>
+    <value>583, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="metroProgressBar1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
@@ -142,7 +166,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;metroProgressBar1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="mToggleValidate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -172,16 +196,16 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mToggleValidate.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="mTileProcess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="mTileProcess.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 195</value>
+    <value>6, 195</value>
   </data>
   <data name="mTileProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 90</value>
+    <value>487, 90</value>
   </data>
   <data name="mTileProcess.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -202,7 +226,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mTileProcess.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="mLblValidate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -235,7 +259,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mLblValidate.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="mLblServer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -262,7 +286,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mLblServer.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="mPanelLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -271,10 +295,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="mTxtPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 97</value>
+    <value>3, 97</value>
   </data>
   <data name="mTxtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 23</value>
+    <value>487, 23</value>
   </data>
   <data name="mTxtPassword.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -295,10 +319,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="mTxtLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
+    <value>3, 30</value>
   </data>
   <data name="mTxtLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 23</value>
+    <value>487, 23</value>
   </data>
   <data name="mTxtLogin.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -394,7 +418,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mPanelLogin.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="mComboServers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -403,10 +427,10 @@
     <value>23</value>
   </data>
   <data name="mComboServers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 34</value>
+    <value>37, 34</value>
   </data>
   <data name="mComboServers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>401, 29</value>
+    <value>367, 29</value>
   </data>
   <data name="mComboServers.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -421,7 +445,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mComboServers.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="mTileAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -451,7 +475,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mTileAbout.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="mTileSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -481,7 +505,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mTileSettings.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="mTileConsole.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -511,7 +535,7 @@
     <value>mTabMain</value>
   </data>
   <data name="&gt;&gt;mTileConsole.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="mTabMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 38</value>
@@ -536,6 +560,18 @@
   </data>
   <data name="&gt;&gt;mTabMain.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="mTxtConLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="mTxtConLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="mTxtConLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 352</value>
+  </data>
+  <data name="mTxtConLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;mTxtConLog.Name" xml:space="preserve">
     <value>mTxtConLog</value>
@@ -572,234 +608,6 @@
   </data>
   <data name="&gt;&gt;mTabConsole.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;mLnkMF.Name" xml:space="preserve">
-    <value>mLnkMF</value>
-  </data>
-  <data name="&gt;&gt;mLnkMF.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLnkMF.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLnkMF.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mLnkMIC.Name" xml:space="preserve">
-    <value>mLnkMIC</value>
-  </data>
-  <data name="&gt;&gt;mLnkMIC.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLnkMIC.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLnkMIC.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mLnkRG.Name" xml:space="preserve">
-    <value>mLnkRG</value>
-  </data>
-  <data name="&gt;&gt;mLnkRG.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLnkRG.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLnkRG.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;mLblWrng.Name" xml:space="preserve">
-    <value>mLblWrng</value>
-  </data>
-  <data name="&gt;&gt;mLblWrng.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblWrng.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblWrng.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;mLblTM.Name" xml:space="preserve">
-    <value>mLblTM</value>
-  </data>
-  <data name="&gt;&gt;mLblTM.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblTM.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblTM.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;mLblAltGUI.Name" xml:space="preserve">
-    <value>mLblAltGUI</value>
-  </data>
-  <data name="&gt;&gt;mLblAltGUI.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblAltGUI.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblAltGUI.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;mLblProdVer.Name" xml:space="preserve">
-    <value>mLblProdVer</value>
-  </data>
-  <data name="&gt;&gt;mLblProdVer.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblProdVer.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblProdVer.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Name" xml:space="preserve">
-    <value>mLblKASTHACK</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;mLblSTAM.Name" xml:space="preserve">
-    <value>mLblSTAM</value>
-  </data>
-  <data name="&gt;&gt;mLblSTAM.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblSTAM.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblSTAM.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;mLblProdName.Name" xml:space="preserve">
-    <value>mLblProdName</value>
-  </data>
-  <data name="&gt;&gt;mLblProdName.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblProdName.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblProdName.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;picAbout.Name" xml:space="preserve">
-    <value>picAbout</value>
-  </data>
-  <data name="&gt;&gt;picAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picAbout.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;picAbout.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;picMF.Name" xml:space="preserve">
-    <value>picMF</value>
-  </data>
-  <data name="&gt;&gt;picMF.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picMF.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;picMF.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Name" xml:space="preserve">
-    <value>picLogo</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="mTabAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 38</value>
-  </data>
-  <data name="mTabAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 358</value>
-  </data>
-  <data name="mTabAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="mTabAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;mTabAbout.Name" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mTabAbout.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabAbout.Parent" xml:space="preserve">
-    <value>mTabsMain</value>
-  </data>
-  <data name="&gt;&gt;mTabAbout.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="mTabsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="mTabsMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 60</value>
-  </data>
-  <data name="mTabsMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 400</value>
-  </data>
-  <data name="mTabsMain.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mTabsMain.Name" xml:space="preserve">
-    <value>mTabsMain</value>
-  </data>
-  <data name="&gt;&gt;mTabsMain.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTabsMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mTabsMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mTxtConLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="mTxtConLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 3</value>
-  </data>
-  <data name="mTxtConLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 352</value>
-  </data>
-  <data name="mTxtConLog.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mTxtConLog.Name" xml:space="preserve">
-    <value>mTxtConLog</value>
-  </data>
-  <data name="&gt;&gt;mTxtConLog.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mTxtConLog.Parent" xml:space="preserve">
-    <value>mTabConsole</value>
-  </data>
-  <data name="&gt;&gt;mTxtConLog.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="mLnkMF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1171,6 +979,54 @@
   <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
+  <data name="mTabAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mTabAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 358</value>
+  </data>
+  <data name="mTabAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mTabAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;mTabAbout.Name" xml:space="preserve">
+    <value>mTabAbout</value>
+  </data>
+  <data name="&gt;&gt;mTabAbout.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabAbout.Parent" xml:space="preserve">
+    <value>mTabsMain</value>
+  </data>
+  <data name="&gt;&gt;mTabAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mTabsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mTabsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
+  </data>
+  <data name="mTabsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 400</value>
+  </data>
+  <data name="mTabsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mTabsMain.Name" xml:space="preserve">
+    <value>mTabsMain</value>
+  </data>
+  <data name="&gt;&gt;mTabsMain.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mTabsMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mTabsMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1214,6 +1070,6 @@
     <value>FrmMain</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SteamCMD_reGUI_Client.UI.SettableForm, SteamCMD_reGUI_Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>SteamCMD_reGUI_Client.UI.SettableForm, SteamCMD_reGUI_Client, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>

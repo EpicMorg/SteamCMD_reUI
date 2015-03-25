@@ -54,6 +54,7 @@
             this.picAbout = new System.Windows.Forms.PictureBox();
             this.picMF = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
+            this.mBtnInfo = new MetroFramework.Controls.MetroButton();
             this.mTabsMain.SuspendLayout();
             this.mTabMain.SuspendLayout();
             this.mPanelLogin.SuspendLayout();
@@ -76,6 +77,7 @@
             // 
             // mTabMain
             // 
+            this.mTabMain.Controls.Add(this.mBtnInfo);
             this.mTabMain.Controls.Add(this.metroProgressBar1);
             this.mTabMain.Controls.Add(this.mToggleValidate);
             this.mTabMain.Controls.Add(this.mTileProcess);
@@ -150,11 +152,10 @@
             this.mTxtPassword.Lines = new string[0];
             this.mTxtPassword.MaxLength = 32767;
             this.mTxtPassword.Name = "mTxtPassword";
-            this.mTxtPassword.PasswordChar = '\u2022';
+            this.mTxtPassword.PasswordChar = '•';
             this.mTxtPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtPassword.SelectedText = "";
             this.mTxtPassword.UseSelectable = true;
-            this.mTxtPassword.Click += new System.EventHandler(this.mTxtPassword_Click);
             // 
             // mTxtLogin
             // 
@@ -360,6 +361,13 @@
             this.picLogo.Name = "picLogo";
             this.picLogo.TabStop = false;
             // 
+            // mBtnInfo
+            // 
+            resources.ApplyResources(this.mBtnInfo, "mBtnInfo");
+            this.mBtnInfo.Name = "mBtnInfo";
+            this.mBtnInfo.UseSelectable = true;
+            this.mBtnInfo.Click += new System.EventHandler(this.mBtnInfo_Click);
+            // 
             // FrmMain
             // 
             resources.ApplyResources(this, "$this");
@@ -418,10 +426,7 @@
         private MetroFramework.Controls.MetroLabel mLblValidate;
         private MetroFramework.Controls.MetroToggle mToggleValidate;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
-
-
-
-
+        private MetroFramework.Controls.MetroButton mBtnInfo;
     }
 }
 

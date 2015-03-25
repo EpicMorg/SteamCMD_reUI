@@ -63,7 +63,6 @@
             this.mTxtSGPhrase.Lines = new string[0];
             this.mTxtSGPhrase.MaxLength = 32767;
             this.mTxtSGPhrase.Name = "mTxtSGPhrase";
-            this.mTxtSGPhrase.PasswordChar = '\0';
             this.mTxtSGPhrase.PromptText = "...here";
             this.mTxtSGPhrase.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSGPhrase.SelectedText = "";

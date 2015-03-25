@@ -3,7 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using MetroFramework;
-using MetroFramework.Forms;
 using SteamCMD_reGUI_Client.LOCALE;
 using SteamCMD_reGUI_Client.WRAPPER;
 using SteamCMD_reGUI_Core.Configs;
@@ -48,7 +47,7 @@ namespace SteamCMD_reGUI_Client.UI {
                 ok = false;
                 error = Strings.sError;
             }
-            if ( ok && ( String.IsNullOrWhiteSpace( txtbox ) || !File.Exists( txtbox ) ) ) {
+            if ( ok && (string.IsNullOrWhiteSpace( txtbox ) || !File.Exists( txtbox ) ) ) {
                 if ( this.MetroMessageBox( Strings.sCheckPath, Strings.sError, MessageBoxButtons.YesNo ) == DialogResult.Yes ) {
                     var frmDownloader = new FrmDownloader();
                     frmDownloader.ShowDialog();
@@ -58,7 +57,7 @@ namespace SteamCMD_reGUI_Client.UI {
                     error = Strings.sError;
                 }
             }
-            if ( ok && ( String.IsNullOrWhiteSpace( txtbox2 ) || !Directory.Exists( txtbox2 ) ) ) {
+            if ( ok && (string.IsNullOrWhiteSpace( txtbox2 ) || !Directory.Exists( txtbox2 ) ) ) {
                 ok = false;
                 error = Strings.sError;
             }

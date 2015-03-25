@@ -143,8 +143,11 @@ namespace SteamCMD_reGUI_Client.UI {
             mTxtLogin.Enabled = mTxtPassword.Enabled = !srv.AnonLogin;
         }
 
-        private void mTxtPassword_Click(object sender, EventArgs e)
+
+        private void mBtnInfo_Click(object sender, EventArgs e)
         {
+            FrmServListInfo FrmShowInfo = new FrmServListInfo();
+            FrmShowInfo.ShowDialog();
 
         }
     }
