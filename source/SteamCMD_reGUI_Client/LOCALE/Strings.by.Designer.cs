@@ -22,14 +22,14 @@ namespace SteamCMD_reGUI_Client.LOCALE {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Strings {
+    internal class Strings_by {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Strings() {
+        internal Strings_by() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SteamCMD_reGUI_Client.LOCALE.Strings", typeof(Strings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SteamCMD_reGUI_Client.LOCALE.Strings.by", typeof(Strings_by).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Belarusian.
+        ///   Looks up a localized string similar to Беларуская.
         /// </summary>
         internal static string sBelarusian {
             get {
@@ -70,43 +70,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config is invalid! Fix it!.
-        /// </summary>
-        internal static string sCfgInvalid {
-            get {
-                return ResourceManager.GetString("sCfgInvalid", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Succesfully saved! Application will restart..
-        /// </summary>
-        internal static string sCfgSaved {
-            get {
-                return ResourceManager.GetString("sCfgSaved", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to steamcmd.exe not found! Try to download it?.
-        /// </summary>
-        internal static string sCheckPath {
-            get {
-                return ResourceManager.GetString("sCheckPath", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to steamcmd.zip not found! Try to download it again?.
-        /// </summary>
-        internal static string sCheckZip {
-            get {
-                return ResourceManager.GetString("sCheckZip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Done!.
+        ///   Looks up a localized string similar to Выканана!.
         /// </summary>
         internal static string sDone {
             get {
@@ -115,7 +79,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Download complete!.
+        ///   Looks up a localized string similar to Запампоўка завершана!.
         /// </summary>
         internal static string sDownloadingComplete {
             get {
@@ -124,7 +88,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The field can not be empty!.
+        ///   Looks up a localized string similar to Поле не павінна быць пустым!.
         /// </summary>
         internal static string sEmptyField {
             get {
@@ -133,7 +97,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to English.
+        ///   Looks up a localized string similar to Англійская.
         /// </summary>
         internal static string sEnglish {
             get {
@@ -142,7 +106,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error!.
+        ///   Looks up a localized string similar to Памылка!.
         /// </summary>
         internal static string sError {
             get {
@@ -151,7 +115,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to It is a first run of this program. Please enter default settings!.
+        ///   Looks up a localized string similar to Гэта першы запуск праграмы. Выканайце наладу!.
         /// </summary>
         internal static string sFirstRun {
             get {
@@ -160,7 +124,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello!.
+        ///   Looks up a localized string similar to Прывітанне!.
         /// </summary>
         internal static string sGreeting {
             get {
@@ -169,7 +133,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ...here.
+        ///   Looks up a localized string similar to ... тут.
         /// </summary>
         internal static string sHere {
             get {
@@ -178,7 +142,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Information.
+        ///   Looks up a localized string similar to Інфармацыя.
         /// </summary>
         internal static string sInformation {
             get {
@@ -187,7 +151,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Program language has been changed. .
+        ///   Looks up a localized string similar to Мова праграммы паспяхова была зменена!.
         /// </summary>
         internal static string sLangChanged {
             get {
@@ -196,7 +160,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Loading.. Please wait.
+        ///   Looks up a localized string similar to Загрузка... Калі ласка, пачакайце ....
         /// </summary>
         internal static string sLoading {
             get {
@@ -205,7 +169,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Succesfully reset! Application will restart..
+        ///   Looks up a localized string similar to Канфігурацыя паспяхова скінута..
         /// </summary>
         internal static string sReset {
             get {
@@ -214,7 +178,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Russian.
+        ///   Looks up a localized string similar to Руская.
         /// </summary>
         internal static string sRussian {
             get {
@@ -223,7 +187,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This directory is not exists. Try to create it?.
+        ///   Looks up a localized string similar to Папка не существует. Попытаться создать ее?.
         /// </summary>
         internal static string sServersDirectoryNotExistis {
             get {
@@ -232,7 +196,7 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start.
+        ///   Looks up a localized string similar to Запуск.
         /// </summary>
         internal static string sStartP {
             get {
@@ -241,7 +205,16 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stop.
+        ///   Looks up a localized string similar to Запуск.
+        /// </summary>
+        internal static string sStartP1 {
+            get {
+                return ResourceManager.GetString("sStartP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Адмена.
         /// </summary>
         internal static string sStopP {
             get {
@@ -250,7 +223,16 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unpacking....
+        ///   Looks up a localized string similar to Адмена.
+        /// </summary>
+        internal static string sStopP1 {
+            get {
+                return ResourceManager.GetString("sStopP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Распакаванне ....
         /// </summary>
         internal static string sUnpacking {
             get {
@@ -259,11 +241,29 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unpacking complete.
+        ///   Looks up a localized string similar to Распакаванне ....
+        /// </summary>
+        internal static string sUnpacking1 {
+            get {
+                return ResourceManager.GetString("sUnpacking1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Распакаванне паспяхова завершана!.
         /// </summary>
         internal static string sUnpackingComplete {
             get {
                 return ResourceManager.GetString("sUnpackingComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Распакаванне паспяхова завершана!.
+        /// </summary>
+        internal static string sUnpackingComplete1 {
+            get {
+                return ResourceManager.GetString("sUnpackingComplete1", resourceCulture);
             }
         }
     }

@@ -117,10 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="sSelectOutputDir" xml:space="preserve">
-    <value>Укажите стандартную папку для скачивания сервера!</value>
+  <data name="sBelarusian" xml:space="preserve">
+    <value>Беларуская</value>
   </data>
-  <data name="sSelectSteamCMD" xml:space="preserve">
-    <value>Укажите путь до "steamcmd.exe", пожалуйста!</value>
+  <data name="sDone" xml:space="preserve">
+    <value>Выканана!</value>
+  </data>
+  <data name="sDownloadingComplete" xml:space="preserve">
+    <value>Запампоўка завершана!</value>
+  </data>
+  <data name="sEmptyField" xml:space="preserve">
+    <value>Поле не павінна быць пустым!</value>
+  </data>
+  <data name="sEnglish" xml:space="preserve">
+    <value>Англійская</value>
+  </data>
+  <data name="sError" xml:space="preserve">
+    <value>Памылка!</value>
+  </data>
+  <data name="sFirstRun" xml:space="preserve">
+    <value>Гэта першы запуск праграмы. Выканайце наладу!</value>
+  </data>
+  <data name="sGreeting" xml:space="preserve">
+    <value>Прывітанне!</value>
+  </data>
+  <data name="sHere" xml:space="preserve">
+    <value>... тут</value>
+  </data>
+  <data name="sInformation" xml:space="preserve">
+    <value>Інфармацыя</value>
+  </data>
+  <data name="sLangChanged" xml:space="preserve">
+    <value>Мова праграммы паспяхова была зменена!</value>
+  </data>
+  <data name="sLoading" xml:space="preserve">
+    <value>Загрузка... Калі ласка, пачакайце ...</value>
+  </data>
+  <data name="sReset" xml:space="preserve">
+    <value>Канфігурацыя паспяхова скінута.</value>
+  </data>
+  <data name="sRussian" xml:space="preserve">
+    <value>Руская</value>
+  </data>
+  <data name="sServersDirectoryNotExistis" xml:space="preserve">
+    <value>Папка не существует. Попытаться создать ее?</value>
+  </data>
+  <data name="sStartP" xml:space="preserve">
+    <value>Запуск</value>
+  </data>
+  <data name="sStartP1" xml:space="preserve">
+    <value>Запуск</value>
+  </data>
+  <data name="sStopP" xml:space="preserve">
+    <value>Адмена</value>
+  </data>
+  <data name="sStopP1" xml:space="preserve">
+    <value>Адмена</value>
+  </data>
+  <data name="sUnpacking" xml:space="preserve">
+    <value>Распакаванне ...</value>
+  </data>
+  <data name="sUnpacking1" xml:space="preserve">
+    <value>Распакаванне ...</value>
+  </data>
+  <data name="sUnpackingComplete" xml:space="preserve">
+    <value>Распакаванне паспяхова завершана!</value>
+  </data>
+  <data name="sUnpackingComplete1" xml:space="preserve">
+    <value>Распакаванне паспяхова завершана!</value>
   </data>
 </root>

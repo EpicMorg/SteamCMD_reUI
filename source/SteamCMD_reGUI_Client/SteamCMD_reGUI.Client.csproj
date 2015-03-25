@@ -75,6 +75,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LOCALE\Strings.by.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.by.resx</DependentUpon>
+    </Compile>
     <Compile Include="LOCALE\Strings.ru.Designer.cs">
       <DependentUpon>Strings.ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -142,6 +147,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="WRAPPER\CoreHandler.cs" />
+    <EmbeddedResource Include="LOCALE\Strings.by.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.by.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="LOCALE\Strings.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.ru.Designer.cs</LastGenOutput>
@@ -178,6 +187,9 @@
     <EmbeddedResource Include="UI\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSettings.ru-RU.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmSettings.ru.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>

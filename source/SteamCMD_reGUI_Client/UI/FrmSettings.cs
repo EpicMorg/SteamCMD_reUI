@@ -14,7 +14,7 @@ namespace SteamCMD_reGUI_Client.UI {
             InitializeComponent();
             var iface = CoreHandler.Instance.Config.Interface;
             mTabsSettings.SelectTab( mTabInterface );
-            var langs = new[] { "en-US", "ru-RU" }.Select( a => new Langs( a ) ).ToArray();
+            var langs = new[] { "en-US", "ru-RU", "be-BY" }.Select( a => new Langs( a ) ).ToArray();
             mComboLang.Items.AddRange( langs );
             mComboAppStyle.Items.AddRange( Enum.GetValues( typeof( MetroColorStyle ) ).OfType<object>().ToArray() );
             mComboAppTheme.Items.AddRange( Enum.GetValues( typeof( MetroThemeStyle ) ).OfType<object>().ToArray() );
