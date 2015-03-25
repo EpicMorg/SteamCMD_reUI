@@ -1,17 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <servers>
-  <meta>
-    <version>0.1</version>
-    <date>13.12.2014</date>
-    <author>STAM</author>
-    <comment>
-      Servers with not anonymous login are not supported yet.
-      Try to update this list (or programm) manually later.
+	<!--
+		Bug: HLDS (appid 90) currently require multiple installs before the game's files are installed. Workaround for this problem available http://wp.me/p2LXdp-FM
+		Bug: Some apps can only be downloaded when logged in as anonymous. (e.g. CS:S will not work with a normal Steam account)
+	-->
+	<meta>
+		<version>0.1</version>
+		<date>13.12.2014</date>
+		<author>STAM</author>
+		<comment>
+		  Servers with not anonymous login are not supported yet.
+		  Try to update this list (or programm) manually later.
 
-      I'm sorry.
-    </comment>
-  </meta>
-  <list>
-    <Server AppId="00" ModName="" AnonLogin="true" Purchased="false">Test gameserver</Server>
-  </list>
+		  I'm sorry.
+		</comment>
+	</meta>
+	<list> 
+		<Server AppId="00" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Test gameserver</Server>
+	</list>
 </servers>
