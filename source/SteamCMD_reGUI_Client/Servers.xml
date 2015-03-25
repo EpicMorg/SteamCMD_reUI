@@ -94,7 +94,7 @@
 		<server AppId="205" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source Dedicated Server</server>
 		<server AppId="244310" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source SDK Base 2013 Dedicated Server</server>
 		<server AppId="298740" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Space Engineers Dedicated Server</server>
-		<server AppId="211820" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!>Starbound Dedicated server</server>
+		<server AppId="211820" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!">Starbound Dedicated server</server>
 		<server AppId="210370" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!">Starvoid Dedicated server</server>
 		<server AppId="8710" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">STCC - The Game Demo Dedicated Server</server>
 		<server AppId="17525" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Synergy Dedicated Server</server>
