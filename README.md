@@ -1,14 +1,8 @@
-## Welcome to SteamCMD_reGUI [![Share this](https://downloads.epicm.org/zone51/facebook.png)](https://who.ec/ipO) ##
-
-[![Share this](https://downloads.epicm.org/zone51/twitter_1.png)](https://who.ec/irO)
-
-
+## Welcome to SteamCMD_reGUI  ##
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
 ![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
-
-http://vk.com/images/faviconnew.ico?3
 
 ### Some notes ###
 
@@ -59,3 +53,6 @@ Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+## Share ##
+[![Share this](https://download.epicm.org/zone51/facebook.png)](https://who.ec/ipO) [![Share this](https://download.epicm.org/zone51/twitter_1.png)](https://who.ec/irO) [![Share this](https://download.epicm.org/zone51/google_plus.png)](https://who.ec/isO) [![Share this](https://download.epicm.org/zone51/vkontakte.png)](https://who.ec/itO) [![Share this](https://download.epicm.org/zone51/linkedin.png)](https://who.ec/iuO)
