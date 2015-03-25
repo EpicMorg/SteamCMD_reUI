@@ -5,7 +5,9 @@ using System.IO.Compression;
 using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SteamCMD_reGUI_Client.LOCALE; 
+using MetroFramework;
+using SteamCMD_reGUI_Client.LOCALE;
+using SteamCMD_reGUI_Client.WRAPPER;
 
 namespace SteamCMD_reGUI_Client.UI {
     public partial class FrmDownloader : SettableForm {
@@ -13,22 +15,36 @@ namespace SteamCMD_reGUI_Client.UI {
 
         private async void FrmDownloader_Load( object sender, EventArgs e ) => await Download();
 
-        private async Task Download() {
+        public void LoadConfig()
+        { 
+           
+        }
+
+        public async Task Download() {
             if ( saveFileDialog.ShowDialog() != DialogResult.OK ) { 
                 Close();
                 return;
             }
             var steamCmdPathfull = saveFileDialog.FileName;
-            try {
-                using ( var webClient = new WebClient() ) {
-                    webClient.DownloadFileCompleted += Completed;
-                    webClient.DownloadProgressChanged += ProgressChanged;
+            var webClient = new WebClient();
+            webClient.DownloadFileCompleted += Completed;
+            webClient.DownloadProgressChanged += ProgressChanged;
+            try
+            {
                     await webClient.DownloadFileTaskAsync( new Uri( "http://media.steampowered.com/installer/steamcmd.zip" ), steamCmdPathfull );
-                }
             }
-            catch ( Exception ex ) {
-                this.MetroMessageBox( ex.Message, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Information );
-                Close();
+            catch {
+                try
+                {
+                    await
+                        webClient.DownloadFileTaskAsync(
+                            new Uri("https://mirror.epicm.org/steamcmd/steamcmd.zip"), steamCmdPathfull);
+                }
+                catch (Exception ex)
+                {
+                    this.MetroMessageBox(ex.Message, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Close();
+                }
             }
         }
 
@@ -38,18 +54,40 @@ namespace SteamCMD_reGUI_Client.UI {
             Unpack();
         }
 
-        private void Unpack() {
+        public async void Unpack() {
             Text = Strings.sUnpacking;
             var zipfile = saveFileDialog.FileName;
             var targetpath = Path.GetDirectoryName( zipfile );
-            if ( File.Exists( zipfile ) ) {
-                ZipFile.ExtractToDirectory( zipfile, targetpath );
-                this.MetroMessageBox( Strings.sUnpackingComplete, Strings.sDone, MessageBoxButtons.OK, MessageBoxIcon.Information );
+            var exefile = Path.Combine(zipfile).Replace("steamcmd.zip", "steamcmd.exe");
+            if (File.Exists(zipfile))
+            {
+                try
+                {
+                    ZipFile.ExtractToDirectory(zipfile, targetpath);
+                    this.MetroMessageBox(Strings.sUnpackingComplete, Strings.sDone, MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                }
+                catch (IOException ex)
+                {
+                    Console.WriteLine(ex);
+                }
+
             }
-            else {
-                Text = Strings.sError;
+            else
+            {
+                if (this.MetroMessageBox(Strings.sCheckZip, Strings.sError, MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    await Download();
+                }
             }
             Close();
+           if (File.Exists(exefile))
+            {
+                CoreHandler.Instance.Config.Paths.SteamCmdPath = exefile;
+                CoreHandler.Instance.SaveConfig();
+                MetroMessageBox.Show(this, Strings.sCfgSaved, Strings.sDone, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Application.Restart();
+            }
             Text = Strings.sDone;
         }
     }

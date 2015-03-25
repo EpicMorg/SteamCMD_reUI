@@ -1,13 +1,12 @@
 ﻿using System;
-using System.IO;
-
+using System.IO; 
 namespace SteamCMD_reGUI_Core.Configs
 {
     public class Paths : IValidatable
     {
         public Paths() { 
-            SteamCmdPath = Path.Combine(Locator.GetExeDir, "steamcmd.exe");
-            DefaultOutputDir = Path.Combine(Locator.GetExeDir, "customserver");
+           SteamCmdPath = Path.Combine(Locator.GetExeDir, "steamcmd.exe");
+           DefaultOutputDir = Path.Combine(Locator.GetExeDir, "NewDownloadedServer"); 
         }
 
         public string SteamCmdPath

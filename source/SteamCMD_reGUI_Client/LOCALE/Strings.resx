@@ -126,6 +126,9 @@
   <data name="sCheckPath" xml:space="preserve">
     <value>steamcmd.exe not found! Try to download it?</value>
   </data>
+  <data name="sCheckZip" xml:space="preserve">
+    <value>steamcmd.zip not found! Try to download it again?</value>
+  </data>
   <data name="sDone" xml:space="preserve">
     <value>Done!</value>
   </data>
@@ -164,6 +167,9 @@
   </data>
   <data name="sRussian" xml:space="preserve">
     <value>Russian</value>
+  </data>
+  <data name="sServersDirectoryNotExistis" xml:space="preserve">
+    <value>This directory is not exists. Try to create it?</value>
   </data>
   <data name="sStartP" xml:space="preserve">
     <value>Start</value>

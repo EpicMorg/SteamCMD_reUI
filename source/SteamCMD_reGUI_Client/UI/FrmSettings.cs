@@ -6,6 +6,7 @@ using MetroFramework;
 using SteamCMD_reGUI_Client.LOCALE;
 using SteamCMD_reGUI_Client.WRAPPER;
 using SteamCMD_reGUI_Core.Configs;
+#pragma warning disable 219
 
 namespace SteamCMD_reGUI_Client.UI {
     public partial class FrmSettings : SettableForm {
@@ -38,6 +39,12 @@ namespace SteamCMD_reGUI_Client.UI {
             mToogleLog.Checked = ch.Misc.Logging;
         }
 
+        private static void DownloadMe()
+        {
+            var frmDownloader = new FrmDownloader();
+            frmDownloader.ShowDialog();
+        }
+
         private bool AlertOnBadConfig() {
             var txtbox = mTxtSTEAMCMD.Text;
             var txtbox2 = mTxtDeafOD.Text;
@@ -45,24 +52,35 @@ namespace SteamCMD_reGUI_Client.UI {
             string error = null;
             if ( !CoreHandler.Instance.Config.Validate() ) {
                 ok = false;
-                error = Strings.sError;
+                //error = Strings.sError;
             }
             if ( ok && (string.IsNullOrWhiteSpace( txtbox ) || !File.Exists( txtbox ) ) ) {
-                if ( this.MetroMessageBox( Strings.sCheckPath, Strings.sError, MessageBoxButtons.YesNo ) == DialogResult.Yes ) {
-                    var frmDownloader = new FrmDownloader();
-                    frmDownloader.ShowDialog();
+                if ( this.MetroMessageBox( Strings.sCheckPath, Strings.sError, MessageBoxButtons.YesNo ) == DialogResult.Yes ) { 
+                   DownloadMe();
                 }
                 else {
                     ok = false;
-                    error = Strings.sError;
-                }
+                    //error = Strings.sError;
+                } 
             }
-            if ( ok && (string.IsNullOrWhiteSpace( txtbox2 ) || !Directory.Exists( txtbox2 ) ) ) {
+            if (ok && (string.IsNullOrWhiteSpace(txtbox2) || !Directory.Exists(txtbox2)))
+            {
                 ok = false;
-                error = Strings.sError;
+                if (this.MetroMessageBox(Strings.sServersDirectoryNotExistis, Strings.sError, MessageBoxButtons.YesNo) == DialogResult.Yes)  {
+                    try {
+                        if (txtbox2 != null) Directory.CreateDirectory(txtbox2);
+                        ok = true;
+                    }  catch (Exception ex) {
+                        //error = Strings.sError;
+                        ok = false;
+                        Console.Write(ex); }
+                    //if ( !ok) {
+                    //   this.MetroMessageBox( error, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error ); //Все время срабатывает. Нахера это здесь?
+                    //}
+                    ok = true;
+                }
+                return ok;
             }
-            if ( !ok )
-                this.MetroMessageBox( error, Strings.sError, MessageBoxButtons.OK, MessageBoxIcon.Error );
             return ok;
         }
 
@@ -115,6 +133,11 @@ namespace SteamCMD_reGUI_Client.UI {
             if ( folderBrowser.ShowDialog() != DialogResult.OK )
                 return;
             mTxtDeafOD.Text = folderBrowser.SelectedPath;
+        }
+
+        private void mBtnDownload_Click(object sender, EventArgs e)
+        {
+            DownloadMe();
         }
     }
 }

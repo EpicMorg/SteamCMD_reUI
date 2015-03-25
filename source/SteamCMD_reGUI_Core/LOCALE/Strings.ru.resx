@@ -117,70 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="sCfgInvalid" xml:space="preserve">
-    <value>Неправильный конфиг! Нужно исправить.</value>
+  <data name="sSelectOutputDir" xml:space="preserve">
+    <value>Укажите стандартную папку для скачивания сервера!</value>
   </data>
-  <data name="sCfgSaved" xml:space="preserve">
-    <value>Успешно сохранено. Программа будет перезапущена.</value>
-  </data>
-  <data name="sCheckPath" xml:space="preserve">
-    <value>steamcmd.exe не найден! Попытаться скачать его?</value>
-  </data>
-  <data name="sCheckZip" xml:space="preserve">
-    <value>steamcmd.zip не найден! Попытаться скачать его еще раз?</value>
-  </data>
-  <data name="sDone" xml:space="preserve">
-    <value>Выполнено!</value>
-  </data>
-  <data name="sDownloadingComplete" xml:space="preserve">
-    <value>Загрузка завершена!</value>
-  </data>
-  <data name="sEmptyField" xml:space="preserve">
-    <value>Поле не должно быть пустым!</value>
-  </data>
-  <data name="sEnglish" xml:space="preserve">
-    <value>Английский</value>
-  </data>
-  <data name="sError" xml:space="preserve">
-    <value>Ошибка!</value>
-  </data>
-  <data name="sFirstRun" xml:space="preserve">
-    <value>Это первый запуск программы. Выполните настройку!</value>
-  </data>
-  <data name="sGreeting" xml:space="preserve">
-    <value>Приветик!</value>
-  </data>
-  <data name="sHere" xml:space="preserve">
-    <value>...здесь</value>
-  </data>
-  <data name="sInformation" xml:space="preserve">
-    <value>Информация</value>
-  </data>
-  <data name="sLangChanged" xml:space="preserve">
-    <value>Язык программы был изменен.</value>
-  </data>
-  <data name="sLoading" xml:space="preserve">
-    <value>Загрузка.. Пожалуйста, подождите...</value>
-  </data>
-  <data name="sReset" xml:space="preserve">
-    <value>Конфигузация успешно сброшена.</value>
-  </data>
-  <data name="sRussian" xml:space="preserve">
-    <value>Русский</value>
-  </data>
-  <data name="sServersDirectoryNotExistis" xml:space="preserve">
-    <value>Папка не существует. Попытаться создать ее?</value>
-  </data>
-  <data name="sStartP" xml:space="preserve">
-    <value>Запуск</value>
-  </data>
-  <data name="sStopP" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="sUnpacking" xml:space="preserve">
-    <value>Распаковка...</value>
-  </data>
-  <data name="sUnpackingComplete" xml:space="preserve">
-    <value>Распаковка завершена</value>
+  <data name="sSelectSteamCMD" xml:space="preserve">
+    <value>Укажите путь до "steamcmd.exe", пожалуйста!</value>
   </data>
 </root>

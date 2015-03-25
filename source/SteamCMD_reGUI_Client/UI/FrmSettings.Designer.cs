@@ -53,6 +53,7 @@
             this.mBtnReset = new MetroFramework.Controls.MetroButton();
             this.fileBrowser = new System.Windows.Forms.OpenFileDialog();
             this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
+            this.mBtnDownload = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings.SuspendLayout();
             this.mTabInterface.SuspendLayout();
             this.mTabPaths.SuspendLayout();
@@ -74,7 +75,7 @@
             this.mTabsSettings.Controls.Add(this.mTabOther);
             this.mTabsSettings.Multiline = true;
             this.mTabsSettings.Name = "mTabsSettings";
-            this.mTabsSettings.SelectedIndex = 2;
+            this.mTabsSettings.SelectedIndex = 1;
             this.mTabsSettings.UseSelectable = true;
             // 
             // mTabInterface
@@ -147,6 +148,7 @@
             // 
             // mTabPaths
             // 
+            this.mTabPaths.Controls.Add(this.mBtnDownload);
             this.mTabPaths.Controls.Add(this.mBtnDeafOD);
             this.mTabPaths.Controls.Add(this.mBtnBrowse);
             this.mTabPaths.Controls.Add(this.mTxtDeafOD);
@@ -181,7 +183,7 @@
             this.mTxtDeafOD.Lines = new string[0];
             resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
             this.mTxtDeafOD.MaxLength = 32767;
-            this.mTxtDeafOD.Name = "mTxtDeafOD";
+            this.mTxtDeafOD.Name = "mTxtDeafOD"; 
             this.mTxtDeafOD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtDeafOD.SelectedText = "";
             this.mTxtDeafOD.UseSelectable = true;
@@ -196,7 +198,7 @@
             this.mTxtSTEAMCMD.Lines = new string[0];
             resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.MaxLength = 32767;
-            this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD";
+            this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD"; 
             this.mTxtSTEAMCMD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSTEAMCMD.SelectedText = "";
             this.mTxtSTEAMCMD.UseSelectable = true;
@@ -242,6 +244,13 @@
             // fileBrowser
             // 
             resources.ApplyResources(this.fileBrowser, "fileBrowser");
+            // 
+            // mBtnDownload
+            // 
+            resources.ApplyResources(this.mBtnDownload, "mBtnDownload");
+            this.mBtnDownload.Name = "mBtnDownload";
+            this.mBtnDownload.UseSelectable = true;
+            this.mBtnDownload.Click += new System.EventHandler(this.mBtnDownload_Click);
             // 
             // FrmSettings
             // 
@@ -292,5 +301,6 @@
         private MetroFramework.Controls.MetroTabPage mTabOther;
         private MetroFramework.Controls.MetroToggle mToogleLog;
         private MetroFramework.Controls.MetroLabel mLblLog;
+        private MetroFramework.Controls.MetroButton mBtnDownload;
     }
 }

@@ -88,6 +88,15 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to steamcmd.zip not found! Try to download it again?.
+        /// </summary>
+        internal static string sCheckZip {
+            get {
+                return ResourceManager.GetString("sCheckZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Done!.
         /// </summary>
         internal static string sDone {
@@ -201,6 +210,15 @@ namespace SteamCMD_reGUI_Client.LOCALE {
         internal static string sRussian {
             get {
                 return ResourceManager.GetString("sRussian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This directory is not exists. Try to create it?.
+        /// </summary>
+        internal static string sServersDirectoryNotExistis {
+            get {
+                return ResourceManager.GetString("sServersDirectoryNotExistis", resourceCulture);
             }
         }
         
