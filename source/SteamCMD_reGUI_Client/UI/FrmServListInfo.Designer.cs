@@ -59,6 +59,7 @@
             // 
             resources.ApplyResources(this.lblDate, "lblDate");
             this.lblDate.Name = "lblDate";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // mTxtDate
             // 

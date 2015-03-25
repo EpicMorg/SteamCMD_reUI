@@ -231,6 +231,9 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SteamGuard</value>
   </data>
@@ -238,6 +241,6 @@
     <value>FrmSteamGuard</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SteamCMD_reGUI_Client.UI.SettableForm, SteamCMD_reGUI_Client, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+    <value>SteamCMD_reGUI_Client.UI.SettableForm, SteamCMD_reGUI_Client, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>

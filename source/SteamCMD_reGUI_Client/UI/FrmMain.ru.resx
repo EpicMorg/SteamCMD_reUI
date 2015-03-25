@@ -172,11 +172,23 @@
   <data name="mLblTM.Text" xml:space="preserve">
     <value>Все торговые марки являются собственностью соответствующих владельцев в США и других странах. Все права защищены.</value>
   </data>
+  <data name="mLblTranslation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 23</value>
+  </data>
+  <data name="mLblTranslation.Text" xml:space="preserve">
+    <value>Перевод на русский - Ruslan</value>
+  </data>
+  <data name="mLblKASTHACK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 244</value>
+  </data>
   <data name="mLblKASTHACK.Size" type="System.Drawing.Size, System.Drawing">
     <value>470, 25</value>
   </data>
   <data name="mLblKASTHACK.Text" xml:space="preserve">
     <value>Огромная помощь с кодом, правки и т.д. - Kasthack</value>
+  </data>
+  <data name="mLblSTAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 219</value>
   </data>
   <data name="mLblSTAM.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 25</value>

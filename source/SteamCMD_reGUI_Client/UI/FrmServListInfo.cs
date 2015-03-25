@@ -17,5 +17,10 @@ namespace SteamCMD_reGUI_Client.UI
         {
 
         }
+
+        private void lblDate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

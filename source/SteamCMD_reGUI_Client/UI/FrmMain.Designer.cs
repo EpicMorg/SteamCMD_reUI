@@ -24,6 +24,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.mTabsMain = new MetroFramework.Controls.MetroTabControl();
             this.mTabMain = new MetroFramework.Controls.MetroTabPage();
+            this.mLabel_help = new MetroFramework.Controls.MetroLabel();
+            this.mBtnInfo = new MetroFramework.Controls.MetroButton();
             this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
             this.mToggleValidate = new MetroFramework.Controls.MetroToggle();
             this.mTileProcess = new MetroFramework.Controls.MetroTile();
@@ -48,13 +50,13 @@
             this.mLblTM = new MetroFramework.Controls.MetroLabel();
             this.mLblAltGUI = new MetroFramework.Controls.MetroLabel();
             this.mLblProdVer = new MetroFramework.Controls.MetroLabel();
+            this.mLblTranslation = new MetroFramework.Controls.MetroLabel();
             this.mLblKASTHACK = new MetroFramework.Controls.MetroLabel();
             this.mLblSTAM = new MetroFramework.Controls.MetroLabel();
             this.mLblProdName = new MetroFramework.Controls.MetroLabel();
             this.picAbout = new System.Windows.Forms.PictureBox();
             this.picMF = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.mBtnInfo = new MetroFramework.Controls.MetroButton();
             this.mTabsMain.SuspendLayout();
             this.mTabMain.SuspendLayout();
             this.mPanelLogin.SuspendLayout();
@@ -77,6 +79,7 @@
             // 
             // mTabMain
             // 
+            this.mTabMain.Controls.Add(this.mLabel_help);
             this.mTabMain.Controls.Add(this.mBtnInfo);
             this.mTabMain.Controls.Add(this.metroProgressBar1);
             this.mTabMain.Controls.Add(this.mToggleValidate);
@@ -96,6 +99,18 @@
             this.mTabMain.VerticalScrollbarBarColor = true;
             this.mTabMain.VerticalScrollbarHighlightOnWheel = false;
             this.mTabMain.VerticalScrollbarSize = 10;
+            // 
+            // mLabel_help
+            // 
+            resources.ApplyResources(this.mLabel_help, "mLabel_help");
+            this.mLabel_help.Name = "mLabel_help";
+            // 
+            // mBtnInfo
+            // 
+            resources.ApplyResources(this.mBtnInfo, "mBtnInfo");
+            this.mBtnInfo.Name = "mBtnInfo";
+            this.mBtnInfo.UseSelectable = true;
+            this.mBtnInfo.Click += new System.EventHandler(this.mBtnInfo_Click);
             // 
             // metroProgressBar1
             // 
@@ -251,6 +266,7 @@
             this.mTabAbout.Controls.Add(this.mLblTM);
             this.mTabAbout.Controls.Add(this.mLblAltGUI);
             this.mTabAbout.Controls.Add(this.mLblProdVer);
+            this.mTabAbout.Controls.Add(this.mLblTranslation);
             this.mTabAbout.Controls.Add(this.mLblKASTHACK);
             this.mTabAbout.Controls.Add(this.mLblSTAM);
             this.mTabAbout.Controls.Add(this.mLblProdName);
@@ -313,6 +329,14 @@
             this.mLblProdVer.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.mLblProdVer.Name = "mLblProdVer";
             // 
+            // mLblTranslation
+            // 
+            this.mLblTranslation.BackColor = System.Drawing.Color.Transparent;
+            this.mLblTranslation.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.mLblTranslation.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            resources.ApplyResources(this.mLblTranslation, "mLblTranslation");
+            this.mLblTranslation.Name = "mLblTranslation";
+            // 
             // mLblKASTHACK
             // 
             resources.ApplyResources(this.mLblKASTHACK, "mLblKASTHACK");
@@ -360,13 +384,6 @@
             resources.ApplyResources(this.picLogo, "picLogo");
             this.picLogo.Name = "picLogo";
             this.picLogo.TabStop = false;
-            // 
-            // mBtnInfo
-            // 
-            resources.ApplyResources(this.mBtnInfo, "mBtnInfo");
-            this.mBtnInfo.Name = "mBtnInfo";
-            this.mBtnInfo.UseSelectable = true;
-            this.mBtnInfo.Click += new System.EventHandler(this.mBtnInfo_Click);
             // 
             // FrmMain
             // 
@@ -427,6 +444,8 @@
         private MetroFramework.Controls.MetroToggle mToggleValidate;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
         private MetroFramework.Controls.MetroButton mBtnInfo;
+        private MetroFramework.Controls.MetroLabel mLblTranslation;
+        private MetroFramework.Controls.MetroLabel mLabel_help;
     }
 }
 

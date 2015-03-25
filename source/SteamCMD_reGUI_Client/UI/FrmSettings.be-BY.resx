@@ -118,42 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="metroProgressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 63</value>
+  <data name="mLblShowSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 19</value>
   </data>
-  <data name="metroProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 23</value>
+  <data name="mLblShowSplash.Text" xml:space="preserve">
+    <value>Паказаць акенца запуску:</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="metroProgressBar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="mLblAppStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 19</value>
   </data>
-  <data name="&gt;&gt;metroProgressBar.Name" xml:space="preserve">
-    <value>metroProgressBar</value>
+  <data name="mLblAppStyle.Text" xml:space="preserve">
+    <value>Стыль праграмы:</value>
   </data>
-  <data name="&gt;&gt;metroProgressBar.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroProgressBar, MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="mLblAppTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 19</value>
   </data>
-  <data name="&gt;&gt;metroProgressBar.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="mLblAppTheme.Text" xml:space="preserve">
+    <value>Тэма праграмы:</value>
   </data>
-  <data name="&gt;&gt;metroProgressBar.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="mLblLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
   </data>
-  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="saveFileDialog.Filter" xml:space="preserve">
-    <value>Steam CMD (Zipped)|steamcmd.zip</value>
+  <data name="mLblLang.Text" xml:space="preserve">
+    <value>Мова:</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="mTabInterface.Text" xml:space="preserve">
+    <value>Інтэрфейс</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>512, 109</value>
+  <data name="mBtnDownload.Text" xml:space="preserve">
+    <value>Спампаваць SteamCMD самастойна</value>
+  </data>
+  <data name="mBtnDeafOD.Text" xml:space="preserve">
+    <value>Выбраць</value>
+  </data>
+  <data name="mBtnBrowse.Text" xml:space="preserve">
+    <value>Выбраць</value>
+  </data>
+  <data name="mLblDeafOD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 19</value>
+  </data>
+  <data name="mLblDeafOD.Text" xml:space="preserve">
+    <value>Стандартная тэчка для спампоўкі:</value>
+  </data>
+  <data name="mLblSTEAMCMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="mLblSTEAMCMD.Text" xml:space="preserve">
+    <value>Шлях да Steam CMD:</value>
+  </data>
+  <data name="mTabPaths.Text" xml:space="preserve">
+    <value>Шляхі</value>
+  </data>
+  <data name="mLblLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="mLblLog.Text" xml:space="preserve">
+    <value>Весці журнал:</value>
+  </data>
+  <data name="mTabOther.Text" xml:space="preserve">
+    <value>Іншае</value>
+  </data>
+  <data name="mBtnReset.Text" xml:space="preserve">
+    <value>Скінуць</value>
+  </data>
+  <data name="mBtnSave.Text" xml:space="preserve">
+    <value>Захаваць</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -179,23 +208,7 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Downloading</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
-    <value>saveFileDialog</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmDownloader</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SteamCMD_reGUI_Client.UI.SettableForm, SteamCMD_reGUI_Client, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null</value>
+    <value>Налады</value>
   </data>
 </root>

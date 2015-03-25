@@ -11,7 +11,7 @@
 - App using **[Modern UI Icons](https://github.com/Templarian/WindowsIcons/ "Official github")** (*License file [included](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/LICENSES/WindowsIcons.txt)*).
 - Actual list of supported games can be found [here](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/Servers.xml).
 - The ability to edit the list of supported games manually by the user (*This list is not hardcoded in the program*).
-- Localization: `en_US`, `ru_RU` (*You can help to translate this app, contact me*).
+- Localizations: `en_US`, `ru_RU`, `be_BY` (*You can help to translate this app, contact me*).
 - App themes support.
 
 
@@ -19,8 +19,8 @@
 - Microsoft Windows Vista or above (***XP*** *not supported anymore since MS.Net 4.5*).
 - Microsoft [.NET Framework 4.5.3 (4.6 Preview)](http://www.microsoft.com/en-US/download/details.aspx?id=44927 "Link for download") or above. 
 - Internet connection.
-- 20mb HDD disk space.
-- 35mb of RAM.
+- 5 Mb HDD disk space.
+- 10 Mb of RAM.
 
 ### How to use ###
 

@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
-            this.mBtnSave = new MetroFramework.Controls.MetroButton();
+            this.fileBrowser = new System.Windows.Forms.OpenFileDialog();
+            this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             this.mTabsSettings = new MetroFramework.Controls.MetroTabControl();
             this.mTabInterface = new MetroFramework.Controls.MetroTabPage();
             this.mToogleShowSplash = new MetroFramework.Controls.MetroToggle();
@@ -52,20 +53,16 @@
             this.mToogleLog = new MetroFramework.Controls.MetroToggle();
             this.mLblLog = new MetroFramework.Controls.MetroLabel();
             this.mBtnReset = new MetroFramework.Controls.MetroButton();
-            this.fileBrowser = new System.Windows.Forms.OpenFileDialog();
-            this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
+            this.mBtnSave = new MetroFramework.Controls.MetroButton();
             this.mTabsSettings.SuspendLayout();
             this.mTabInterface.SuspendLayout();
             this.mTabPaths.SuspendLayout();
             this.mTabOther.SuspendLayout();
             this.SuspendLayout();
             // 
-            // mBtnSave
+            // fileBrowser
             // 
-            resources.ApplyResources(this.mBtnSave, "mBtnSave");
-            this.mBtnSave.Name = "mBtnSave";
-            this.mBtnSave.UseSelectable = true;
-            this.mBtnSave.Click += new System.EventHandler(this.mBtnSave_Click);
+            resources.ApplyResources(this.fileBrowser, "fileBrowser");
             // 
             // mTabsSettings
             // 
@@ -75,12 +72,11 @@
             this.mTabsSettings.Controls.Add(this.mTabOther);
             this.mTabsSettings.Multiline = true;
             this.mTabsSettings.Name = "mTabsSettings";
-            this.mTabsSettings.SelectedIndex = 1;
+            this.mTabsSettings.SelectedIndex = 2;
             this.mTabsSettings.UseSelectable = true;
             // 
             // mTabInterface
             // 
-            resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Controls.Add(this.mToogleShowSplash);
             this.mTabInterface.Controls.Add(this.mLblShowSplash);
             this.mTabInterface.Controls.Add(this.mLblAppStyle);
@@ -92,6 +88,7 @@
             this.mTabInterface.HorizontalScrollbarBarColor = true;
             this.mTabInterface.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabInterface.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabInterface, "mTabInterface");
             this.mTabInterface.Name = "mTabInterface";
             this.mTabInterface.VerticalScrollbarBarColor = true;
             this.mTabInterface.VerticalScrollbarHighlightOnWheel = false;
@@ -117,8 +114,8 @@
             // 
             // mComboAppStyle
             // 
-            resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.FormattingEnabled = true;
+            resources.ApplyResources(this.mComboAppStyle, "mComboAppStyle");
             this.mComboAppStyle.Name = "mComboAppStyle";
             this.mComboAppStyle.UseSelectable = true;
             // 
@@ -129,8 +126,8 @@
             // 
             // mComboAppTheme
             // 
-            resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.FormattingEnabled = true;
+            resources.ApplyResources(this.mComboAppTheme, "mComboAppTheme");
             this.mComboAppTheme.Name = "mComboAppTheme";
             this.mComboAppTheme.UseSelectable = true;
             // 
@@ -141,14 +138,13 @@
             // 
             // mComboLang
             // 
-            resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.FormattingEnabled = true;
+            resources.ApplyResources(this.mComboLang, "mComboLang");
             this.mComboLang.Name = "mComboLang";
             this.mComboLang.UseSelectable = true;
             // 
             // mTabPaths
             // 
-            resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Controls.Add(this.mBtnDownload);
             this.mTabPaths.Controls.Add(this.mBtnDeafOD);
             this.mTabPaths.Controls.Add(this.mBtnBrowse);
@@ -159,6 +155,7 @@
             this.mTabPaths.HorizontalScrollbarBarColor = true;
             this.mTabPaths.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabPaths.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabPaths, "mTabPaths");
             this.mTabPaths.Name = "mTabPaths";
             this.mTabPaths.VerticalScrollbarBarColor = true;
             this.mTabPaths.VerticalScrollbarHighlightOnWheel = false;
@@ -187,8 +184,8 @@
             // 
             // mTxtDeafOD
             // 
-            resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
             this.mTxtDeafOD.Lines = new string[0];
+            resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
             this.mTxtDeafOD.MaxLength = 32767;
             this.mTxtDeafOD.Name = "mTxtDeafOD";
             this.mTxtDeafOD.PasswordChar = '\0';
@@ -203,8 +200,8 @@
             // 
             // mTxtSTEAMCMD
             // 
-            resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.Lines = new string[0];
+            resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.MaxLength = 32767;
             this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD";
             this.mTxtSTEAMCMD.PasswordChar = '\0';
@@ -219,12 +216,12 @@
             // 
             // mTabOther
             // 
-            resources.ApplyResources(this.mTabOther, "mTabOther");
             this.mTabOther.Controls.Add(this.mToogleLog);
             this.mTabOther.Controls.Add(this.mLblLog);
             this.mTabOther.HorizontalScrollbarBarColor = true;
             this.mTabOther.HorizontalScrollbarHighlightOnWheel = false;
             this.mTabOther.HorizontalScrollbarSize = 10;
+            resources.ApplyResources(this.mTabOther, "mTabOther");
             this.mTabOther.Name = "mTabOther";
             this.mTabOther.VerticalScrollbarBarColor = true;
             this.mTabOther.VerticalScrollbarHighlightOnWheel = false;
@@ -250,13 +247,12 @@
             this.mBtnReset.UseSelectable = true;
             this.mBtnReset.Click += new System.EventHandler(this.mBtnReset_Click);
             // 
-            // fileBrowser
+            // mBtnSave
             // 
-            resources.ApplyResources(this.fileBrowser, "fileBrowser");
-            // 
-            // folderBrowser
-            // 
-            resources.ApplyResources(this.folderBrowser, "folderBrowser");
+            resources.ApplyResources(this.mBtnSave, "mBtnSave");
+            this.mBtnSave.Name = "mBtnSave";
+            this.mBtnSave.UseSelectable = true;
+            this.mBtnSave.Click += new System.EventHandler(this.mBtnSave_Click);
             // 
             // FrmSettings
             // 

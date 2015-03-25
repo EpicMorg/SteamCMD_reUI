@@ -14,6 +14,7 @@ namespace SteamCMD_reGUI_Client.UI {
         bool _procStarted; 
         public FrmMain() {
             InitializeComponent();
+            mLabel_help.Text = "";
             mTabsMain.SelectTab( mTabMain );
             //mComboServers.DataSource = CoreHandler.Instance.Servers;
             mTileProcess.Text = Strings.sStartP;
