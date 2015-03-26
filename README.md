@@ -2,7 +2,7 @@
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
-Pre-release version can be downloaded **[here](https://github.com/stamepicmorg/SteamCMD_reGUI/raw/master/pre-reliase/pre-release-1-0-0-5.zip "You can try it")**.
+Pre-release version can be downloaded **[here](https://github.com/stamepicmorg/SteamCMD_reGUI/raw/master/pre-release/pre-release-1-0-0-5.zip "You can try it")**.
 
 ![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
 
