@@ -2,7 +2,15 @@
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
 
+Pre-release version can be downloaded **[here](https://github.com/stamepicmorg/SteamCMD_reGUI/raw/master/pre-reliase/pre-release-1-0-0-5.zip "You can try it")**.
+
 ![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
+
+## To Do  ##
+
+- **Servers wich requiere login**.
+- **Steam guard support for servers wich requiere login**.
+- **Wiki docs at github**.
 
 ### Some notes ###
 
@@ -15,12 +23,15 @@
 - App themes support.
 
 
+
+
+
 ### Minimal system requirements  ###
 - Microsoft Windows Vista or above (***XP*** *not supported anymore since MS.Net 4.5*).
 - Microsoft [.NET Framework 4.5.3 (4.6 Preview)](http://www.microsoft.com/en-US/download/details.aspx?id=44927 "Link for download") or above. 
 - Internet connection.
-- 5 Mb HDD disk space.
-- 10 Mb of RAM.
+- 10 Mb HDD disk space.
+- 20 Mb of RAM.
 
 ### How to use ###
 
