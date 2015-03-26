@@ -70,7 +70,7 @@
 		<server AppId="313600" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">NEOTOKYO Dedicated Server</server>
 		<server AppId="313900" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">NS2: Combat Dedicated Server</server>
 		<server AppId="111710" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Nuclear Dawn Dedicated Server</server>
-		<server AppId="230030" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Painkiller Hell & Damnation Dedicated Server</server>
+		<server AppId="230030" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Painkiller Hell and Damnation Dedicated Server</server>
 		<server AppId="17575" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Pirates, Vikings, and Knights II Dedicated Server</server>
 		<server AppId="224620" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Primal Carnage Dedicated Server</server>
 		<server AppId="108600" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="true" WarningMessage="Game purchase required!">Project Zomboid Dedicated Server</server>

@@ -5,12 +5,10 @@ namespace SteamCMD_reGUI_Core.Configs
     public class Server : IValidatable {
           
         // ReSharper disable once FunctionRecursiveOnAllPaths
-        public Server() {
-        } 
-
+  
         [XmlText]
-        public string ServerName
-        {
+        public string server
+		{
             get;
             set;
         }
@@ -34,9 +32,25 @@ namespace SteamCMD_reGUI_Core.Configs
             set;
         }
         [XmlAttribute]
-        public bool Purchased { get; set; }
+        public bool MustBePurchased
+		{
+			get; set;
+		}
+		[XmlAttribute]
+		public bool SteamClientRequered
+		{
+			get; set;
+		}
 
-        public override string ToString() => ServerName;
+		[XmlAttribute]
+		public string WarningMessage
+		{
+			get;
+			set;
+		}
+
+
+		public override string ToString() => server;
         public bool Validate() => true;
     }
 }

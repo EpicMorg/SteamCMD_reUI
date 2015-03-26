@@ -34,8 +34,9 @@ namespace SteamCMD_reGUI_Client.UI {
         private void FrmMain_Load( object sender, EventArgs e ) {
             mLblProdName.Text = String.Format( "{0}", FrmSplashScreen.AssemblyProduct );
             mLblProdVer.Text = String.Format( "{0}", FrmSplashScreen.AssemblyVersion );
-            mComboServers.Items.Add( new Server() { AnonLogin = true, AppId = 232250, ServerName = "Team Fortress 2 (only for debug)" } ); // in future - load servers from xml
-            mComboServers.SelectedIndex = 0;
+            //mComboServers.Items.Add( new Server() { AnonLogin = true, AppId = 232250, ServerName = "Team Fortress 2 (only for debug)" } ); // in future - load servers from xml
+			mComboServers.Items.Add(new Server() { AnonLogin = true, AppId = 232250, server = "Team Fortress 2 (only for debug)" }); // in future - load servers from xml
+			mComboServers.SelectedIndex = 0;
             Focus();
         }
 
