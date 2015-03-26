@@ -61,6 +61,7 @@
     <Compile Include="Configs\Misc.cs" />
     <Compile Include="Configs\Path.cs" />
     <Compile Include="Configs\Server.cs" />
+    <Compile Include="Configs\ServerList.cs" />
     <Compile Include="Configs\Styles.cs" />
     <Compile Include="Configs\Theme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

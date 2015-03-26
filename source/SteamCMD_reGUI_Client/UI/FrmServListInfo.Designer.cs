@@ -48,8 +48,7 @@
             resources.ApplyResources(this.mTxtVersion, "mTxtVersion");
             this.mTxtVersion.Lines = new string[0];
             this.mTxtVersion.MaxLength = 32767;
-            this.mTxtVersion.Name = "mTxtVersion";
-            this.mTxtVersion.PasswordChar = '\0';
+            this.mTxtVersion.Name = "mTxtVersion"; 
             this.mTxtVersion.ReadOnly = true;
             this.mTxtVersion.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtVersion.SelectedText = "";
@@ -58,16 +57,14 @@
             // lblDate
             // 
             resources.ApplyResources(this.lblDate, "lblDate");
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
+            this.lblDate.Name = "lblDate"; 
             // 
             // mTxtDate
             // 
             resources.ApplyResources(this.mTxtDate, "mTxtDate");
             this.mTxtDate.Lines = new string[0];
             this.mTxtDate.MaxLength = 32767;
-            this.mTxtDate.Name = "mTxtDate";
-            this.mTxtDate.PasswordChar = '\0';
+            this.mTxtDate.Name = "mTxtDate"; 
             this.mTxtDate.ReadOnly = true;
             this.mTxtDate.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtDate.SelectedText = "";
@@ -83,8 +80,7 @@
             resources.ApplyResources(this.mTxtAuthor, "mTxtAuthor");
             this.mTxtAuthor.Lines = new string[0];
             this.mTxtAuthor.MaxLength = 32767;
-            this.mTxtAuthor.Name = "mTxtAuthor";
-            this.mTxtAuthor.PasswordChar = '\0';
+            this.mTxtAuthor.Name = "mTxtAuthor"; 
             this.mTxtAuthor.ReadOnly = true;
             this.mTxtAuthor.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtAuthor.SelectedText = "";
@@ -96,8 +92,7 @@
             this.mTxtComment.Lines = new string[0];
             this.mTxtComment.MaxLength = 32767;
             this.mTxtComment.Multiline = true;
-            this.mTxtComment.Name = "mTxtComment";
-            this.mTxtComment.PasswordChar = '\0';
+            this.mTxtComment.Name = "mTxtComment"; 
             this.mTxtComment.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtComment.SelectedText = "";
             this.mTxtComment.UseSelectable = true;

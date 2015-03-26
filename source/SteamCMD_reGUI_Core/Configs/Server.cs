@@ -3,11 +3,9 @@
 namespace SteamCMD_reGUI_Core.Configs
 {
     public class Server : IValidatable {
-          
-        // ReSharper disable once FunctionRecursiveOnAllPaths
-  
-        [XmlText]
-        public string server
+            
+        [XmlText] 
+        public string Name
 		{
             get;
             set;
@@ -25,6 +23,7 @@ namespace SteamCMD_reGUI_Core.Configs
             get;
             set;
         }
+
         [XmlAttribute]
         public bool AnonLogin
         {
@@ -50,7 +49,7 @@ namespace SteamCMD_reGUI_Core.Configs
 		}
 
 
-		public override string ToString() => server;
+		public override string ToString() => Name;
         public bool Validate() => true;
     }
 }

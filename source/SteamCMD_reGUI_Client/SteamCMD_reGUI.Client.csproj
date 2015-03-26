@@ -271,7 +271,9 @@
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.unlock.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.key.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.key.png" />
-    <Content Include="Servers.xml" />
+    <Content Include="Servers.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="steam_dark_all.ico" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />
   </ItemGroup>

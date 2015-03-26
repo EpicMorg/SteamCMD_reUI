@@ -16,13 +16,13 @@ namespace SteamCMD_reGUI_Client.WRAPPER {
         private CoreHandler() {
             _configPath = Path.Combine( Locator.GetExeDir, ConfigName );
             Config = Config.Load( _configPath );
-            Servers = Formatter<Server[]>.Deserialize( Path.Combine( Locator.GetExeDir, ServersName ) )??new Server[] {};
+            Servers = Formatter<ServerList>.Deserialize( Path.Combine( Locator.GetExeDir, ServersName ) )??new ServerList { };
             SaveConfig();
         }
 
         public Config Config { get; set; }
 
-        public Server[] Servers { get; set; }
+        public ServerList Servers { get; set; }
 
         public void SaveConfig() { Config.Save( _configPath ); }
     }
