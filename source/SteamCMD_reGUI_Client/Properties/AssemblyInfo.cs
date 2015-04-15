@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("EpicMorg")]
 [assembly: AssemblyProduct("SteamCMD reGUI")]
 [assembly: AssemblyCopyright("Copyright © EpicMorg 2015")]
-[assembly: AssemblyTrademark("EpicMorg, Steam")]
+[assembly: AssemblyTrademark("EpicMorg, Steam, Valve")]
 [assembly: AssemblyCulture("")]
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 

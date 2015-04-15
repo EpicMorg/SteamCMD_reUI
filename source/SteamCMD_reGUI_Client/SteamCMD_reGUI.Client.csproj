@@ -62,9 +62,12 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>..\packages\MetroModernUI.1.3.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +76,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LOCALE\Strings.be-BY.Designer.cs">
@@ -222,6 +228,9 @@
     <EmbeddedResource Include="UI\SettableForm.resx">
       <DependentUpon>SettableForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MEDIA\Steam Logo - Animated Fog [After Effects] - YouTube.URL">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -271,6 +280,10 @@
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.unlock.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.key.png" />
     <None Include="RC\WindowsIcons-master\WindowsPhone\dark\appbar.key.png" />
+    <None Include="MEDIA\steam_logo.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\splash_back1.png" />
     <Content Include="Servers.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -278,6 +291,10 @@
     <None Include="RC\WindowsIcons-master\WindowsPhone\light\appbar.alert.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SteamCMD_reGUI_Client_WpfControls\SteamCMD_reGUI_Client_WpfControls.csproj">
+      <Project>{9139495A-14D0-4D46-B1AA-A499FF87DFE9}</Project>
+      <Name>SteamCMD_reGUI_Client_WpfControls</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SteamCMD_reGUI_Core\SteamCMD_reGUI.Core.csproj">
       <Project>{bba622b2-091a-4a74-994b-8556e5d00751}</Project>
       <Name>SteamCMD_reGUI.Core</Name>

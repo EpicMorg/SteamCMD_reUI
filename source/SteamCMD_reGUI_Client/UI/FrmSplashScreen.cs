@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 using SteamCMD_reGUI_Client.LOCALE;
 using SteamCMD_reGUI_Client.WRAPPER;
+using SteamCMD_reGUI_Client_WpfControls;
 
 namespace SteamCMD_reGUI_Client.UI {
     public partial class FrmSplashScreen : Form {
@@ -12,7 +17,8 @@ namespace SteamCMD_reGUI_Client.UI {
         public FrmSplashScreen() {
             InitializeComponent();
             cstmLblWait.Text = Strings.sLoading;
-        }
+
+		}
         #region
         public static string AssemblyVersion => CurrentAssembly.GetName().Version.ToString();
         public static string AssemblyProduct {
@@ -21,9 +27,10 @@ namespace SteamCMD_reGUI_Client.UI {
                 return attributes.Length == 0 ? "" : ( (AssemblyProductAttribute) attributes[ 0 ] ).Product;
             }
         }
-        #endregion
+		#endregion
+	
 
-        private void Check() {
+		private void Check() {
             if ( !CoreHandler.Instance.Config.Misc.LicensesAccepted ) {
                 Hide();
                 new FrmLicAccept().ShowDialog();
@@ -48,5 +55,10 @@ namespace SteamCMD_reGUI_Client.UI {
             await Task.Delay( 3500 );
             Check();
         }
-    }
+
+		private void elementHost1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
+		{
+
+		}
+	}
 }
