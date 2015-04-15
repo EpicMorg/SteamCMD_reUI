@@ -187,8 +187,7 @@
             this.mTxtDeafOD.Lines = new string[0];
             resources.ApplyResources(this.mTxtDeafOD, "mTxtDeafOD");
             this.mTxtDeafOD.MaxLength = 32767;
-            this.mTxtDeafOD.Name = "mTxtDeafOD";
-            this.mTxtDeafOD.PasswordChar = '\0';
+            this.mTxtDeafOD.Name = "mTxtDeafOD"; 
             this.mTxtDeafOD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtDeafOD.SelectedText = "";
             this.mTxtDeafOD.UseSelectable = true;
@@ -203,8 +202,7 @@
             this.mTxtSTEAMCMD.Lines = new string[0];
             resources.ApplyResources(this.mTxtSTEAMCMD, "mTxtSTEAMCMD");
             this.mTxtSTEAMCMD.MaxLength = 32767;
-            this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD";
-            this.mTxtSTEAMCMD.PasswordChar = '\0';
+            this.mTxtSTEAMCMD.Name = "mTxtSTEAMCMD"; 
             this.mTxtSTEAMCMD.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSTEAMCMD.SelectedText = "";
             this.mTxtSTEAMCMD.UseSelectable = true;

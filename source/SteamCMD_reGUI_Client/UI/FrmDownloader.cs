@@ -38,7 +38,7 @@ namespace SteamCMD_reGUI_Client.UI {
                 {
                     await
                         webClient.DownloadFileTaskAsync(
-                            new Uri("https://mirror.epicm.org/steamcmd/steamcmd.zip"), steamCmdPathfull);
+                            new Uri("https://mirror.epicm.org/pub/steamcmd/steamcmd.zip"), steamCmdPathfull);
                 }
                 catch (Exception ex)
                 {

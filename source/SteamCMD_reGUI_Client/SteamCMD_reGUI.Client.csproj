@@ -148,6 +148,12 @@
     <Compile Include="UI\frmSteamGuard.Designer.cs">
       <DependentUpon>frmSteamGuard.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmWizStep1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmWizStep1.Designer.cs">
+      <DependentUpon>FrmWizStep1.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MetroFormExtensions.cs" />
     <Compile Include="UI\SettableForm.cs">
       <SubType>Form</SubType>
@@ -224,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frmSteamGuard.ru.resx">
       <DependentUpon>frmSteamGuard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmWizStep1.resx">
+      <DependentUpon>FrmWizStep1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SettableForm.resx">
       <DependentUpon>SettableForm.cs</DependentUpon>
