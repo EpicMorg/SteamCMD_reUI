@@ -32,7 +32,7 @@
 		<Server AppId="238430" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Contagion Dedicated Server</Server>
 		<Server AppId="90" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike 1.6 Dedicated Server</Server>
 		<Server AppId="740" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike Global Offensive Dedicated Server</Server>
-		<Server AppId="90" 	ModName="czero" 		AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike: Condition Zero Dedicated Server</Server>
+		<Server AppId="90" 	ModName="czero"			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike: Condition Zero Dedicated Server</Server>
 		<Server AppId="232330" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="CS:S will not work with a normal Steam account. Download it as anonymous user.">Counter-Strike: Source Dedicated Server</Server>
 		<Server AppId="17535" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true"	MustBePurchased="false" WarningMessage="">D.I.P.R.I.P. Dedicated Server</Server>
 		<Server AppId="2145" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Dark Messiah of Might and Magic Dedicated Server</Server>
