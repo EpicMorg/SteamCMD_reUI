@@ -8,7 +8,7 @@ namespace SteamCMD_reGUI_Client.UI {
     public partial class FrmSteamGuard : SettableForm {
         public FrmSteamGuard() {
             InitializeComponent();
-            mTxtSGPhrase.PromptText = Strings.sHere;
+            mTxtSGPhrase.WaterMark = Strings.sHere;
             if (Theme != MetroThemeStyle.Light) {
                 mBtnEnter.TileImage = Resources.light_key;
                 mTxtSGPhrase.Icon = Resources.light_unlock; }

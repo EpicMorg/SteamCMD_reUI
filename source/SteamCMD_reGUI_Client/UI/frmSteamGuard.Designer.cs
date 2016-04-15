@@ -63,7 +63,7 @@
             this.mTxtSGPhrase.Lines = new string[0];
             this.mTxtSGPhrase.MaxLength = 32767;
             this.mTxtSGPhrase.Name = "mTxtSGPhrase"; 
-            this.mTxtSGPhrase.PromptText = "...here";
+            this.mTxtSGPhrase.WaterMark = "...here";
             this.mTxtSGPhrase.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.mTxtSGPhrase.SelectedText = "";
             this.mTxtSGPhrase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
