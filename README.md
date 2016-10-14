@@ -2,17 +2,20 @@
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
  
+ - **THIS IS UNSTABLE DEV-BRANCH. BE CAREFULL**.
 
-![Screenshot](http://cs624418.vk.me/v624418311/2c240/CIQJbeZhLsk.jpg)
+![Screenshot](https://imgur.com/WsziReL)
 
 ## To Do ##
+- **Wizzard-mode**.
 - **Servers wich requiere login**.
 - **Steam guard support for servers wich requiere login**.
 - **Wiki docs at github**.
 - **xml -> json**.
+- **Normal inno-setup installer**.
 
 ### Some notes ### 
-- Fully rewWritten in **C# 6.0** with **Microsoft [Microsoft .NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344 "Link for download")**.
+- Willbe Fully rewWritten in **C# 6.0** with **Microsoft [Microsoft .NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344 "Link for download")**.
 - App using **[Metro Modern UI 1.4.0 (actual version of MetroFramework)](http://www.nuget.org/packages/MetroModernUI/ "nuget")** library.
 - App using **[Modern UI Icons](https://github.com/Templarian/WindowsIcons/ "Official github")**.
 - Actual list of supported games can be found [here](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/Servers.xml).
@@ -41,7 +44,7 @@ Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway
 
 > The MIT License (MIT)
 > 
-> Copyright (c) 2015 EpicMorg
+> Copyright (c) 2016 EpicMorg
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
@@ -62,4 +65,4 @@ Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway
 > SOFTWARE.
 
 ## Share ##
-[![Share this](https://download.epicm.org/zone51/facebook.png)](https://who.ec/ipO) [![Share this](https://download.epicm.org/zone51/twitter_1.png)](https://who.ec/irO) [![Share this](https://download.epicm.org/zone51/google_plus.png)](https://who.ec/isO) [![Share this](https://download.epicm.org/zone51/vkontakte.png)](https://who.ec/itO) [![Share this](https://download.epicm.org/zone51/linkedin.png)](https://who.ec/iuO)
+[![Share this](https://imgur.com/PXjThdc)](https://who.ec/ipO) [![Share this](https://imgur.com/lA6idgl)](https://who.ec/irO) [![Share this](https://imgur.com/BxKPNrz)](https://who.ec/isO) [![Share this](https://imgur.com/4sMcG7s)](https://who.ec/itO) [![Share this](https://imgur.com/GezvpRx)](https://who.ec/iuO)
