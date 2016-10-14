@@ -14,7 +14,7 @@
 - **xml -> json**.
 - **Normal inno-setup installer**.
 
-### Some notes ### 
+### Some notes### 
 - Willbe Fully rewWritten in **C# 6.0** with **Microsoft [Microsoft .NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344 "Link for download")**.
 - App using **[Metro Modern UI 1.4.0 (actual version of MetroFramework)](http://www.nuget.org/packages/MetroModernUI/ "nuget")** library.
 - App using **[Modern UI Icons](https://github.com/Templarian/WindowsIcons/ "Official github")**.
