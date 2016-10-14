@@ -15,7 +15,7 @@ Pre-release version can be downloaded **[here](https://github.com/stamepicmorg/S
 ### Some notes ###
 
 - Written in **C# 6.0** with **Microsoft [.NET Framework 4.5.3 (4.6 Preview)](http://www.microsoft.com/en-US/download/details.aspx?id=44927 "Link for download")**.
-- App using **[MetroFramework](https://github.com/viperneo/winforms-modernui "Official github")** library (*License file [included](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/LICENSES/ModernMetroUIFramework.txt)*).
+- App using **[Metro Modern UI 1.4.0 (actual version of MetroFramework)](http://www.nuget.org/packages/MetroModernUI/ "nuget")** library.
 - App using **[Modern UI Icons](https://github.com/Templarian/WindowsIcons/ "Official github")** (*License file [included](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/LICENSES/WindowsIcons.txt)*).
 - Actual list of supported games can be found [here](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/Servers.xml).
 - The ability to edit the list of supported games manually by the user (*This list is not hardcoded in the program*).
@@ -39,7 +39,7 @@ Look [here](# "How to use this app") for manual.
 
 ### Troubleshooting ###
 
-Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway you can create new issue [here] (https://github.com/stamepicmorg/SteamCMD_reGUI/issues).
+Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway you can create new issue [here](https://github.com/stamepicmorg/SteamCMD_reGUI/issues).
 
 ## [License](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/LICENSE) ##
 
