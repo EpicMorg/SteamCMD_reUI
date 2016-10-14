@@ -4,7 +4,7 @@
  
  - **THIS IS UNSTABLE DEV-BRANCH. BE CAREFULL**.
 
-![Screenshot](https://imgur.com/WsziReL)
+![Screenshot](https://i.imgur.com/WsziReL)
 
 ## To Do ##
 - **Wizzard-mode**.
@@ -65,4 +65,4 @@ Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway
 > SOFTWARE.
 
 ## Share ##
-[![Share this](https://imgur.com/PXjThdc)](https://who.ec/ipO) [![Share this](https://imgur.com/lA6idgl)](https://who.ec/irO) [![Share this](https://imgur.com/BxKPNrz)](https://who.ec/isO) [![Share this](https://imgur.com/4sMcG7s)](https://who.ec/itO) [![Share this](https://imgur.com/GezvpRx)](https://who.ec/iuO)
+[![Share this](https://i.imgur.com/PXjThdc)](https://who.ec/ipO) [![Share this](https://i.imgur.com/lA6idgl)](https://who.ec/irO) [![Share this](https://i.imgur.com/BxKPNrz)](https://who.ec/isO) [![Share this](https://i.imgur.com/4sMcG7s)](https://who.ec/itO) [![Share this](https://i.imgur.com/GezvpRx)](https://who.ec/iuO)
