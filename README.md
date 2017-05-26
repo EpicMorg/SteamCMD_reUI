@@ -1,4 +1,4 @@
-## Welcome to SteamCMD_reUI test ##
+## Welcome to SteamCMD_reUI ##
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
  
