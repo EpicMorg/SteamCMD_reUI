@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamCMD_reUI.Core", "SteamCMD_reUI_Core\SteamCMD_reUI.Core.csproj", "{BBA622B2-091A-4A74-994B-8556E5D00751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamCMD_reUI.Client", "SteamCMD_reUI_Client\SteamCMD_reUI.Client.csproj", "{86E2D6F0-846E-49B1-8D38-5C332E266674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA622B2-091A-4A74-994B-8556E5D00751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA622B2-091A-4A74-994B-8556E5D00751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA622B2-091A-4A74-994B-8556E5D00751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA622B2-091A-4A74-994B-8556E5D00751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E2D6F0-846E-49B1-8D38-5C332E266674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E2D6F0-846E-49B1-8D38-5C332E266674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E2D6F0-846E-49B1-8D38-5C332E266674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E2D6F0-846E-49B1-8D38-5C332E266674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
