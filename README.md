@@ -1,4 +1,4 @@
-## Welcome to SteamCMD_reGUI test ##
+## Welcome to SteamCMD_reUI test ##
 
 **SteamCMD_reGUI** is alternative unofficial GUI for SteamCMD for Windows.
  
@@ -7,15 +7,14 @@
 ![Screenshot](https://i.imgur.com/WsziReL.jpg)
 
 ## To Do ##
-- **Wizzard-mode**.
 - **Servers wich requiere login**.
 - **Steam guard support for servers wich requiere login**.
 - **Wiki docs at github**.
 - **xml -> json**.
 - **Normal inno-setup installer**.
 
-### Some notes### 
-- Willbe Fully rewWritten in **C# 6.0** with **Microsoft [Microsoft .NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344 "Link for download")**.
+### Some notes ### 
+- Willbe Fully reWritten in **C# 6.0** with **Microsoft [Microsoft .NET Framework 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344 "Link for download")**.
 - App using **[Metro Modern UI 1.4.0 (actual version of MetroFramework)](http://www.nuget.org/packages/MetroModernUI/ "nuget")** library.
 - App using **[Modern UI Icons](https://github.com/Templarian/WindowsIcons/ "Official github")**.
 - Actual list of supported games can be found [here](https://github.com/stamepicmorg/SteamCMD_reGUI/blob/master/source/SteamCMD_reGUI_Client/Servers.xml).
@@ -44,7 +43,7 @@ Look [here](# "Troubleshooting") if you have some problems. It maby help. Anyway
 
 > The MIT License (MIT)
 > 
-> Copyright (c) 2016 EpicMorg
+> Copyright (c) 2017 EpicMorg
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
