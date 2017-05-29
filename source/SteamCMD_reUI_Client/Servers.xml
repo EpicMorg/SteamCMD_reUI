@@ -5,106 +5,104 @@
 		Bug: Some apps can only be downloaded when logged in as anonymous. (e.g. CS:S will not work with a normal Steam account)
 	-->
 	<Meta>
-		<Version>0.4</Version>
+		<Version>0.4.1</Version>
 		<Date>2015-12-09</Date>
-		<Author>Smirnyga and Aurzum</Author>
-		<Comment>
-			Servers with not anonymous login are not supported yet. Try to update this list (or program) manually later. I'm sorry.
-		</Comment>
+		<Author>Smirnyga, Aurzum</Author>
+		<Comment>Servers with not anonymous login are not supported yet. Try to update this list (or program) manually later. I'm sorry.</Comment>
 	</Meta>
 	<List> 
-		<Server AppId="294420" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="true" 	WarningMessage="Game purchase required!">7 Days to Die Dedicated Server</Server>
-		<Server AppId="17515" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Age of Chivalry Dedicated Server</Server>
-		<Server AppId="635" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Alien Swarm Dedicated Server</Server>
-		<Server AppId="34120" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Aliens vs Predator Dedicated Server</Server>
-		<Server AppId="13180" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">America's Army 3 Dedicated Server</Server>
-		<Server AppId="203300" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">America's Army: Proving Grounds Dedicated Server</Server>
-		<Server AppId="346110" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="true" 	WarningMessage="Game purchase required">ARK: Survival Evolved</Server>
-		<Server AppId="233780" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="true" 	WarningMessage="Game Purchase Required">Arma 3 Dedicated Server</Server>
-		<Server AppId="346680" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Black Mesa: Deathmatch Dedicated Server</Server>
-		<Server AppId="228780" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="true" 	WarningMessage="Game purchase required!">Blade Symphony Dedicated Server</Server>
-		<Server AppId="72310" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Breach Dedicated Server</Server>
-		<Server AppId="72780" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Brink Dedicated Server</Server>
-		<Server AppId="332850" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">BlazeRush Dedicated Server</Server>
-		<Server AppId="42750" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Call of Duty: Modern Warfare 3 Dedicated Server</Server>
-		<Server AppId="258680" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Chivalry: Deadliest Warrior Dedicated server</Server>
-		<Server AppId="220070" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Chivalry: Medieval Warfare Dedicated Server</Server>
-		<Server AppId="238430" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Contagion Dedicated Server</Server>
-		<Server AppId="90" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike 1.6 Dedicated Server</Server>
-		<Server AppId="740" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike Global Offensive Dedicated Server</Server>
-		<Server AppId="90" 	ModName="czero"			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Counter-Strike: Condition Zero Dedicated Server</Server>
-		<Server AppId="232330" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="CS:S will not work with a normal Steam account. Download it as anonymous user.">Counter-Strike: Source Dedicated Server</Server>
-		<Server AppId="17535" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true"	MustBePurchased="false" WarningMessage="">D.I.P.R.I.P. Dedicated Server</Server>
-		<Server AppId="2145" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Dark Messiah of Might and Magic Dedicated Server</Server>
-		<Server AppId="1290" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Darkest Hour Dedicated Server</Server>
-		<Server AppId="90" 	ModName="dod" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Day of Defeat Dedicated Server</Server>
-		<Server AppId="232290" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Day of Defeat: Source Dedicated Server</Server>
-		<Server AppId="90" 	ModName="dmc" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Deathmatch Classic Dedicated Server</Server>
-		<Server AppId="70010" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Dino D-Day Dedicated Server</Server>
-		<Server AppId="317800" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Double Action Dedicated Server</Server>
-		<Server AppId="17585" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Dystopia Dedicated Server</Server>
-		<Server AppId="91720" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">E.Y.E - Dedicated Server</Server>
-		<Server AppId="17555" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Eternal Silence Dedicated Server</Server>
-		<Server AppId="295230" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false"	MustBePurchased="false" WarningMessage="">Fistful of Frags Server</Server>
-		<Server AppId="329710" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Fortress Forever Dedicated Server</Server>		
-		<Server AppId="4020" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false"	MustBePurchased="false" WarningMessage="">Garry's Mod Dedicated Server</Server>
-		<Server AppId="8730"	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">GTR Evolution Demo Dedicated Server</Server>
-		<Server AppId="232370" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Half-Life 2: Deathmatch Dedicated Server</Server>
-		<Server AppId="255470" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Half-Life Deathmatch: Source Dedicated server</Server>
-		<Server AppId="90"	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Half-Life Dedicated Server</Server>
-		<Server AppId="90" 	ModName="gearbox" 		AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Half-Life: Opposing Force Dedicated Server</Server>
-		<Server AppId="55280" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Homefront Dedicated Server</Server>
-		<Server AppId="237410" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Insurgency 2014 Dedicated Server</Server>
-		<Server AppId="17705" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Insurgency: Modern Infantry Combat Dedicated Server</Server>
-		<Server AppId="261140" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Just Cause 2: Multiplayer Dedicated Server</Server>
-		<Server AppId="1273" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Killing Floor Beta Dedicated Server</Server>
-		<Server AppId="215350" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Killing Floor Dedicated Server Windows</Server>
-		<Server AppId="232130" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Killing Floor 2 Dedicated Server Windows</Server>		
-		<Server AppId="265360" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Kingdoms Rise Dedicated Server</Server>
-		<Server AppId="222860" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Left 4 Dead 2 Dedicated Server</Server>
-		<Server AppId="222840" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Left 4 Dead Dedicated Server</Server>
-		<Server AppId="320850" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Life is Feudal: Your Own Dedicated Server</Server>
-		<Server AppId="63220" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Monday Night Combat Dedicated Server</Server>
-		<Server AppId="4940" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Natural Selection 2 Dedicated Server</Server>
-		<Server AppId="96810" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Nexuiz Dedicated Server</Server>
-		<Server AppId="317670" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">No More Room in Hell Dedicated Server</Server>
-		<Server AppId="313600" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">NEOTOKYO Dedicated Server</Server>
-		<Server AppId="313900" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">NS2: Combat Dedicated Server</Server>
-		<Server AppId="111710" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Nuclear Dawn Dedicated Server</Server>
-		<Server AppId="230030" 	ModName="" 			AnonLogin="false"	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Painkiller Hell and Damnation Dedicated Server</Server>
-		<Server AppId="17575" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Pirates, Vikings, and Knights II Dedicated Server</Server>
-		<Server AppId="224620" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Primal Carnage Dedicated Server</Server>
-		<Server AppId="108600" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="true" 	WarningMessage="Game purchase required!">Project Zomboid Dedicated Server</Server>
-		<Server AppId="8680" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">RACE 07 Demo - Crowne Plaza Edition Dedicated Server</Server>
-		<Server AppId="4270" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">RACE 07 Demo Dedicated Server</Server>
-		<Server AppId="8770" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	ustBePurchased="false" 	WarningMessage="">RACE On - Demo: Dedicated Server</Server>
-		<Server AppId="223160" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Ravaged Dedicated Server</Server>
-		<Server AppId="212542" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Red Orchestra 2 Dedicated Server</Server>
-		<Server AppId="223240" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Red Orchestra Windows Dedicated Server</Server>
-		<Server AppId="329740" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Reflex Dedicated Server</Server>
-		<Server AppId="381690" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Reign Of Kings Dedicated Server</Server>		
-		<Server AppId="90" 	ModName="ricochet" 		AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Ricochet Dedicated Server</Server>
-		<Server AppId="258550" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Rust Dedicated Server</Server>
-		<Server AppId="41080" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Serious Sam 3 Dedicated Server</Server>
-		<Server AppId="41005" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Serious Sam HD Dedicated Server</Server>
-		<Server AppId="41005" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Serious Sam Classics: Revolution Dedicated Server</Server>
-		<Server AppId="299310" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Serious Sam HD: The Second Encounter Dedicated Server</Server>
-		<Server AppId="266910" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Sniper Elite 3 Dedicated Server</Server>
-		<Server AppId="208050" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Sniper Elite V2 Dedicated Server</Server>
-		<Server AppId="205" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Source SDK Base 2006 MP Dedicated Server</Server>
-		<Server AppId="310" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Source 2007 Dedicated Server</Server>
-		<Server AppId="205" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Source Dedicated Server</Server>
-		<Server AppId="244310" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Source SDK Base 2013 Dedicated Server</Server>
-		<Server AppId="298740" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Space Engineers Dedicated Server</Server>
-		<Server AppId="211820" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="true" 	WarningMessage="Game purchase required!">Starbound Dedicated server</Server>
-		<Server AppId="210370" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="true" 	WarningMessage="Game purchase required!">Starvoid Dedicated server</Server>
-		<Server AppId="8710" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">STCC - The Game Demo Dedicated Server</Server>
-		<Server AppId="17525" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Synergy Dedicated Server</Server>
-		<Server AppId="261020" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Takedown: Red Sabre Dedicated Server</Server>
-		<Server AppId="232250" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Team Fortress 2 Dedicated Server</Server>
-		<Server AppId="90" 	ModName="tfc" 			AnonLogin="true" 	SteamClientRequered="false" 	MustBePurchased="false" WarningMessage="">Team Fortress Classic dedicated server</Server>
-		<Server AppId="43210" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">The Haunted: Hells Reach Dedicated Server</Server>
-		<Server AppId="2403" 	ModName="" 			AnonLogin="false" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">The Ship Dedicated Server</Server>
-		<Server AppId="17505" 	ModName="" 			AnonLogin="true" 	SteamClientRequered="true" 	MustBePurchased="false" WarningMessage="">Zombie Panic Source Dedicated Server</Server>
+		<Server AppId="294420" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!">7 Days to Die Dedicated Server</Server>
+		<Server AppId="17515" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Age of Chivalry Dedicated Server</Server>
+		<Server AppId="635" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Alien Swarm Dedicated Server</Server>
+		<Server AppId="34120" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Aliens vs Predator Dedicated Server</Server>
+		<Server AppId="13180" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">America's Army 3 Dedicated Server</Server>
+		<Server AppId="203300" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">America's Army: Proving Grounds Dedicated Server</Server>
+		<Server AppId="346110" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required">ARK: Survival Evolved</Server>
+		<Server AppId="233780" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game Purchase Required">Arma 3 Dedicated Server</Server>
+		<Server AppId="346680" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Black Mesa: Deathmatch Dedicated Server</Server>
+		<Server AppId="228780" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="true" WarningMessage="Game purchase required!">Blade Symphony Dedicated Server</Server>
+		<Server AppId="72310" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Breach Dedicated Server</Server>
+		<Server AppId="72780" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Brink Dedicated Server</Server>
+		<Server AppId="332850" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">BlazeRush Dedicated Server</Server>
+		<Server AppId="42750" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Call of Duty: Modern Warfare 3 Dedicated Server</Server>
+		<Server AppId="258680" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Chivalry: Deadliest Warrior Dedicated server</Server>
+		<Server AppId="220070" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Chivalry: Medieval Warfare Dedicated Server</Server>
+		<Server AppId="238430" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Contagion Dedicated Server</Server>
+		<Server AppId="90" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Counter-Strike 1.6 Dedicated Server</Server>
+		<Server AppId="740" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Counter-Strike Global Offensive Dedicated Server</Server>
+		<Server AppId="90" 	ModName="czero" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Counter-Strike: Condition Zero Dedicated Server</Server>
+		<Server AppId="232330" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="CS:S will not work with a normal Steam account. Download it as anonymous user.">Counter-Strike: Source Dedicated Server</Server>
+		<Server AppId="17535" ModName="" AnonLogin="true" SteamClientRequered="true"	MustBePurchased="false" WarningMessage="">D.I.P.R.I.P. Dedicated Server</Server>
+		<Server AppId="2145" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Dark Messiah of Might and Magic Dedicated Server</Server>
+		<Server AppId="1290" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Darkest Hour Dedicated Server</Server>
+		<Server AppId="90" 	ModName="dod" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Day of Defeat Dedicated Server</Server>
+		<Server AppId="232290" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Day of Defeat: Source Dedicated Server</Server>
+		<Server AppId="90" 	ModName="dmc" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Deathmatch Classic Dedicated Server</Server>
+		<Server AppId="70010" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Dino D-Day Dedicated Server</Server>
+		<Server AppId="317800" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Double Action Dedicated Server</Server>
+		<Server AppId="17585" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Dystopia Dedicated Server</Server>
+		<Server AppId="91720" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">E.Y.E - Dedicated Server</Server>
+		<Server AppId="17555" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Eternal Silence Dedicated Server</Server>
+		<Server AppId="295230" ModName="" AnonLogin="true" SteamClientRequered="false"	MustBePurchased="false" WarningMessage="">Fistful of Frags Server</Server>
+		<Server AppId="329710" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Fortress Forever Dedicated Server</Server>		
+		<Server AppId="4020" ModName="" AnonLogin="true" SteamClientRequered="false"	MustBePurchased="false" WarningMessage="">Garry's Mod Dedicated Server</Server>
+		<Server AppId="8730"	ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">GTR Evolution Demo Dedicated Server</Server>
+		<Server AppId="232370" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Half-Life 2: Deathmatch Dedicated Server</Server>
+		<Server AppId="255470" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Half-Life Deathmatch: Source Dedicated server</Server>
+		<Server AppId="90"	ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Half-Life Dedicated Server</Server>
+		<Server AppId="90" 	ModName="gearbox" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Half-Life: Opposing Force Dedicated Server</Server>
+		<Server AppId="55280" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Homefront Dedicated Server</Server>
+		<Server AppId="237410" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Insurgency 2014 Dedicated Server</Server>
+		<Server AppId="17705" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Insurgency: Modern Infantry Combat Dedicated Server</Server>
+		<Server AppId="261140" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Just Cause 2: Multiplayer Dedicated Server</Server>
+		<Server AppId="1273" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Killing Floor Beta Dedicated Server</Server>
+		<Server AppId="215350" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Killing Floor Dedicated Server Windows</Server>
+		<Server AppId="232130" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Killing Floor 2 Dedicated Server Windows</Server>		
+		<Server AppId="265360" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Kingdoms Rise Dedicated Server</Server>
+		<Server AppId="222860" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Left 4 Dead 2 Dedicated Server</Server>
+		<Server AppId="222840" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Left 4 Dead Dedicated Server</Server>
+		<Server AppId="320850" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Life is Feudal: Your Own Dedicated Server</Server>
+		<Server AppId="63220" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Monday Night Combat Dedicated Server</Server>
+		<Server AppId="4940" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Natural Selection 2 Dedicated Server</Server>
+		<Server AppId="96810" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Nexuiz Dedicated Server</Server>
+		<Server AppId="317670" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">No More Room in Hell Dedicated Server</Server>
+		<Server AppId="313600" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">NEOTOKYO Dedicated Server</Server>
+		<Server AppId="313900" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">NS2: Combat Dedicated Server</Server>
+		<Server AppId="111710" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Nuclear Dawn Dedicated Server</Server>
+		<Server AppId="230030" ModName="" AnonLogin="false"	SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Painkiller Hell and Damnation Dedicated Server</Server>
+		<Server AppId="17575" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Pirates, Vikings, and Knights II Dedicated Server</Server>
+		<Server AppId="224620" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Primal Carnage Dedicated Server</Server>
+		<Server AppId="108600" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="true" WarningMessage="Game purchase required!">Project Zomboid Dedicated Server</Server>
+		<Server AppId="8680" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">RACE 07 Demo - Crowne Plaza Edition Dedicated Server</Server>
+		<Server AppId="4270" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">RACE 07 Demo Dedicated Server</Server>
+		<Server AppId="8770" ModName="" AnonLogin="false" SteamClientRequered="true" 	ustBePurchased="false" WarningMessage="">RACE On - Demo: Dedicated Server</Server>
+		<Server AppId="223160" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Ravaged Dedicated Server</Server>
+		<Server AppId="212542" ModName="" AnonLogin="false" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Red Orchestra 2 Dedicated Server</Server>
+		<Server AppId="223240" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Red Orchestra Windows Dedicated Server</Server>
+		<Server AppId="329740" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Reflex Dedicated Server</Server>
+		<Server AppId="381690" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Reign Of Kings Dedicated Server</Server>		
+		<Server AppId="90" 	ModName="ricochet" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Ricochet Dedicated Server</Server>
+		<Server AppId="258550" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Rust Dedicated Server</Server>
+		<Server AppId="41080" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Serious Sam 3 Dedicated Server</Server>
+		<Server AppId="41005" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Serious Sam HD Dedicated Server</Server>
+		<Server AppId="41005" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Serious Sam Classics: Revolution Dedicated Server</Server>
+		<Server AppId="299310" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Serious Sam HD: The Second Encounter Dedicated Server</Server>
+		<Server AppId="266910" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Sniper Elite 3 Dedicated Server</Server>
+		<Server AppId="208050" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Sniper Elite V2 Dedicated Server</Server>
+		<Server AppId="205" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source SDK Base 2006 MP Dedicated Server</Server>
+		<Server AppId="310" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source 2007 Dedicated Server</Server>
+		<Server AppId="205" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source Dedicated Server</Server>
+		<Server AppId="244310" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Source SDK Base 2013 Dedicated Server</Server>
+		<Server AppId="298740" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Space Engineers Dedicated Server</Server>
+		<Server AppId="211820" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!">Starbound Dedicated server</Server>
+		<Server AppId="210370" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="true" WarningMessage="Game purchase required!">Starvoid Dedicated server</Server>
+		<Server AppId="8710" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">STCC - The Game Demo Dedicated Server</Server>
+		<Server AppId="17525" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Synergy Dedicated Server</Server>
+		<Server AppId="261020" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Takedown: Red Sabre Dedicated Server</Server>
+		<Server AppId="232250" ModName="" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Team Fortress 2 Dedicated Server</Server>
+		<Server AppId="90" 	ModName="tfc" AnonLogin="true" SteamClientRequered="false" MustBePurchased="false" WarningMessage="">Team Fortress Classic dedicated server</Server>
+		<Server AppId="43210" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">The Haunted: Hells Reach Dedicated Server</Server>
+		<Server AppId="2403" ModName="" AnonLogin="false" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">The Ship Dedicated Server</Server>
+		<Server AppId="17505" ModName="" AnonLogin="true" SteamClientRequered="true" MustBePurchased="false" WarningMessage="">Zombie Panic Source Dedicated Server</Server>
 	</List>
 </Servers>
