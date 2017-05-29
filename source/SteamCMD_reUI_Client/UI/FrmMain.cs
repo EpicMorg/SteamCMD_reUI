@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using MetroFramework;
+using MetroFramework.Components;
 using MetroFramework.Forms;
 using SteamCMD_reUI_Core.Configs;
 using SteamCMD_reUI_Client.LOCALE;
@@ -12,8 +13,18 @@ using SteamCMD_reUI_Client.WRAPPER;
 
 namespace SteamCMD_reUI_Client.UI {
     public partial class FrmMain : MetroForm {
-        bool _procStarted; 
+        bool _procStarted;
+         
+
         public FrmMain() {
+            var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
+
             InitializeComponent();
             mLabel_help.Text = "";
             mTabsMain.SelectTab( mTabMain );
@@ -32,11 +43,14 @@ namespace SteamCMD_reUI_Client.UI {
             }
         }
 
+   
+
         private void FrmMain_Load( object sender, EventArgs e ) {
             mLblProdName.Text = String.Format( "{0}", FrmSplashScreen.AssemblyProduct );
             mLblProdVer.Text = String.Format( "{0}", FrmSplashScreen.AssemblyVersion ); 
 			mComboServers.SelectedIndex = 0;
             Focus();
+            Activate();
         }
 
         private void button3_Click( object sender, EventArgs e ) => new FrmDownloader().ShowDialog();

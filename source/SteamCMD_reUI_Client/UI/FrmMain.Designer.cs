@@ -50,8 +50,6 @@
             this.mLblTM = new MetroFramework.Controls.MetroLabel();
             this.mLblAltGUI = new MetroFramework.Controls.MetroLabel();
             this.mLblProdVer = new MetroFramework.Controls.MetroLabel();
-            this.mLblTranslation = new MetroFramework.Controls.MetroLabel();
-            this.mLblKASTHACK = new MetroFramework.Controls.MetroLabel();
             this.mLblSTAM = new MetroFramework.Controls.MetroLabel();
             this.mLblProdName = new MetroFramework.Controls.MetroLabel();
             this.picAbout = new System.Windows.Forms.PictureBox();
@@ -74,7 +72,7 @@
             this.mTabsMain.Controls.Add(this.mTabAbout);
             resources.ApplyResources(this.mTabsMain, "mTabsMain");
             this.mTabsMain.Name = "mTabsMain";
-            this.mTabsMain.SelectedIndex = 0;
+            this.mTabsMain.SelectedIndex = 2;
             this.mTabsMain.UseSelectable = true;
             // 
             // mTabMain
@@ -168,6 +166,7 @@
             // 
             // 
             this.mTxtPassword.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.mTxtPassword.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode")));
             this.mTxtPassword.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location")));
             this.mTxtPassword.CustomButton.Name = "";
             this.mTxtPassword.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size")));
@@ -196,6 +195,7 @@
             // 
             // 
             this.mTxtLogin.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.mTxtLogin.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode1")));
             this.mTxtLogin.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location1")));
             this.mTxtLogin.CustomButton.Name = "";
             this.mTxtLogin.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size1")));
@@ -287,6 +287,7 @@
             // 
             // 
             this.mTxtConLog.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.mTxtConLog.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode2")));
             this.mTxtConLog.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location2")));
             this.mTxtConLog.CustomButton.Name = "";
             this.mTxtConLog.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size2")));
@@ -319,8 +320,6 @@
             this.mTabAbout.Controls.Add(this.mLblTM);
             this.mTabAbout.Controls.Add(this.mLblAltGUI);
             this.mTabAbout.Controls.Add(this.mLblProdVer);
-            this.mTabAbout.Controls.Add(this.mLblTranslation);
-            this.mTabAbout.Controls.Add(this.mLblKASTHACK);
             this.mTabAbout.Controls.Add(this.mLblSTAM);
             this.mTabAbout.Controls.Add(this.mLblProdName);
             this.mTabAbout.Controls.Add(this.picAbout);
@@ -381,22 +380,6 @@
             this.mLblProdVer.FontSize = MetroFramework.MetroLabelSize.Small;
             this.mLblProdVer.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.mLblProdVer.Name = "mLblProdVer";
-            // 
-            // mLblTranslation
-            // 
-            this.mLblTranslation.BackColor = System.Drawing.Color.Transparent;
-            this.mLblTranslation.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.mLblTranslation.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            resources.ApplyResources(this.mLblTranslation, "mLblTranslation");
-            this.mLblTranslation.Name = "mLblTranslation";
-            // 
-            // mLblKASTHACK
-            // 
-            resources.ApplyResources(this.mLblKASTHACK, "mLblKASTHACK");
-            this.mLblKASTHACK.BackColor = System.Drawing.Color.Transparent;
-            this.mLblKASTHACK.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.mLblKASTHACK.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.mLblKASTHACK.Name = "mLblKASTHACK";
             // 
             // mLblSTAM
             // 
@@ -480,7 +463,6 @@
         private MetroFramework.Controls.MetroLink mLnkMF;
         private System.Windows.Forms.PictureBox picAbout;
         private MetroFramework.Controls.MetroLink mLnkMIC;
-        private MetroFramework.Controls.MetroLabel mLblKASTHACK;
         private MetroFramework.Controls.MetroLabel mLblSTAM;
         private MetroFramework.Controls.MetroTile mTileAbout;
         private MetroFramework.Controls.MetroTile mTileSettings;
@@ -497,7 +479,6 @@
         private MetroFramework.Controls.MetroToggle mToggleValidate;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
         private MetroFramework.Controls.MetroButton mBtnInfo;
-        private MetroFramework.Controls.MetroLabel mLblTranslation;
         private MetroFramework.Controls.MetroLabel mLabel_help;
     }
 }

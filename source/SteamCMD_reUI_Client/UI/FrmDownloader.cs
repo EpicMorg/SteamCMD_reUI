@@ -6,6 +6,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework;
+using MetroFramework.Components;
 using MetroFramework.Forms; 
 using SteamCMD_reUI_Client.LOCALE;
 using SteamCMD_reUI_Client.WRAPPER;
@@ -13,7 +14,17 @@ using SteamCMD_reUI_Client.WRAPPER;
 namespace SteamCMD_reUI_Client.UI {
     public partial class FrmDownloader : MetroForm
     {
-        public FrmDownloader() { InitializeComponent(); }
+        public FrmDownloader()
+        {
+            var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
+            InitializeComponent();
+        }
 
         private async void FrmDownloader_Load( object sender, EventArgs e ) => await Download();
 

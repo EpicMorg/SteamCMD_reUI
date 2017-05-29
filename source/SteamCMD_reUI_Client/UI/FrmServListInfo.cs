@@ -1,4 +1,5 @@
 ﻿using System;
+using MetroFramework.Components;
 using MetroFramework.Forms;
 using SteamCMD_reUI_Client.WRAPPER;
 
@@ -8,6 +9,13 @@ namespace SteamCMD_reUI_Client.UI
     {
         public FrmServListInfo()
         {
+            var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
             InitializeComponent();
         }
 

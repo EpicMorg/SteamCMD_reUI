@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using MetroFramework;
+using MetroFramework.Components;
 using MetroFramework.Forms;
 using SteamCMD_reUI_Client.LOCALE; 
 using SteamCMD_reUI_Client.WRAPPER;
@@ -14,8 +15,14 @@ namespace SteamCMD_reUI_Client.UI {
     public partial class FrmSettings : MetroForm
     {
         public FrmSettings() {
-            InitializeComponent();
             var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
+            InitializeComponent();
             mTabsSettings.SelectTab( mTabInterface );
             var langs = new[] { "en-US", "ru-RU", "be-BY" }.Select( a => new Langs( a ) ).ToArray();
             mComboLang.Items.AddRange( langs );
@@ -29,6 +36,7 @@ namespace SteamCMD_reUI_Client.UI {
         private void FrmSettings_Load( object sender, EventArgs e ) {
             LoadConfig();
             Focus();
+            Activate();
         }
 
         // ReSharper disable once MemberCanBePrivate.Global

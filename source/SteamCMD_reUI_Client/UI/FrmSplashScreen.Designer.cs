@@ -46,7 +46,6 @@ namespace SteamCMD_reUI_Client.UI
             this.metroLabelLoading.Style = MetroFramework.MetroColorStyle.Pink;
             this.metroLabelLoading.TabIndex = 0;
             this.metroLabelLoading.Text = "loading text";
-            this.metroLabelLoading.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabelProduct
             // 
@@ -57,7 +56,6 @@ namespace SteamCMD_reUI_Client.UI
             this.metroLabelProduct.Style = MetroFramework.MetroColorStyle.Pink;
             this.metroLabelProduct.TabIndex = 1;
             this.metroLabelProduct.Text = "product";
-            this.metroLabelProduct.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabelVersion
             // 
@@ -68,7 +66,6 @@ namespace SteamCMD_reUI_Client.UI
             this.metroLabelVersion.Style = MetroFramework.MetroColorStyle.Pink;
             this.metroLabelVersion.TabIndex = 2;
             this.metroLabelVersion.Text = "version";
-            this.metroLabelVersion.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // FrmSplashScreen
             // 
@@ -85,9 +82,9 @@ namespace SteamCMD_reUI_Client.UI
             this.Name = "FrmSplashScreen";
             this.Resizable = false;
             this.ShowInTaskbar = false;
-            this.Style = MetroFramework.MetroColorStyle.Pink;
+            this.Style = MetroFramework.MetroColorStyle.Default;
             this.Text = " SteamCMD reUI";
-            this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Theme = MetroFramework.MetroThemeStyle.Default;
             this.Load += new System.EventHandler(this.FrmSplashScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

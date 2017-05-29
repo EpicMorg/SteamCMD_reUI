@@ -72,13 +72,13 @@
             // 
             // mTabsControl
             // 
+            this.mTabsControl.Controls.Add(this.mTabpLic3);
             this.mTabsControl.Controls.Add(this.mTabpLic1);
             this.mTabsControl.Controls.Add(this.mTabpLic2);
-            this.mTabsControl.Controls.Add(this.mTabpLic3);
             this.mTabsControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.mTabsControl.Location = new System.Drawing.Point(0, 0);
             this.mTabsControl.Name = "mTabsControl";
-            this.mTabsControl.SelectedIndex = 2;
+            this.mTabsControl.SelectedIndex = 1;
             this.mTabsControl.Size = new System.Drawing.Size(413, 432);
             this.mTabsControl.Style = MetroFramework.MetroColorStyle.Silver;
             this.mTabsControl.TabIndex = 7;

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
-using System.Threading.Tasks; 
+using System.Threading.Tasks;
+using MetroFramework.Components;
 using MetroFramework.Forms;
 using SteamCMD_reUI_Client.LOCALE;
 using SteamCMD_reUI_Client.WRAPPER;
@@ -11,6 +12,13 @@ namespace SteamCMD_reUI_Client.UI {
         private static readonly Assembly CurrentAssembly = Assembly.GetExecutingAssembly();
 
         public FrmSplashScreen() {
+            var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
             InitializeComponent();
             metroLabelLoading.Text = Strings.sLoading;
 
@@ -50,6 +58,8 @@ namespace SteamCMD_reUI_Client.UI {
             metroLabelVersion.Text = String.Format( "{0}", AssemblyVersion );
             await Task.Delay( 3500 );
             Check();
+            Focus();
+            Activate();
         }
 
 		private void elementHost1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)

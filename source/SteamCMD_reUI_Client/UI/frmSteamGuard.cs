@@ -1,14 +1,23 @@
 ﻿using System;
 using System.Windows.Forms;
 using MetroFramework;
+using MetroFramework.Components;
 using MetroFramework.Forms;
 using SteamCMD_reUI_Client.LOCALE;
 using SteamCMD_reUI_Client.Properties;
+using SteamCMD_reUI_Client.WRAPPER;
 
 namespace SteamCMD_reUI_Client.UI {
     public partial class FrmSteamGuard : MetroForm
     {
         public FrmSteamGuard() {
+            var iface = CoreHandler.Instance.Config.Interface;
+            var sm = new MetroStyleManager();
+            sm.Owner = this;
+            StyleManager = sm;
+            Style = sm.Style = iface.Style;
+            Theme = sm.Theme = iface.Theme;
+            SuspendLayout();
             InitializeComponent();
             mTxtSGPhrase.PromptText = Strings.sHere;
             if (Theme != MetroThemeStyle.Light) {

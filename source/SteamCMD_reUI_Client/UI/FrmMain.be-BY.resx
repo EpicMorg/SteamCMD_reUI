@@ -125,9 +125,6 @@
   <data name="mLabel_help.Size" type="System.Drawing.Size, System.Drawing">
     <value>487, 19</value>
   </data>
-  <data name="mLabel_help.Text" xml:space="preserve">
-    <value>&lt;some help from xml&gt;</value>
-  </data>
   <data name="mTileProcess.Text" xml:space="preserve">
     <value>&lt; Старт &gt;</value>
   </data>
@@ -146,17 +143,17 @@
   <data name="mLblServer.Text" xml:space="preserve">
     <value>Выбярыце сервер:</value>
   </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="mTxtPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 75</value>
   </data>
-  <data name="mTxtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>484, 23</value>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mTxtLogin.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 27</value>
-  </data>
-  <data name="mTxtLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>484, 23</value>
   </data>
   <data name="mLblPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 53</value>
@@ -176,12 +173,6 @@
   <data name="mLblLogin.Text" xml:space="preserve">
     <value>Steam лагін:</value>
   </data>
-  <data name="mPanelLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 88</value>
-  </data>
-  <data name="mPanelLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 101</value>
-  </data>
   <data name="mTileAbout.Text" xml:space="preserve">
     <value>Даведка</value>
   </data>
@@ -193,6 +184,9 @@
   </data>
   <data name="mTabMain.Text" xml:space="preserve">
     <value>Галоўная</value>
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mTabConsole.Text" xml:space="preserve">
     <value>Кансоль</value>
@@ -212,27 +206,11 @@
   <data name="mLblAltGUI.Text" xml:space="preserve">
     <value> - Алтэрнатыўны UI для Steam CMD.</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mLblTranslation.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mLblTranslation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 25</value>
-  </data>
-  <data name="mLblTranslation.Text" xml:space="preserve">
-    <value>Пераклад на беларускую мову - Olegus_Dark</value>
-  </data>
-  <data name="mLblKASTHACK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>473, 25</value>
-  </data>
-  <data name="mLblKASTHACK.Text" xml:space="preserve">
-    <value>Дапамога ў рэальным часе, праўка і інш. - Kasthack</value>
-  </data>
   <data name="mLblSTAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 25</value>
+    <value>227, 25</value>
   </data>
   <data name="mLblSTAM.Text" xml:space="preserve">
-    <value>UI і код - STAM</value>
+    <value>UI і код - EpicMorg TeaM</value>
   </data>
   <data name="mTabAbout.Text" xml:space="preserve">
     <value>Аб праграме</value>

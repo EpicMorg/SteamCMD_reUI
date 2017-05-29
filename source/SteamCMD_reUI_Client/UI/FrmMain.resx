@@ -321,6 +321,9 @@
   <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
     <value>462, 1</value>
   </data>
@@ -359,6 +362,9 @@
   </data>
   <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
     <value>462, 1</value>
@@ -621,6 +627,9 @@
   <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
     <value>242, 2</value>
   </data>
@@ -782,7 +791,7 @@
     <value>6</value>
   </data>
   <data name="mLblWrng.Text" xml:space="preserve">
-    <value>The program uses the libraries Metro Modern UI, which are part of Metro Framework, version 1.3.0 and Modern UI Icons.</value>
+    <value>s</value>
   </data>
   <data name="mLblWrng.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
@@ -836,13 +845,13 @@
     <value>308, 14</value>
   </data>
   <data name="mLblAltGUI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 25</value>
+    <value>237, 25</value>
   </data>
   <data name="mLblAltGUI.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="mLblAltGUI.Text" xml:space="preserve">
-    <value>- alterntive GUI for Steam CMD.</value>
+    <value>- alterntive UI for Steam CMD.</value>
   </data>
   <data name="mLblAltGUI.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -886,54 +895,6 @@
   <data name="&gt;&gt;mLblProdVer.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="mLblTranslation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 272</value>
-  </data>
-  <data name="mLblTranslation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 23</value>
-  </data>
-  <data name="mLblTranslation.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mLblTranslation.Name" xml:space="preserve">
-    <value>mLblTranslation</value>
-  </data>
-  <data name="&gt;&gt;mLblTranslation.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblTranslation.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblTranslation.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="mLblKASTHACK.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mLblKASTHACK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 244</value>
-  </data>
-  <data name="mLblKASTHACK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>391, 25</value>
-  </data>
-  <data name="mLblKASTHACK.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="mLblKASTHACK.Text" xml:space="preserve">
-    <value>Real help with code, fixes and etc - Kasthack</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Name" xml:space="preserve">
-    <value>mLblKASTHACK</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.Parent" xml:space="preserve">
-    <value>mTabAbout</value>
-  </data>
-  <data name="&gt;&gt;mLblKASTHACK.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="mLblSTAM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -941,13 +902,13 @@
     <value>85, 219</value>
   </data>
   <data name="mLblSTAM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 25</value>
+    <value>264, 25</value>
   </data>
   <data name="mLblSTAM.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="mLblSTAM.Text" xml:space="preserve">
-    <value>GUI and Code - STAM</value>
+    <value>UI and Code - EpicMorg Team</value>
   </data>
   <data name="&gt;&gt;mLblSTAM.Name" xml:space="preserve">
     <value>mLblSTAM</value>
@@ -959,7 +920,7 @@
     <value>mTabAbout</value>
   </data>
   <data name="&gt;&gt;mLblSTAM.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>9</value>
   </data>
   <data name="mLblProdName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -968,13 +929,13 @@
     <value>137, 14</value>
   </data>
   <data name="mLblProdName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 25</value>
+    <value>152, 25</value>
   </data>
   <data name="mLblProdName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="mLblProdName.Text" xml:space="preserve">
-    <value>Steam CMD reGUI</value>
+    <value>Steam CMD reUI</value>
   </data>
   <data name="&gt;&gt;mLblProdName.Name" xml:space="preserve">
     <value>mLblProdName</value>
@@ -986,7 +947,7 @@
     <value>mTabAbout</value>
   </data>
   <data name="&gt;&gt;mLblProdName.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>10</value>
   </data>
   <data name="picAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1013,7 +974,7 @@
     <value>mTabAbout</value>
   </data>
   <data name="&gt;&gt;picAbout.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>11</value>
   </data>
   <data name="picMF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1040,7 +1001,7 @@
     <value>mTabAbout</value>
   </data>
   <data name="&gt;&gt;picMF.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>12</value>
   </data>
   <data name="picLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1067,7 +1028,7 @@
     <value>mTabAbout</value>
   </data>
   <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>13</value>
   </data>
   <data name="mTabAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 38</value>
