@@ -4,7 +4,10 @@
  
  - **THIS IS UNSTABLE DEV-BRANCH. BE CAREFULL**.
 
-![Screenshot](https://i.imgur.com/WsziReL.jpg)
+## Some screenshots ##
+![Imgur](http://i.imgur.com/EtDxPnN.png) ![Imgur](http://i.imgur.com/adDlT9N.png)
+
+![Imgur](http://i.imgur.com/kA0dTAF.png) ![Imgur](http://i.imgur.com/emVlYAb.png)
 
 ## To Do ##
 - **Servers wich requiere login**.
